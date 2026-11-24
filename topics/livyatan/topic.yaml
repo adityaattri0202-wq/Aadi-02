@@ -1,0 +1,53 @@
+name: "Livyatan: The Whale That Hunted Whales"
+slug: livyatan
+target_minutes: 8
+required_sections: [Hook, Discovery, Anatomy, Hunting, Rivals, Extinction, Outro]
+
+# PLACEHOLDER FACTS. Every one is unverified. Check each against the primary
+# source, fix the claim and source, then set verified: true.
+facts:
+  - claim: "Livyatan melvillei was formally described in 2010 by Olivier Lambert and colleagues in Nature."
+    source: "Lambert et al. (2010), 'The giant bite of a new raptorial sperm whale from the Miocene epoch of Peru', Nature 466:105-108, doi:10.1038/nature09067 (TODO: confirm)"
+    verified: false
+  - claim: "The holotype skull was found in 2008 at Cerro Colorado, Pisco Formation, southern Peru."
+    source: "Lambert et al. (2010) (TODO: confirm year and locality)"
+    verified: false
+  - claim: "The fossil is about 9.9-8.9 million years old (late Miocene), revised from an earlier estimate of about 12-13 million years."
+    source: "TODO: find the dating revision paper"
+    verified: false
+  - claim: "The skull is about 3 m (10 ft) long."
+    source: "Lambert et al. (2010) (TODO: confirm)"
+    verified: false
+  - claim: "The largest teeth exceed 36 cm (14 in), among the largest biting teeth of any known animal, excluding tusks."
+    source: "Lambert et al. (2010) (TODO: confirm figure and wording)"
+    verified: false
+  - claim: "Body length is estimated at 13.5-17.5 m (44-57 ft)."
+    source: "Lambert et al. (2010) (TODO: confirm)"
+    verified: false
+  - claim: "The genus was first named Leviathan but renamed Livyatan because Leviathan was already used for a mastodon."
+    source: "TODO: Lambert et al. (2010) corrigendum, Nature"
+    verified: false
+  - claim: "The species name honours Herman Melville, author of Moby-Dick."
+    source: "Lambert et al. (2010) (TODO: confirm)"
+    verified: false
+  - claim: "Unlike the modern sperm whale, Livyatan had large functional teeth in both upper and lower jaws."
+    source: "TODO"
+    verified: false
+  - claim: "Its skull has a large supracranial basin, suggesting a spermaceti organ."
+    source: "TODO"
+    verified: false
+  - claim: "Likely prey were medium-sized baleen whales of roughly 7-10 m (23-33 ft)."
+    source: "TODO"
+    verified: false
+  - claim: "Megalodon teeth occur in the same Pisco Formation deposits and era."
+    source: "TODO"
+    verified: false
+  - claim: "Raptorial sperm whale teeth possibly attributable to Livyatan are known from Chile, South Africa and Australia."
+    source: "TODO"
+    verified: false
+  - claim: "Late Miocene cooling and changes in baleen whale prey may have contributed to its extinction (hypothesis)."
+    source: "TODO"
+    verified: false
+  - claim: "The aquatic sloth Thalassocnus is known from the Pisco Formation."
+    source: "TODO"
+    verified: false

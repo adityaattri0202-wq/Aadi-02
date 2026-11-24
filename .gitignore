@@ -1,35 +1,22 @@
-# Gradle files
-.gradle/
-build/
-.kotlin/
+# Secrets
+.env
+.env.*
+!.env.example
 
-# Local configuration file (sdk path, etc)
-local.properties
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
 
-# Log/OS Files
+# Generated assets and logs (large or paid; keep out of git)
+topics/*/images/
+topics/*/clips/
+topics/*/voiceover/
+topics/*/logs/
+*.part
+
+# Legacy Streamlit app outputs
+outputs/
+
 *.log
-
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
-
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
-
-# Keystore files
-*.jks
-*.keystore
-
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof

@@ -1,0 +1,170 @@
+{
+  "word_count": 885,
+  "runtime_minutes_fast": 5.9,
+  "runtime_minutes_slow": 6.81,
+  "target_minutes": 8.0,
+  "sections": [
+    {
+      "title": "Hook",
+      "line": 7,
+      "words": 97,
+      "shots": 2
+    },
+    {
+      "title": "Discovery",
+      "line": 16,
+      "words": 168,
+      "shots": 3
+    },
+    {
+      "title": "Anatomy",
+      "line": 26,
+      "words": 208,
+      "shots": 4
+    },
+    {
+      "title": "Hunting",
+      "line": 39,
+      "words": 143,
+      "shots": 3
+    },
+    {
+      "title": "Rivals",
+      "line": 49,
+      "words": 86,
+      "shots": 2
+    },
+    {
+      "title": "Extinction",
+      "line": 56,
+      "words": 109,
+      "shots": 2
+    },
+    {
+      "title": "Outro",
+      "line": 63,
+      "words": 74,
+      "shots": 2
+    }
+  ],
+  "shot_count": 18,
+  "verify_tags": [
+    {
+      "line": 4,
+      "note": ""
+    },
+    {
+      "line": 9,
+      "note": "age"
+    },
+    {
+      "line": 14,
+      "note": "superlative"
+    },
+    {
+      "line": 18,
+      "note": "Thalassocnus in Pisco"
+    },
+    {
+      "line": 21,
+      "note": "year and locality"
+    },
+    {
+      "line": 21,
+      "note": "skull length"
+    },
+    {
+      "line": 24,
+      "note": "author and year"
+    },
+    {
+      "line": 24,
+      "note": "rename reason"
+    },
+    {
+      "line": 24,
+      "note": "species name origin"
+    },
+    {
+      "line": 28,
+      "note": "length estimate"
+    },
+    {
+      "line": 31,
+      "note": "modern sperm whale dentition"
+    },
+    {
+      "line": 31,
+      "note": "teeth in both jaws"
+    },
+    {
+      "line": 34,
+      "note": "maximum tooth length"
+    },
+    {
+      "line": 34,
+      "note": "largest biting teeth claim"
+    },
+    {
+      "line": 37,
+      "note": "supracranial basin and spermaceti"
+    },
+    {
+      "line": 37,
+      "note": "spermaceti function hypotheses"
+    },
+    {
+      "line": 41,
+      "note": "prey size"
+    },
+    {
+      "line": 44,
+      "note": "tooth wear"
+    },
+    {
+      "line": 44,
+      "note": "temporal fossa and bite force"
+    },
+    {
+      "line": 51,
+      "note": "megalodon in Pisco and same era"
+    },
+    {
+      "line": 58,
+      "note": "age range"
+    },
+    {
+      "line": 61,
+      "note": "climate and prey hypothesis"
+    },
+    {
+      "line": 61,
+      "note": "other fossil localities"
+    }
+  ],
+  "unverified_facts": [
+    "Livyatan melvillei was formally described in 2010 by Olivier Lambert and colleagues in Nature.",
+    "The holotype skull was found in 2008 at Cerro Colorado, Pisco Formation, southern Peru.",
+    "The fossil is about 9.9-8.9 million years old (late Miocene), revised from an earlier estimate of about 12-13 million years.",
+    "The skull is about 3 m (10 ft) long.",
+    "The largest teeth exceed 36 cm (14 in), among the largest biting teeth of any known animal, excluding tusks.",
+    "Body length is estimated at 13.5-17.5 m (44-57 ft).",
+    "The genus was first named Leviathan but renamed Livyatan because Leviathan was already used for a mastodon.",
+    "The species name honours Herman Melville, author of Moby-Dick.",
+    "Unlike the modern sperm whale, Livyatan had large functional teeth in both upper and lower jaws.",
+    "Its skull has a large supracranial basin, suggesting a spermaceti organ.",
+    "Likely prey were medium-sized baleen whales of roughly 7-10 m (23-33 ft).",
+    "Megalodon teeth occur in the same Pisco Formation deposits and era.",
+    "Raptorial sperm whale teeth possibly attributable to Livyatan are known from Chile, South Africa and Australia.",
+    "Late Miocene cooling and changes in baleen whale prey may have contributed to its extinction (hypothesis).",
+    "The aquatic sloth Thalassocnus is known from the Pisco Formation."
+  ],
+  "missing_sections": [],
+  "errors": [],
+  "warnings": [
+    "23 [VERIFY] tag(s) unresolved (allowed in draft mode)",
+    "15 unverified fact(s) in topic.yaml"
+  ],
+  "passed": true,
+  "publish": false
+}

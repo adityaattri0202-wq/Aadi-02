@@ -1,0 +1,12 @@
+# Which provider adapter each paid stage uses.
+# Options: mock | openart | viewmax | edge_tts (voice only)
+# Override all three for one run with: --provider mock
+image: openart
+video: openart
+voice: viewmax
+
+# Environment variable holding each provider's key. Keys are never read from
+# files in this repo; see .env.example.
+env_keys:
+  openart: OPENART_API_KEY
+  viewmax: VIEWMAX_API_KEY

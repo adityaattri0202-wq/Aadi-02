@@ -1,0 +1,21 @@
+# Estimated cost per unit, used by the approval gate and review_report.
+# null = unknown: the gate prints "UNKNOWN" and still requires --approve.
+# TODO: fill from each provider's current pricing page; prices change.
+currency: USD
+verified: false
+
+providers:
+  mock:
+    image: 0
+    video_per_second: 0
+    voice_per_1k_chars: 0
+  openart:
+    image: null              # TODO: price per image for the chosen model
+    video_per_second: null   # TODO: price per second of generated video
+    voice_per_1k_chars: null # OpenArt has no TTS
+  viewmax:
+    image: null              # TODO
+    video_per_second: null   # TODO
+    voice_per_1k_chars: null # TODO
+  edge_tts:
+    voice_per_1k_chars: 0    # free service; check its terms before commercial use

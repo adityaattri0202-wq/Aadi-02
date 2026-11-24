@@ -1,0 +1,37 @@
+# Visual style shared by every video. The prompt_prefix is prepended,
+# unchanged, to every image prompt. shot_plan refuses to write a shot whose
+# prompt does not start with it, and later stages refuse to load one.
+name: Naturalist Plate
+version: 1
+
+prompt_prefix: >-
+  Vintage natural-history plate illustration, pen-and-ink linework with fine
+  cross-hatching, aged parchment paper texture, muted ochre and teal palette,
+  soft sepia wash background, scientific engraving style, no text, no letters,
+  no labels, no captions, no watermark.
+
+prompt_suffix: >-
+  Balanced 16:9 composition, museum-quality detail, calm documentary mood.
+
+negative_prompt: >-
+  text, letters, words, captions, labels, numbers, watermark, signature, logo,
+  photograph, photorealistic, 3d render, cgi, neon colours, saturated colours,
+  modern objects, blurry, low detail
+
+image:
+  width: 1920
+  height: 1080
+
+motion:
+  # Length of each generated hero clip; editors loop or slow it to fit.
+  clip_seconds: 5
+  prompts:
+    slow_push_in: Very slow camera push-in, subtle drifting particles, illustration stays still and hand-drawn
+    slow_pan: Slow horizontal camera pan across the illustration, gentle and steady
+    parallax: Subtle 2.5D parallax between foreground and background layers, slow drift
+
+timing:
+  words_per_minute: 140     # used for per-shot estimates before voiceover exists
+  min_shot_sec: 3.0
+  pad_sec: 0.35             # silence after each voiceover segment
+  fps: 30

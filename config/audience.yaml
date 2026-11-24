@@ -1,0 +1,34 @@
+# Who the videos are for. Script writers and stages read this.
+language: English
+locales: [en-US, en-GB]
+spelling: en-US            # script spelling; keep wording neutral where US/UK differ
+
+units:
+  system: metric_plus_imperial
+  # Write every measurement as metric first, imperial in brackets.
+  format: "{metric} ({imperial})"
+  examples:
+    - "17.5 m (57 ft)"
+    - "36 cm (14 in)"
+    - "3 m (10 ft)"
+  # script_check warns about metric values with no imperial equivalent nearby.
+  warn_missing_imperial: true
+
+references: >-
+  Use Western, everyday comparisons familiar to US and UK viewers (a school
+  bus, a London bus, a tennis court, a human forearm). Avoid region-specific
+  slang; explain scientific terms the first time they appear.
+
+voices:
+  default_accent: us        # override per run with --accent us|uk
+  us:
+    mock: mock-us
+    edge_tts: en-US-GuyNeural
+    viewmax: TODO_VIEWMAX_US_VOICE_ID     # fill from the Viewmax voice list
+    openart: null                          # OpenArt has no TTS
+  uk:
+    mock: mock-uk
+    edge_tts: en-GB-RyanNeural
+    viewmax: TODO_VIEWMAX_UK_VOICE_ID
+    openart: null
+  edge_tts_rate: "-4%"

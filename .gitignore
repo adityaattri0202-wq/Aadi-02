@@ -22,3 +22,4 @@ outputs/
 *.log
 topics/*/render/
 topics/*/*_final.mp4
+topics/*/music/

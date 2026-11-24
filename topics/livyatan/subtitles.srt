@@ -1,431 +1,419 @@
 1
-00:00:00,000 --> 00:00:03,866
-Picture the open ocean, roughly ten million years ago.
+00:00:00,000 --> 00:00:03,832
+Imagine the ocean thirteen million years ago. No ice
 
 2
-00:00:03,866 --> 00:00:07,733
-A baleen whale about the length of a school
+00:00:03,832 --> 00:00:07,664
+at the poles, warmer seas, and the water full
 
 3
-00:00:07,733 --> 00:00:11,599
-bus is cruising near the surface. It has little
+00:00:07,664 --> 00:00:08,516
+of life.
 
 4
-00:00:11,599 --> 00:00:15,466
-reason to fear the sharks around it. But something
+00:00:08,866 --> 00:00:12,123
+Now imagine you're swimming there, and something enormous passes
 
 5
-00:00:15,466 --> 00:00:19,332
-is rising from the dark water below. Something with
+00:00:12,123 --> 00:00:15,380
+beneath you. Not a shark. Not a whale you'd
 
 6
-00:00:19,332 --> 00:00:21,480
-teeth longer than your forearm.
+00:00:15,380 --> 00:00:18,637
+recognize. Something built like a sperm whale, but bigger,
 
 7
-00:00:21,780 --> 00:00:25,646
-This is Livyatan, a giant relative of the modern
+00:00:18,637 --> 00:00:21,894
+and with a mouth that looks like it was
 
 8
-00:00:25,646 --> 00:00:29,512
-sperm whale, and one of the most powerful predators
+00:00:21,894 --> 00:00:23,704
+designed to end arguments quickly.
 
 9
-00:00:29,512 --> 00:00:33,379
-ever to hunt with teeth. In the next few
+00:00:24,054 --> 00:00:27,134
+Its name was Livyatan. And it might have been
 
 10
-00:00:33,379 --> 00:00:37,245
-minutes we will look at how it was found,
+00:00:27,134 --> 00:00:30,214
+one of the most dangerous animals the ocean has
 
 11
-00:00:37,245 --> 00:00:41,111
-how it was built, what it ate, and why
+00:00:30,214 --> 00:00:30,898
+ever produced.
 
 12
-00:00:41,111 --> 00:00:41,970
-it disappeared.
+00:00:31,248 --> 00:00:34,379
+Today we're going back about thirteen million years, to
 
 13
-00:00:42,270 --> 00:00:46,135
-Our story starts not in the sea, but in
+00:00:34,379 --> 00:00:37,510
+the Miocene epoch, to meet an animal that paleontologists
 
 14
-00:00:46,135 --> 00:00:50,000
-a desert. The Pisco Formation on the southern coast
+00:00:37,510 --> 00:00:40,642
+think sat at the very top of its ecosystem.
 
 15
-00:00:50,000 --> 00:00:53,866
-of Peru is one of the richest marine fossil
+00:00:40,642 --> 00:00:43,773
+We'll look at what it was, how big it
 
 16
-00:00:53,866 --> 00:00:57,731
-sites on Earth. This dry, wind-scoured land was once
+00:00:43,773 --> 00:00:46,556
+got, what it hunted, and why it disappeared.
 
 17
-00:00:57,731 --> 00:01:01,596
-seafloor, and today it gives up the bones of
+00:00:46,906 --> 00:00:50,254
+Let's start with the name, because it's a bit
 
 18
-00:01:01,596 --> 00:01:05,461
-whales, seals, sharks, and even sloths that swam in
+00:00:50,254 --> 00:00:53,603
+of a story. The scientific name is Livyatan melvillei.
 
 19
-00:01:05,461 --> 00:01:06,320
-the sea.
+00:00:53,603 --> 00:00:56,951
+The first part comes from the Hebrew word "Leviathan,"
 
 20
-00:01:06,620 --> 00:01:10,488
-In 2008, a team working at a site called
+00:00:56,951 --> 00:00:59,183
+a sea monster from ancient texts.
 
 21
-00:01:10,488 --> 00:01:14,356
-Cerro Colorado uncovered a skull. Not a small one.
+00:00:59,533 --> 00:01:02,535
+The second part honors Herman Melville, the author of
 
 22
-00:01:14,356 --> 00:01:18,223
-It measured about three metres (ten feet) from end
+00:01:02,535 --> 00:01:05,537
+Moby-Dick. So the animal is named after a sea
 
 23
-00:01:18,223 --> 00:01:22,091
-to end, and both its upper and lower jaws
+00:01:05,537 --> 00:01:08,206
+monster and the man who wrote about one.
 
 24
-00:01:22,091 --> 00:01:23,810
-still held massive teeth.
+00:01:08,556 --> 00:01:12,169
+Let's talk size, because this is where it gets
 
 25
-00:01:24,110 --> 00:01:27,974
-The team, led by palaeontologist Olivier Lambert, described the
+00:01:12,169 --> 00:01:15,781
+hard to picture. Estimates for Livyatan put its length
 
 26
-00:01:27,974 --> 00:01:31,838
-animal in 2010. They first named it Leviathan, after
+00:01:15,781 --> 00:01:19,394
+somewhere between about 13 and 17 meters, roughly 43
 
 27
-00:01:31,838 --> 00:01:35,701
-the sea monster of legend. But that name had
+00:01:19,394 --> 00:01:20,598
+to 56 feet.
 
 28
-00:01:35,701 --> 00:01:39,565
-already been given to another animal, an extinct relative
+00:01:20,948 --> 00:01:24,041
+For comparison, a standard American school bus is around
 
 29
-00:01:39,565 --> 00:01:43,429
-of elephants, so the genus became Livyatan, the Hebrew
+00:01:24,041 --> 00:01:27,133
+12 meters (about 40 feet) long. So Livyatan was
 
 30
-00:01:43,429 --> 00:01:47,292
-form of the word. The species name, melvillei, honours
+00:01:27,133 --> 00:01:30,226
+at least as long as a school bus, and
 
 31
-00:01:47,292 --> 00:01:51,156
-Herman Melville, the author of Moby-Dick. A fitting tribute
+00:01:30,226 --> 00:01:33,318
+possibly longer than a bus with another car attached
 
 32
-00:01:51,156 --> 00:01:55,020
-for a whale that may have hunted other whales.
+00:01:33,318 --> 00:01:34,349
+to the back.
 
 33
-00:01:55,320 --> 00:01:59,187
-So how big was it? Only the skull and
+00:01:34,699 --> 00:01:37,723
+Now here's what matters more than the length. A
 
 34
-00:01:59,187 --> 00:02:03,053
-teeth are known, so the body has to be
+00:01:37,723 --> 00:01:40,746
+sperm whale today has a huge head, and Livyatan
 
 35
-00:02:03,053 --> 00:02:06,920
-estimated by comparison with living sperm whales. Most estimates
+00:01:40,746 --> 00:01:43,770
+likely had one too. That head was packed with
 
 36
-00:02:06,920 --> 00:02:10,786
-fall between 13.5 and 17.5 metres, or roughly 44
+00:01:43,770 --> 00:01:46,793
+the tools for finding and processing prey. And the
 
 37
-00:02:10,786 --> 00:02:14,653
-to 57 feet. That is in the same league
+00:01:46,793 --> 00:01:49,145
+most important tools were in the mouth.
 
 38
-00:02:14,653 --> 00:02:17,660
-as a large male sperm whale today.
+00:01:49,495 --> 00:01:53,345
+Livyatan's teeth are the reason this animal is famous.
 
 39
-00:02:17,960 --> 00:02:21,825
-The resemblance ends at the mouth. A modern sperm
+00:01:53,345 --> 00:01:56,339
+Its nickname, "megatooth whale," comes from them.
 
 40
-00:02:21,825 --> 00:02:25,690
-whale has a long, narrow lower jaw and feeds
+00:01:56,689 --> 00:02:00,023
+The largest teeth are estimated at around 30 centimeters,
 
 41
-00:02:25,690 --> 00:02:29,555
-mainly by suction, swallowing squid in the deep. Its
+00:02:00,023 --> 00:02:03,356
+about a foot long. These weren't small, flat teeth
 
 42
-00:02:29,555 --> 00:02:33,420
-upper jaw has few working teeth. Livyatan was different.
+00:02:03,356 --> 00:02:06,690
+built for grinding. They were long, conical, and sharp,
 
 43
-00:02:33,420 --> 00:02:37,285
-It carried big, interlocking teeth in both jaws, set
+00:02:06,690 --> 00:02:10,024
+the kind of teeth you'd expect on something that
 
 44
-00:02:37,285 --> 00:02:41,151
-in a short, wide snout built for gripping and
+00:02:10,024 --> 00:02:11,135
+grabs and holds.
 
 45
-00:02:41,151 --> 00:02:41,580
-tearing.
+00:02:11,485 --> 00:02:14,848
+Think about what that means. Most whales today don't
 
 46
-00:02:41,880 --> 00:02:45,750
-And those teeth were enormous. The largest were more
+00:02:14,848 --> 00:02:18,211
+use teeth to catch food at all. They filter
 
 47
-00:02:45,750 --> 00:02:49,620
-than 36 centimetres, or about 14 inches, long. Leaving
+00:02:18,211 --> 00:02:20,079
+tiny animals through baleen plates.
 
 48
-00:02:49,620 --> 00:02:53,490
-tusks aside, they are among the largest biting teeth
+00:02:20,429 --> 00:02:23,956
+Livyatan had teeth that could pierce, hold, and possibly
 
 49
-00:02:53,490 --> 00:02:55,640
-of any animal ever discovered.
+00:02:23,956 --> 00:02:27,482
+tear. This was a hunter that bit its prey,
 
 50
-00:02:55,940 --> 00:02:59,803
-On top of the skull sits a deep hollow
+00:02:27,482 --> 00:02:30,225
+not one that strained seawater for snacks.
 
 51
-00:02:59,803 --> 00:03:03,667
-called the supracranial basin. In living sperm whales, a
+00:02:30,575 --> 00:02:33,743
+The first Livyatan fossils were found in the Pisco
 
 52
-00:03:03,667 --> 00:03:07,530
-similar basin holds the spermaceti organ, so Livyatan probably
+00:02:33,743 --> 00:02:36,910
+Formation of Peru, along the Pacific coast of South
 
 53
-00:03:07,530 --> 00:03:11,394
-had one too. What that organ did is still
+00:02:36,910 --> 00:02:37,262
+America.
 
 54
-00:03:11,394 --> 00:03:15,257
-debated. It may have focused sound for echolocation, helping
+00:02:37,612 --> 00:02:41,001
+That's an important detail. This wasn't a creature of
 
 55
-00:03:15,257 --> 00:03:19,121
-the whale find prey in murky water. Some researchers
+00:02:41,001 --> 00:02:44,389
+one isolated sea. It lived in the warm, productive
 
 56
-00:03:19,121 --> 00:03:22,984
-have even suggested it worked as a cushion for
+00:02:44,389 --> 00:02:47,778
+waters of the ancient Pacific, where many marine animals
 
 57
-00:03:22,984 --> 00:03:25,560
-ramming, although that idea is controversial.
+00:02:47,778 --> 00:02:48,531
+were thriving.
 
 58
-00:03:25,860 --> 00:03:29,728
-With jaws like these, Livyatan was almost certainly not
+00:02:48,881 --> 00:02:52,366
+Its neighbors would have included other whales, sharks, and
 
 59
-00:03:29,728 --> 00:03:33,595
-slurping up squid. Its most likely prey were baleen
+00:02:52,366 --> 00:02:55,850
+seabirds. Some of those animals were big. Some were
 
 60
-00:03:33,595 --> 00:03:37,463
-whales, which were common in these seas. Many were
+00:02:55,850 --> 00:02:59,335
+dangerous. And Livyatan sat near the top of the
 
 61
-00:03:37,463 --> 00:03:41,331
-medium-sized, perhaps seven to ten metres, or 23 to
+00:02:59,335 --> 00:02:59,722
+menu.
 
 62
-00:03:41,331 --> 00:03:42,620
-33 feet, long.
+00:03:00,072 --> 00:03:03,220
+So what did Livyatan eat? This is where we
 
 63
-00:03:42,920 --> 00:03:46,786
-The teeth themselves offer clues. Many are heavily worn
+00:03:03,220 --> 00:03:06,368
+have to be careful. Scientists don't have a video
 
 64
-00:03:46,786 --> 00:03:50,652
-where upper and lower teeth ground past each other,
+00:03:06,368 --> 00:03:09,515
+recording from 13 million years ago, so what we
 
 65
-00:03:50,652 --> 00:03:54,519
-the mark of an animal that bit hard and
+00:03:09,515 --> 00:03:12,663
+know comes from fossils and comparisons with living animals.
 
 66
-00:03:54,519 --> 00:03:58,385
-often. A large hollow on the side of the
+00:03:13,013 --> 00:03:16,338
+One line of evidence is bite-like marks found on
 
 67
-00:03:58,385 --> 00:04:02,251
-skull anchored the jaw-closing muscles, hinting at a very
+00:03:16,338 --> 00:03:19,663
+the bones of other ancient whales. If those marks
 
 68
-00:04:02,251 --> 00:04:03,110
-powerful bite.
+00:03:19,663 --> 00:03:22,988
+really came from Livyatan, it means the animal was
 
 69
-00:04:03,410 --> 00:04:07,275
-A likely strategy was to approach from below or
+00:03:22,988 --> 00:03:25,944
+hunting other large marine mammals, possibly baleen whales.
 
 70
-00:04:07,275 --> 00:04:11,141
-behind, seize the prey with a short, crushing bite,
+00:03:26,294 --> 00:03:29,281
+Could it also have eaten large fish and squid?
 
 71
-00:04:11,141 --> 00:04:15,006
-and hold on until it weakened. Nobody has watched
+00:03:29,281 --> 00:03:32,268
+Possibly. But the strongest evidence, as far as we
 
 72
-00:04:15,006 --> 00:04:18,871
-Livyatan hunt, so this is a reconstruction, but it
+00:03:32,268 --> 00:03:35,255
+know, points toward other whales. That's the part that
 
 73
-00:04:18,871 --> 00:04:22,736
-fits the anatomy. In a way, it played a
+00:03:35,255 --> 00:03:38,242
+makes Livyatan so unusual. It may have been one
 
 74
-00:04:22,736 --> 00:04:26,602
-role similar to killer whales today, only on a
+00:03:38,242 --> 00:03:41,230
+of the few animals in its ocean that could
 
 75
-00:04:26,602 --> 00:04:27,890
-far larger scale.
+00:03:41,230 --> 00:03:43,221
+take on prey its own size.
 
 76
-00:04:28,190 --> 00:04:32,058
-Livyatan was not the only giant in those waters.
+00:03:43,571 --> 00:03:46,627
+Livyatan is related to the sperm whale we have
 
 77
-00:04:32,058 --> 00:04:35,926
-The same rocks in Peru also contain teeth of
+00:03:46,627 --> 00:03:49,684
+today. But the two aren't identical. Modern sperm whales
 
 78
-00:04:35,926 --> 00:04:39,793
-megalodon, the enormous prehistoric shark. The two predators probably
+00:03:49,684 --> 00:03:52,740
+have teeth mostly on the lower jaw, and they're
 
 79
-00:04:39,793 --> 00:04:43,661
-overlapped in time and place, and both seem to
+00:03:52,740 --> 00:03:55,796
+famous for diving deep to hunt squid. Livyatan had
 
 80
-00:04:43,661 --> 00:04:45,380
-have targeted mid-sized whales.
+00:03:55,796 --> 00:03:58,852
+large teeth in its upper jaw too, which is
 
 81
-00:04:45,680 --> 00:04:49,546
-Did they fight? There is no direct evidence of
+00:03:58,852 --> 00:04:00,890
+one reason it looked so different.
 
 82
-00:04:49,546 --> 00:04:53,412
-that. It is more likely that they competed for
+00:04:01,240 --> 00:04:05,536
+Here's the honest picture. Modern sperm whales are fearsome
 
 83
-00:04:53,412 --> 00:04:57,278
-the same food. It is tempting to imagine an
+00:04:05,536 --> 00:04:06,491
+deep-sea hunters,
 
 84
-00:04:57,278 --> 00:05:01,144
-epic battle between them, but the fossils only tell
+00:04:06,841 --> 00:04:09,641
+but Livyatan was a different kind of predator. It
 
 85
-00:05:01,144 --> 00:05:05,010
-us that they were neighbours, not who would have
+00:04:09,641 --> 00:04:12,441
+may have been more of a surface and mid-water
 
 86
-00:05:05,010 --> 00:05:05,440
-won.
+00:04:12,441 --> 00:04:15,240
+hunter, going after big prey in an ocean that
 
 87
-00:05:05,740 --> 00:05:09,610
-So why did Livyatan vanish? We do not have
+00:04:15,240 --> 00:04:17,107
+was warmer and busier than today's.
 
 88
-00:05:09,610 --> 00:05:13,480
-a clear answer. Its fossil record is thin, and
+00:04:17,457 --> 00:04:21,129
+Livyatan disappeared around five million years ago. No single
 
 89
-00:05:13,480 --> 00:05:17,350
-the best-dated remains come from a narrow slice of
+00:04:21,129 --> 00:04:24,800
+cause has been proven. Scientists point to changes in
 
 90
-00:05:17,350 --> 00:05:20,790
-time around nine to ten million years ago.
+00:04:24,800 --> 00:04:28,472
+ocean temperature, shifts in prey populations, and changes in
 
 91
-00:05:21,090 --> 00:05:24,953
-One idea is that its menu changed. As the
+00:04:28,472 --> 00:04:31,328
+ocean food webs as the likely factors.
 
 92
-00:05:24,953 --> 00:05:28,815
-climate cooled towards the end of the Miocene, ocean
+00:04:31,678 --> 00:04:34,625
+What's striking is how much it teaches us about
 
 93
-00:05:28,815 --> 00:05:32,678
-ecosystems were reshaped. Many of the mid-sized baleen whales
+00:04:34,625 --> 00:04:37,572
+how fragile giant predators can be. Even the biggest
 
 94
-00:05:32,678 --> 00:05:36,541
-it relied on declined, while others grew larger. A
+00:04:37,572 --> 00:04:40,520
+animals in the ocean depend on the systems around
 
 95
-00:05:36,541 --> 00:05:40,404
-specialist predator can struggle when its prey changes. Isolated
+00:04:40,520 --> 00:04:40,847
+them.
 
 96
-00:05:40,404 --> 00:05:44,266
-teeth from places such as Chile, South Africa and
+00:04:41,197 --> 00:04:44,385
+So the next time you hear someone call the
 
 97
-00:05:44,266 --> 00:05:48,129
-Australia suggest giant raptorial sperm whales were once widespread,
+00:04:44,385 --> 00:04:47,573
+sperm whale the scariest animal in the sea, remember
 
 98
-00:05:48,129 --> 00:05:51,992
-but in the end this lineage of whale hunters
+00:04:47,573 --> 00:04:50,762
+Livyatan. It was bigger, stranger, and maybe more dangerous,
 
 99
-00:05:51,992 --> 00:05:52,850
-faded away.
+00:04:50,762 --> 00:04:53,950
+and it lived in a world we can only
 
 100
-00:05:53,150 --> 00:05:57,018
-Today, the sperm whale is the last giant of
+00:04:53,950 --> 00:04:55,721
+reconstruct from bones and teeth.
 
 101
-00:05:57,018 --> 00:06:00,886
-its family, a deep-diving squid hunter rather than a
+00:04:56,071 --> 00:04:58,835
+If you want Part 2, where we explore the
 
 102
-00:06:00,886 --> 00:06:04,754
-killer of whales. But long ago, its cousin Livyatan
+00:04:58,835 --> 00:05:01,599
+teeth in more detail and compare the fossils with
 
 103
-00:06:04,754 --> 00:06:08,622
-cruised the coast of South America as one of
+00:05:01,599 --> 00:05:04,363
+modern predators, let me know in the comments. And
 
 104
-00:06:08,622 --> 00:06:12,490
-the most formidable predators the oceans have ever seen.
+00:05:04,363 --> 00:05:07,127
+if you want to see another deep-sea mystery, watch
 
 105
-00:06:12,790 --> 00:06:16,663
-If you enjoyed this, subscribe for more stories of
-
-106
-00:06:16,663 --> 00:06:20,536
-giant and strange animals from deep time. And tell
-
-107
-00:06:20,536 --> 00:06:24,409
-us in the comments: which prehistoric predator should we
-
-108
-00:06:24,409 --> 00:06:25,270
-explore next?
+00:05:07,127 --> 00:05:08,662
+the next one right here.

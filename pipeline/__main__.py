@@ -8,8 +8,8 @@ import argparse
 import sys
 from pathlib import Path
 
-from . import (STAGES, image_generate, manifest, motion_generate, new_topic, review_report,
-               script_check, shot_plan, voiceover)
+from . import (STAGES, image_generate, manifest, motion_generate, new_topic, render,
+               review_report, script_check, shot_plan, voiceover)
 from .config import ConfigError, load_settings
 from .context import ApprovalRequired, Context, StageFailed
 from .paths import TopicPaths, slugify
@@ -24,6 +24,7 @@ RUNNERS = {
     "voiceover": voiceover.run,
     "manifest": manifest.run,
     "review_report": review_report.run,
+    "render": render.run,
 }
 
 

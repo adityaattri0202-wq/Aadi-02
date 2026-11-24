@@ -1,8 +1,8 @@
 {
   "version": 1,
   "topic": "livyatan",
-  "generated_at": "2026-11-24T19:12:18+00:00",
-  "dry_run": true,
+  "generated_at": "2026-11-24T19:35:02+00:00",
+  "dry_run": false,
   "fps": 30,
   "resolution": [
     1920,
@@ -13,27 +13,27 @@
     "video": "openart",
     "voice": "viewmax"
   },
-  "total_duration_sec": 385.57,
+  "total_duration_sec": 309.012,
   "ready_for_edit": false,
   "counts": {
-    "shots": 18,
-    "images_ready": 0,
-    "clips_planned": 11,
-    "clips_ready": 0,
-    "audio_segments": 18,
-    "audio_ready": 0
+    "shots": 26,
+    "images_ready": 26,
+    "clips_planned": 12,
+    "clips_ready": 11,
+    "audio_segments": 26,
+    "audio_ready": 26
   },
   "shots": [
     {
       "shot_id": "s01_01",
       "scene": 1,
-      "scene_title": "Hook",
+      "scene_title": "Cold Open",
       "start_sec": 0.0,
-      "end_sec": 21.78,
-      "duration_sec": 21.78,
+      "end_sec": 8.866,
+      "duration_sec": 8.866,
       "image": {
-        "path": "images/s01_01.png",
-        "status": "planned"
+        "path": "images/s01_01.jpg",
+        "status": "ready"
       },
       "clip": {
         "path": "clips/s01_01.mp4",
@@ -41,399 +41,596 @@
       },
       "audio": {
         "path": "voiceover/s01_01.mp3",
-        "status": "planned",
-        "duration_sec": null
+        "status": "ready",
+        "duration_sec": 8.516,
+        "words": []
       },
       "motion": "slow_push_in",
       "overlay_text": "",
-      "narration": "Picture the open ocean, roughly ten million years ago. A baleen whale about the length of a school bus is cruising near the surface. It has little reason to fear the sharks around it. But something is rising from the dark water below. Something with teeth longer than your forearm."
+      "narration": "Imagine the ocean thirteen million years ago. No ice at the poles, warmer seas, and the water full of life."
     },
     {
       "shot_id": "s01_02",
       "scene": 1,
-      "scene_title": "Hook",
-      "start_sec": 21.78,
-      "end_sec": 42.27,
-      "duration_sec": 20.49,
+      "scene_title": "Cold Open",
+      "start_sec": 8.866,
+      "end_sec": 24.054,
+      "duration_sec": 15.188,
       "image": {
-        "path": "images/s01_02.png",
-        "status": "planned"
+        "path": "images/s01_02.jpg",
+        "status": "ready"
+      },
+      "clip": {
+        "path": "clips/s01_02.mp4",
+        "status": "ready"
+      },
+      "audio": {
+        "path": "voiceover/s01_02.mp3",
+        "status": "ready",
+        "duration_sec": 14.838,
+        "words": []
+      },
+      "motion": "parallax",
+      "overlay_text": "",
+      "narration": "Now imagine you're swimming there, and something enormous passes beneath you. Not a shark. Not a whale you'd recognize. Something built like a sperm whale, but bigger, and with a mouth that looks like it was designed to end arguments quickly."
+    },
+    {
+      "shot_id": "s01_03",
+      "scene": 1,
+      "scene_title": "Cold Open",
+      "start_sec": 24.054,
+      "end_sec": 31.248,
+      "duration_sec": 7.194,
+      "image": {
+        "path": "images/s01_03.jpg",
+        "status": "ready"
       },
       "clip": null,
       "audio": {
-        "path": "voiceover/s01_02.mp3",
-        "status": "planned",
-        "duration_sec": null
+        "path": "voiceover/s01_03.mp3",
+        "status": "ready",
+        "duration_sec": 6.844,
+        "words": []
       },
       "motion": "none",
-      "overlay_text": "Teeth over 36 cm (14 in)",
-      "narration": "This is Livyatan, a giant relative of the modern sperm whale, and one of the most powerful predators ever to hunt with teeth. In the next few minutes we will look at how it was found, how it was built, what it ate, and why it disappeared."
+      "overlay_text": "",
+      "narration": "Its name was Livyatan. And it might have been one of the most dangerous animals the ocean has ever produced."
     },
     {
       "shot_id": "s02_01",
       "scene": 2,
-      "scene_title": "Discovery",
-      "start_sec": 42.27,
-      "end_sec": 66.62,
-      "duration_sec": 24.35,
+      "scene_title": "Intro",
+      "start_sec": 31.248,
+      "end_sec": 46.906,
+      "duration_sec": 15.658,
       "image": {
-        "path": "images/s02_01.png",
-        "status": "planned"
+        "path": "images/s02_01.jpg",
+        "status": "ready"
       },
-      "clip": {
-        "path": "clips/s02_01.mp4",
-        "status": "planned"
-      },
+      "clip": null,
       "audio": {
         "path": "voiceover/s02_01.mp3",
-        "status": "planned",
-        "duration_sec": null
+        "status": "ready",
+        "duration_sec": 15.308,
+        "words": []
       },
-      "motion": "slow_pan",
-      "overlay_text": "Pisco Formation, Peru",
-      "narration": "Our story starts not in the sea, but in a desert. The Pisco Formation on the southern coast of Peru is one of the richest marine fossil sites on Earth. This dry, wind-scoured land was once seafloor, and today it gives up the bones of whales, seals, sharks, and even sloths that swam in the sea."
+      "motion": "none",
+      "overlay_text": "LIVYATAN",
+      "narration": "Today we're going back about thirteen million years, to the Miocene epoch, to meet an animal that paleontologists think sat at the very top of its ecosystem. We'll look at what it was, how big it got, what it hunted, and why it disappeared."
     },
     {
       "shot_id": "s02_02",
       "scene": 2,
-      "scene_title": "Discovery",
-      "start_sec": 66.62,
-      "end_sec": 84.11,
-      "duration_sec": 17.49,
+      "scene_title": "Intro",
+      "start_sec": 46.906,
+      "end_sec": 59.533,
+      "duration_sec": 12.627,
       "image": {
-        "path": "images/s02_02.png",
-        "status": "planned"
+        "path": "images/s02_02.jpg",
+        "status": "ready"
       },
       "clip": null,
       "audio": {
         "path": "voiceover/s02_02.mp3",
-        "status": "planned",
-        "duration_sec": null
+        "status": "ready",
+        "duration_sec": 12.277,
+        "words": []
       },
       "motion": "none",
       "overlay_text": "",
-      "narration": "In 2008, a team working at a site called Cerro Colorado uncovered a skull. Not a small one. It measured about three metres (ten feet) from end to end, and both its upper and lower jaws still held massive teeth."
+      "narration": "Let's start with the name, because it's a bit of a story. The scientific name is Livyatan melvillei. The first part comes from the Hebrew word \"Leviathan,\" a sea monster from ancient texts."
     },
     {
       "shot_id": "s02_03",
       "scene": 2,
-      "scene_title": "Discovery",
-      "start_sec": 84.11,
-      "end_sec": 115.32,
-      "duration_sec": 31.21,
+      "scene_title": "Intro",
+      "start_sec": 59.533,
+      "end_sec": 68.556,
+      "duration_sec": 9.023,
       "image": {
-        "path": "images/s02_03.png",
-        "status": "planned"
+        "path": "images/s02_03.jpg",
+        "status": "ready"
       },
-      "clip": null,
+      "clip": {
+        "path": "clips/s02_03.mp4",
+        "status": "ready"
+      },
       "audio": {
         "path": "voiceover/s02_03.mp3",
-        "status": "planned",
-        "duration_sec": null
+        "status": "ready",
+        "duration_sec": 8.673,
+        "words": []
       },
-      "motion": "none",
+      "motion": "slow_pan",
       "overlay_text": "",
-      "narration": "The team, led by palaeontologist Olivier Lambert, described the animal in 2010. They first named it Leviathan, after the sea monster of legend. But that name had already been given to another animal, an extinct relative of elephants, so the genus became Livyatan, the Hebrew form of the word. The species name, melvillei, honours Herman Melville, the author of Moby-Dick. A fitting tribute for a whale that may have hunted other whales."
+      "narration": "The second part honors Herman Melville, the author of Moby-Dick. So the animal is named after a sea monster and the man who wrote about one."
     },
     {
       "shot_id": "s03_01",
       "scene": 3,
-      "scene_title": "Anatomy",
-      "start_sec": 115.32,
-      "end_sec": 137.96,
-      "duration_sec": 22.64,
+      "scene_title": "Size",
+      "start_sec": 68.556,
+      "end_sec": 80.948,
+      "duration_sec": 12.392,
       "image": {
-        "path": "images/s03_01.png",
-        "status": "planned"
+        "path": "images/s03_01.jpg",
+        "status": "ready"
       },
-      "clip": {
-        "path": "clips/s03_01.mp4",
-        "status": "planned"
-      },
+      "clip": null,
       "audio": {
         "path": "voiceover/s03_01.mp3",
-        "status": "planned",
-        "duration_sec": null
+        "status": "ready",
+        "duration_sec": 12.042,
+        "words": []
       },
-      "motion": "parallax",
-      "overlay_text": "13.5-17.5 m (44-57 ft)",
-      "narration": "So how big was it? Only the skull and teeth are known, so the body has to be estimated by comparison with living sperm whales. Most estimates fall between 13.5 and 17.5 metres, or roughly 44 to 57 feet. That is in the same league as a large male sperm whale today."
+      "motion": "none",
+      "overlay_text": "13-17 m (43-56 ft)",
+      "narration": "Let's talk size, because this is where it gets hard to picture. Estimates for Livyatan put its length somewhere between about 13 and 17 meters, roughly 43 to 56 feet."
     },
     {
       "shot_id": "s03_02",
       "scene": 3,
-      "scene_title": "Anatomy",
-      "start_sec": 137.96,
-      "end_sec": 161.88,
-      "duration_sec": 23.92,
+      "scene_title": "Size",
+      "start_sec": 80.948,
+      "end_sec": 94.699,
+      "duration_sec": 13.751,
       "image": {
-        "path": "images/s03_02.png",
-        "status": "planned"
+        "path": "images/s03_02.jpg",
+        "status": "ready"
       },
-      "clip": null,
+      "clip": {
+        "path": "clips/s03_02.mp4",
+        "status": "ready"
+      },
       "audio": {
         "path": "voiceover/s03_02.mp3",
-        "status": "planned",
-        "duration_sec": null
+        "status": "ready",
+        "duration_sec": 13.401,
+        "words": []
       },
-      "motion": "none",
-      "overlay_text": "",
-      "narration": "The resemblance ends at the mouth. A modern sperm whale has a long, narrow lower jaw and feeds mainly by suction, swallowing squid in the deep. Its upper jaw has few working teeth. Livyatan was different. It carried big, interlocking teeth in both jaws, set in a short, wide snout built for gripping and tearing."
+      "motion": "slow_pan",
+      "overlay_text": "School bus ~12 m (40 ft)",
+      "narration": "For comparison, a standard American school bus is around 12 meters (about 40 feet) long. So Livyatan was at least as long as a school bus, and possibly longer than a bus with another car attached to the back."
     },
     {
       "shot_id": "s03_03",
       "scene": 3,
-      "scene_title": "Anatomy",
-      "start_sec": 161.88,
-      "end_sec": 175.94,
-      "duration_sec": 14.06,
+      "scene_title": "Size",
+      "start_sec": 94.699,
+      "end_sec": 109.495,
+      "duration_sec": 14.796,
       "image": {
-        "path": "images/s03_03.png",
-        "status": "planned"
+        "path": "images/s03_03.jpg",
+        "status": "ready"
       },
-      "clip": {
-        "path": "clips/s03_03.mp4",
-        "status": "planned"
-      },
+      "clip": null,
       "audio": {
         "path": "voiceover/s03_03.mp3",
-        "status": "planned",
-        "duration_sec": null
+        "status": "ready",
+        "duration_sec": 14.446,
+        "words": []
       },
-      "motion": "slow_push_in",
-      "overlay_text": "About 36 cm (14 in)",
-      "narration": "And those teeth were enormous. The largest were more than 36 centimetres, or about 14 inches, long. Leaving tusks aside, they are among the largest biting teeth of any animal ever discovered."
-    },
-    {
-      "shot_id": "s03_04",
-      "scene": 3,
-      "scene_title": "Anatomy",
-      "start_sec": 175.94,
-      "end_sec": 205.86,
-      "duration_sec": 29.92,
-      "image": {
-        "path": "images/s03_04.png",
-        "status": "planned"
-      },
-      "clip": {
-        "path": "clips/s03_04.mp4",
-        "status": "planned"
-      },
-      "audio": {
-        "path": "voiceover/s03_04.mp3",
-        "status": "planned",
-        "duration_sec": null
-      },
-      "motion": "slow_pan",
+      "motion": "none",
       "overlay_text": "",
-      "narration": "On top of the skull sits a deep hollow called the supracranial basin. In living sperm whales, a similar basin holds the spermaceti organ, so Livyatan probably had one too. What that organ did is still debated. It may have focused sound for echolocation, helping the whale find prey in murky water. Some researchers have even suggested it worked as a cushion for ramming, although that idea is controversial."
+      "narration": "Now here's what matters more than the length. A sperm whale today has a huge head, and Livyatan likely had one too. That head was packed with the tools for finding and processing prey. And the most important tools were in the mouth."
     },
     {
       "shot_id": "s04_01",
       "scene": 4,
-      "scene_title": "Hunting",
-      "start_sec": 205.86,
-      "end_sec": 222.92,
-      "duration_sec": 17.06,
+      "scene_title": "Teeth",
+      "start_sec": 109.495,
+      "end_sec": 116.689,
+      "duration_sec": 7.194,
       "image": {
-        "path": "images/s04_01.png",
-        "status": "planned"
+        "path": "images/s04_01.jpg",
+        "status": "ready"
       },
       "clip": {
         "path": "clips/s04_01.mp4",
-        "status": "planned"
+        "status": "ready"
       },
       "audio": {
         "path": "voiceover/s04_01.mp3",
-        "status": "planned",
-        "duration_sec": null
+        "status": "ready",
+        "duration_sec": 6.844,
+        "words": []
       },
       "motion": "slow_push_in",
       "overlay_text": "",
-      "narration": "With jaws like these, Livyatan was almost certainly not slurping up squid. Its most likely prey were baleen whales, which were common in these seas. Many were medium-sized, perhaps seven to ten metres, or 23 to 33 feet, long."
+      "narration": "Livyatan's teeth are the reason this animal is famous. Its nickname, \"megatooth whale,\" comes from them."
     },
     {
       "shot_id": "s04_02",
       "scene": 4,
-      "scene_title": "Hunting",
-      "start_sec": 222.92,
-      "end_sec": 243.41,
-      "duration_sec": 20.49,
+      "scene_title": "Teeth",
+      "start_sec": 116.689,
+      "end_sec": 131.485,
+      "duration_sec": 14.796,
       "image": {
-        "path": "images/s04_02.png",
-        "status": "planned"
+        "path": "images/s04_02.jpg",
+        "status": "ready"
       },
       "clip": null,
       "audio": {
         "path": "voiceover/s04_02.mp3",
-        "status": "planned",
-        "duration_sec": null
+        "status": "ready",
+        "duration_sec": 14.446,
+        "words": []
       },
       "motion": "none",
-      "overlay_text": "",
-      "narration": "The teeth themselves offer clues. Many are heavily worn where upper and lower teeth ground past each other, the mark of an animal that bit hard and often. A large hollow on the side of the skull anchored the jaw-closing muscles, hinting at a very powerful bite."
+      "overlay_text": "~30 cm (1 ft)",
+      "narration": "The largest teeth are estimated at around 30 centimeters, about a foot long. These weren't small, flat teeth built for grinding. They were long, conical, and sharp, the kind of teeth you'd expect on something that grabs and holds."
     },
     {
       "shot_id": "s04_03",
       "scene": 4,
-      "scene_title": "Hunting",
-      "start_sec": 243.41,
-      "end_sec": 268.19,
-      "duration_sec": 24.78,
+      "scene_title": "Teeth",
+      "start_sec": 131.485,
+      "end_sec": 140.429,
+      "duration_sec": 8.944,
       "image": {
-        "path": "images/s04_03.png",
-        "status": "planned"
+        "path": "images/s04_03.jpg",
+        "status": "ready"
       },
-      "clip": {
-        "path": "clips/s04_03.mp4",
-        "status": "planned"
-      },
+      "clip": null,
       "audio": {
         "path": "voiceover/s04_03.mp3",
-        "status": "planned",
-        "duration_sec": null
+        "status": "ready",
+        "duration_sec": 8.594,
+        "words": []
       },
-      "motion": "parallax",
+      "motion": "none",
       "overlay_text": "",
-      "narration": "A likely strategy was to approach from below or behind, seize the prey with a short, crushing bite, and hold on until it weakened. Nobody has watched Livyatan hunt, so this is a reconstruction, but it fits the anatomy. In a way, it played a role similar to killer whales today, only on a far larger scale."
+      "narration": "Think about what that means. Most whales today don't use teeth to catch food at all. They filter tiny animals through baleen plates."
+    },
+    {
+      "shot_id": "s04_04",
+      "scene": 4,
+      "scene_title": "Teeth",
+      "start_sec": 140.429,
+      "end_sec": 150.575,
+      "duration_sec": 10.146,
+      "image": {
+        "path": "images/s04_04.jpg",
+        "status": "ready"
+      },
+      "clip": {
+        "path": "clips/s04_04.mp4",
+        "status": "ready"
+      },
+      "audio": {
+        "path": "voiceover/s04_04.mp3",
+        "status": "ready",
+        "duration_sec": 9.796,
+        "words": []
+      },
+      "motion": "slow_push_in",
+      "overlay_text": "",
+      "narration": "Livyatan had teeth that could pierce, hold, and possibly tear. This was a hunter that bit its prey, not one that strained seawater for snacks."
     },
     {
       "shot_id": "s05_01",
       "scene": 5,
-      "scene_title": "Rivals",
-      "start_sec": 268.19,
-      "end_sec": 285.68,
-      "duration_sec": 17.49,
+      "scene_title": "Where It Lived",
+      "start_sec": 150.575,
+      "end_sec": 157.612,
+      "duration_sec": 7.037,
       "image": {
-        "path": "images/s05_01.png",
-        "status": "planned"
+        "path": "images/s05_01.jpg",
+        "status": "ready"
       },
       "clip": {
         "path": "clips/s05_01.mp4",
-        "status": "planned"
+        "status": "ready"
       },
       "audio": {
         "path": "voiceover/s05_01.mp3",
-        "status": "planned",
-        "duration_sec": null
+        "status": "ready",
+        "duration_sec": 6.687,
+        "words": []
       },
       "motion": "slow_pan",
-      "overlay_text": "Megalodon: same seas, same era",
-      "narration": "Livyatan was not the only giant in those waters. The same rocks in Peru also contain teeth of megalodon, the enormous prehistoric shark. The two predators probably overlapped in time and place, and both seem to have targeted mid-sized whales."
+      "overlay_text": "Pisco Formation, Peru",
+      "narration": "The first Livyatan fossils were found in the Pisco Formation of Peru, along the Pacific coast of South America."
     },
     {
       "shot_id": "s05_02",
       "scene": 5,
-      "scene_title": "Rivals",
-      "start_sec": 285.68,
-      "end_sec": 305.74,
-      "duration_sec": 20.06,
+      "scene_title": "Where It Lived",
+      "start_sec": 157.612,
+      "end_sec": 168.881,
+      "duration_sec": 11.269,
       "image": {
-        "path": "images/s05_02.png",
-        "status": "planned"
+        "path": "images/s05_02.jpg",
+        "status": "ready"
       },
       "clip": null,
       "audio": {
         "path": "voiceover/s05_02.mp3",
-        "status": "planned",
-        "duration_sec": null
+        "status": "ready",
+        "duration_sec": 10.919,
+        "words": []
       },
       "motion": "none",
       "overlay_text": "",
-      "narration": "Did they fight? There is no direct evidence of that. It is more likely that they competed for the same food. It is tempting to imagine an epic battle between them, but the fossils only tell us that they were neighbours, not who would have won."
+      "narration": "That's an important detail. This wasn't a creature of one isolated sea. It lived in the warm, productive waters of the ancient Pacific, where many marine animals were thriving."
+    },
+    {
+      "shot_id": "s05_03",
+      "scene": 5,
+      "scene_title": "Where It Lived",
+      "start_sec": 168.881,
+      "end_sec": 180.072,
+      "duration_sec": 11.191,
+      "image": {
+        "path": "images/s05_03.jpg",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s05_03.mp3",
+        "status": "ready",
+        "duration_sec": 10.841,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "Its neighbors would have included other whales, sharks, and seabirds. Some of those animals were big. Some were dangerous. And Livyatan sat near the top of the menu."
     },
     {
       "shot_id": "s06_01",
       "scene": 6,
-      "scene_title": "Extinction",
-      "start_sec": 305.74,
-      "end_sec": 321.09,
-      "duration_sec": 15.35,
+      "scene_title": "Diet",
+      "start_sec": 180.072,
+      "end_sec": 193.013,
+      "duration_sec": 12.941,
       "image": {
-        "path": "images/s06_01.png",
-        "status": "planned"
+        "path": "images/s06_01.jpg",
+        "status": "ready"
       },
       "clip": {
         "path": "clips/s06_01.mp4",
-        "status": "planned"
+        "status": "ready"
       },
       "audio": {
         "path": "voiceover/s06_01.mp3",
-        "status": "planned",
-        "duration_sec": null
+        "status": "ready",
+        "duration_sec": 12.591,
+        "words": []
       },
       "motion": "slow_pan",
       "overlay_text": "",
-      "narration": "So why did Livyatan vanish? We do not have a clear answer. Its fossil record is thin, and the best-dated remains come from a narrow slice of time around nine to ten million years ago."
+      "narration": "So what did Livyatan eat? This is where we have to be careful. Scientists don't have a video recording from 13 million years ago, so what we know comes from fossils and comparisons with living animals."
     },
     {
       "shot_id": "s06_02",
       "scene": 6,
-      "scene_title": "Extinction",
-      "start_sec": 321.09,
-      "end_sec": 353.15,
-      "duration_sec": 32.06,
+      "scene_title": "Diet",
+      "start_sec": 193.013,
+      "end_sec": 206.294,
+      "duration_sec": 13.281,
       "image": {
-        "path": "images/s06_02.png",
-        "status": "planned"
+        "path": "images/s06_02.jpg",
+        "status": "ready"
       },
-      "clip": {
-        "path": "clips/s06_02.mp4",
-        "status": "planned"
-      },
+      "clip": null,
       "audio": {
         "path": "voiceover/s06_02.mp3",
-        "status": "planned",
-        "duration_sec": null
+        "status": "ready",
+        "duration_sec": 12.931,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "Hypothesis",
+      "narration": "One line of evidence is bite-like marks found on the bones of other ancient whales. If those marks really came from Livyatan, it means the animal was hunting other large marine mammals, possibly baleen whales."
+    },
+    {
+      "shot_id": "s06_03",
+      "scene": 6,
+      "scene_title": "Diet",
+      "start_sec": 206.294,
+      "end_sec": 223.571,
+      "duration_sec": 17.277,
+      "image": {
+        "path": "images/s06_03.jpg",
+        "status": "ready"
+      },
+      "clip": {
+        "path": "clips/s06_03.mp4",
+        "status": "ready"
+      },
+      "audio": {
+        "path": "voiceover/s06_03.mp3",
+        "status": "ready",
+        "duration_sec": 16.927,
+        "words": []
       },
       "motion": "parallax",
-      "overlay_text": "",
-      "narration": "One idea is that its menu changed. As the climate cooled towards the end of the Miocene, ocean ecosystems were reshaped. Many of the mid-sized baleen whales it relied on declined, while others grew larger. A specialist predator can struggle when its prey changes. Isolated teeth from places such as Chile, South Africa and Australia suggest giant raptorial sperm whales were once widespread, but in the end this lineage of whale hunters faded away."
+      "overlay_text": "Hypothesis",
+      "narration": "Could it also have eaten large fish and squid? Possibly. But the strongest evidence, as far as we know, points toward other whales. That's the part that makes Livyatan so unusual. It may have been one of the few animals in its ocean that could take on prey its own size."
     },
     {
       "shot_id": "s07_01",
       "scene": 7,
-      "scene_title": "Outro",
-      "start_sec": 353.15,
-      "end_sec": 372.79,
-      "duration_sec": 19.64,
+      "scene_title": "Compare To Today",
+      "start_sec": 223.571,
+      "end_sec": 241.24,
+      "duration_sec": 17.669,
       "image": {
-        "path": "images/s07_01.png",
-        "status": "planned"
+        "path": "images/s07_01.jpg",
+        "status": "ready"
       },
-      "clip": {
-        "path": "clips/s07_01.mp4",
-        "status": "planned"
-      },
+      "clip": null,
       "audio": {
         "path": "voiceover/s07_01.mp3",
-        "status": "planned",
-        "duration_sec": null
+        "status": "ready",
+        "duration_sec": 17.319,
+        "words": []
       },
-      "motion": "slow_push_in",
+      "motion": "none",
       "overlay_text": "",
-      "narration": "Today, the sperm whale is the last giant of its family, a deep-diving squid hunter rather than a killer of whales. But long ago, its cousin Livyatan cruised the coast of South America as one of the most formidable predators the oceans have ever seen."
+      "narration": "Livyatan is related to the sperm whale we have today. But the two aren't identical. Modern sperm whales have teeth mostly on the lower jaw, and they're famous for diving deep to hunt squid. Livyatan had large teeth in its upper jaw too, which is one reason it looked so different."
     },
     {
       "shot_id": "s07_02",
       "scene": 7,
-      "scene_title": "Outro",
-      "start_sec": 372.79,
-      "end_sec": 385.57,
-      "duration_sec": 12.78,
+      "scene_title": "Compare To Today",
+      "start_sec": 241.24,
+      "end_sec": 246.841,
+      "duration_sec": 5.601,
       "image": {
-        "path": "images/s07_02.png",
-        "status": "planned"
+        "path": "images/s07_02.jpg",
+        "status": "ready"
       },
       "clip": null,
       "audio": {
         "path": "voiceover/s07_02.mp3",
-        "status": "planned",
-        "duration_sec": null
+        "status": "ready",
+        "duration_sec": 5.251,
+        "words": []
       },
       "motion": "none",
       "overlay_text": "",
-      "narration": "If you enjoyed this, subscribe for more stories of giant and strange animals from deep time. And tell us in the comments: which prehistoric predator should we explore next?"
+      "narration": "Here's the honest picture. Modern sperm whales are fearsome deep-sea hunters,"
+    },
+    {
+      "shot_id": "s07_03",
+      "scene": 7,
+      "scene_title": "Compare To Today",
+      "start_sec": 246.841,
+      "end_sec": 257.457,
+      "duration_sec": 10.616,
+      "image": {
+        "path": "images/s07_03.jpg",
+        "status": "ready"
+      },
+      "clip": {
+        "path": "clips/s07_03.mp4",
+        "status": "ready"
+      },
+      "audio": {
+        "path": "voiceover/s07_03.mp3",
+        "status": "ready",
+        "duration_sec": 10.266,
+        "words": []
+      },
+      "motion": "slow_pan",
+      "overlay_text": "",
+      "narration": "but Livyatan was a different kind of predator. It may have been more of a surface and mid-water hunter, going after big prey in an ocean that was warmer and busier than today's."
+    },
+    {
+      "shot_id": "s08_01",
+      "scene": 8,
+      "scene_title": "The End Of The Giant",
+      "start_sec": 257.457,
+      "end_sec": 271.678,
+      "duration_sec": 14.221,
+      "image": {
+        "path": "images/s08_01.jpg",
+        "status": "ready"
+      },
+      "clip": {
+        "path": "clips/s08_01.mp4",
+        "status": "ready"
+      },
+      "audio": {
+        "path": "voiceover/s08_01.mp3",
+        "status": "ready",
+        "duration_sec": 13.871,
+        "words": []
+      },
+      "motion": "slow_push_in",
+      "overlay_text": "",
+      "narration": "Livyatan disappeared around five million years ago. No single cause has been proven. Scientists point to changes in ocean temperature, shifts in prey populations, and changes in ocean food webs as the likely factors."
+    },
+    {
+      "shot_id": "s08_02",
+      "scene": 8,
+      "scene_title": "The End Of The Giant",
+      "start_sec": 271.678,
+      "end_sec": 281.197,
+      "duration_sec": 9.519,
+      "image": {
+        "path": "images/s08_02.jpg",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s08_02.mp3",
+        "status": "ready",
+        "duration_sec": 9.169,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "What's striking is how much it teaches us about how fragile giant predators can be. Even the biggest animals in the ocean depend on the systems around them."
+    },
+    {
+      "shot_id": "s09_01",
+      "scene": 9,
+      "scene_title": "Outro",
+      "start_sec": 281.197,
+      "end_sec": 296.071,
+      "duration_sec": 14.874,
+      "image": {
+        "path": "images/s09_01.jpg",
+        "status": "ready"
+      },
+      "clip": {
+        "path": "clips/s09_01.mp4",
+        "status": "ready"
+      },
+      "audio": {
+        "path": "voiceover/s09_01.mp3",
+        "status": "ready",
+        "duration_sec": 14.524,
+        "words": []
+      },
+      "motion": "slow_push_in",
+      "overlay_text": "",
+      "narration": "So the next time you hear someone call the sperm whale the scariest animal in the sea, remember Livyatan. It was bigger, stranger, and maybe more dangerous, and it lived in a world we can only reconstruct from bones and teeth."
+    },
+    {
+      "shot_id": "s09_02",
+      "scene": 9,
+      "scene_title": "Outro",
+      "start_sec": 296.071,
+      "end_sec": 309.012,
+      "duration_sec": 12.941,
+      "image": {
+        "path": "images/s09_02.jpg",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s09_02.mp3",
+        "status": "ready",
+        "duration_sec": 12.591,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "If you want Part 2, where we explore the teeth in more detail and compare the fossils with modern predators, let me know in the comments. And if you want to see another deep-sea mystery, watch the next one right here."
     }
   ]
 }

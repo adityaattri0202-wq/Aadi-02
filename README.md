@@ -24,6 +24,7 @@ pipeline/
   voiceover.py        5. voiceover/   (paid, US or UK accent)
   manifest.py         6. manifest.json, timeline.csv/.edl, subtitles.srt
   review_report.py    7. review_report.md with counts and cost estimates
+  render.py           8. free local ffmpeg render -> topics/<slug>/<slug>_final.mp4
   approval.py         cost estimates + human approval gate
   assets.py           fingerprints that make stages idempotent
   config.py paths.py runlog.py context.py script_format.py sources.py new_topic.py
@@ -106,6 +107,7 @@ python -m pipeline image_generate --topic livyatan --approve
 python -m pipeline motion_generate --topic livyatan --approve
 python -m pipeline voiceover      --topic livyatan --approve --accent uk
 python -m pipeline manifest       --topic livyatan
+python -m pipeline render         --topic livyatan        # final MP4 (local, free)
 
 # Full run that asks before each paid stage:
 ./run_all.sh livyatan

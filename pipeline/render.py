@@ -271,7 +271,7 @@ def run(ctx: Context) -> dict:
         "[0:v]eq=contrast=1.06:saturation=0.92:gamma=0.98:brightness='0.012*sin(2*PI*t/4)':eval=frame[base];"
         "[base][o1]overlay=shortest=1[b1];"
         "[b1][o2]overlay=shortest=1,"
-        "vignette=angle=PI/5,noise=alls=7:allf=t+u,"
+        "vignette=angle=PI/5,noise=alls=4:allf=t+u,"
         f"fade=t=in:st=0:d=1.0,fade=t=out:st={fade_out:.2f}:d=1.5,format=yuv420p[v];"
         "[0:a]asplit=2[voice][key];"
         f"[1:a]atrim=duration={total:.3f}[bed];"
@@ -286,7 +286,8 @@ def run(ctx: Context) -> dict:
     _ff(["-f", "concat", "-safe", "0", "-i", str(concat), "-i", str(bed), "-i", str(whoosh),
          "-loop", "1", "-framerate", str(FPS), "-t", f"{total:.3f}", "-i", str(particles),
          "-filter_complex", graph, "-map", "[v]", "-map", "[a]",
-         "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-c:a", "aac", "-b:a", "256k",
+         "-c:v", "libx264", "-preset", "medium", "-crf", "21", "-maxrate", "8M", "-bufsize", "16M",
+         "-c:a", "aac", "-b:a", "256k",
          "-movflags", "+faststart", str(final)])
     write_chapters(entries, p.dir / "chapters.txt")
     log.info(f"Wrote {p.rel(final)} ({total / 60:.1f} min, ~{cuts} cuts) and chapters.txt")

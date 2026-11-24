@@ -1,7 +1,7 @@
 {
   "version": 1,
   "topic": "livyatan",
-  "generated_at": "2026-11-24T19:35:02+00:00",
+  "generated_at": "2026-11-24T20:25:50+00:00",
   "dry_run": false,
   "fps": 30,
   "resolution": [
@@ -14,12 +14,12 @@
     "voice": "viewmax"
   },
   "total_duration_sec": 309.012,
-  "ready_for_edit": false,
+  "ready_for_edit": true,
   "counts": {
     "shots": 26,
     "images_ready": 26,
     "clips_planned": 12,
-    "clips_ready": 11,
+    "clips_ready": 12,
     "audio_segments": 26,
     "audio_ready": 26
   },
@@ -37,7 +37,7 @@
       },
       "clip": {
         "path": "clips/s01_01.mp4",
-        "status": "planned"
+        "status": "ready"
       },
       "audio": {
         "path": "voiceover/s01_01.mp3",

@@ -1,7 +1,7 @@
-name: "Livyatan: The Whale That Hunted Whales"
+name: "Livyatan: The Megatooth Whale"
 slug: livyatan
-target_minutes: 8
-required_sections: [Hook, Discovery, Anatomy, Hunting, Rivals, Extinction, Outro]
+target_minutes: 10.5
+required_sections: [Cold Open, Intro, Size, Teeth, Where It Lived, Diet, Compare To Today, The End Of The Giant, Outro]
 
 # PLACEHOLDER FACTS. Every one is unverified. Check each against the primary
 # source, fix the claim and source, then set verified: true.
@@ -49,5 +49,20 @@ facts:
     source: "TODO"
     verified: false
   - claim: "The aquatic sloth Thalassocnus is known from the Pisco Formation."
+    source: "TODO"
+    verified: false
+  - claim: "There was no ice at the poles about 13 million years ago."
+    source: "TODO: likely wrong; Antarctic ice sheet existed through the Miocene"
+    verified: false
+  - claim: "Livyatan is nicknamed the 'megatooth whale'."
+    source: "TODO"
+    verified: false
+  - claim: "Bite marks on fossil whale bones have been attributed to Livyatan."
+    source: "TODO"
+    verified: false
+  - claim: "Livyatan disappeared around five million years ago."
+    source: "TODO"
+    verified: false
+  - claim: "A standard US school bus is about 12 m (40 ft) long."
     source: "TODO"
     verified: false

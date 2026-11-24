@@ -1,4 +1,4 @@
-# Sources: Livyatan: The Whale That Hunted Whales
+# Sources: Livyatan: The Megatooth Whale
 
 Generated from topic.yaml by script_check. Edit topic.yaml, not this file.
 
@@ -19,5 +19,10 @@ Generated from topic.yaml by script_check. Edit topic.yaml, not this file.
 | 13 | Raptorial sperm whale teeth possibly attributable to Livyatan are known from Chile, South Africa and Australia. | TODO | NO |
 | 14 | Late Miocene cooling and changes in baleen whale prey may have contributed to its extinction (hypothesis). | TODO | NO |
 | 15 | The aquatic sloth Thalassocnus is known from the Pisco Formation. | TODO | NO |
+| 16 | There was no ice at the poles about 13 million years ago. | TODO: likely wrong; Antarctic ice sheet existed through the Miocene | NO |
+| 17 | Livyatan is nicknamed the 'megatooth whale'. | TODO | NO |
+| 18 | Bite marks on fossil whale bones have been attributed to Livyatan. | TODO | NO |
+| 19 | Livyatan disappeared around five million years ago. | TODO | NO |
+| 20 | A standard US school bus is about 12 m (40 ft) long. | TODO | NO |
 
-Unverified facts: 15 of 15.
+Unverified facts: 20 of 20.

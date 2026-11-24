@@ -1,18 +1,18 @@
-# Review report: Livyatan: The Whale That Hunted Whales
+# Review report: Livyatan: The Megatooth Whale
 
-Generated 2026-11-24T19:12:18+00:00 (dry run)
+Generated 2026-11-24T19:16:57+00:00
 
 ## Summary
 
 | Item | Count |
 |---|---|
-| Shots | 18 |
-| Images ready | 0 / 18 |
-| Hero shots (motion clips) | 11 |
-| Motion clips ready | 0 / 11 |
-| Voiceover segments ready | 0 / 18 |
-| Estimated length (from current timings) | 6.4 min (target 8 min) |
-| Script words | 885 (5.9-6.81 min at 150-130 wpm) |
+| Shots | 26 |
+| Images ready | 0 / 26 |
+| Hero shots (motion clips) | 12 |
+| Motion clips ready | 0 / 12 |
+| Voiceover segments ready | 0 / 26 |
+| Estimated length (from current timings) | 6.1 min (target 10.5 min) |
+| Script words | 836 (5.57-6.43 min at 150-130 wpm) |
 
 ## Estimated cost per stage
 
@@ -20,9 +20,9 @@ Prices from config/costs.yaml (verified: false).
 
 | Stage | Provider | Units (all) | Est. total | Units still to generate | Est. remaining |
 |---|---|---|---|---|---|
-| image_generate | openart | 18 image | UNKNOWN | 18 image | UNKNOWN |
-| motion_generate | openart | 55 second | UNKNOWN | 55 second | UNKNOWN |
-| voiceover | viewmax | 4.962 1k chars | UNKNOWN | 4.962 1k chars | UNKNOWN |
+| image_generate | openart | 26 image | UNKNOWN | 26 image | UNKNOWN |
+| motion_generate | openart | 60 second | UNKNOWN | 60 second | UNKNOWN |
+| voiceover | viewmax | 4.721 1k chars | UNKNOWN | 4.721 1k chars | UNKNOWN |
 
 ## Estimated cost per provider
 
@@ -33,9 +33,9 @@ Prices from config/costs.yaml (verified: false).
 
 ## Fact check
 
-- [VERIFY] tags in script: 23
-- Unverified facts in topic.yaml: 15 of 15
-- Shots whose narration has [VERIFY]: 14
+- [VERIFY] tags in script: 12
+- Unverified facts in topic.yaml: 20 of 20
+- Shots whose narration has [VERIFY]: 10
 - Publishing requires `script_check --publish` to pass.
 
   - Livyatan melvillei was formally described in 2010 by Olivier Lambert and colleagues in Nature. (source: Lambert et al. (2010), 'The giant bite of a new raptorial sperm whale from the Miocene epoch of Peru', Nature 466:105-108, doi:10.1038/nature09067 (TODO: confirm))
@@ -53,6 +53,11 @@ Prices from config/costs.yaml (verified: false).
   - Raptorial sperm whale teeth possibly attributable to Livyatan are known from Chile, South Africa and Australia. (source: TODO)
   - Late Miocene cooling and changes in baleen whale prey may have contributed to its extinction (hypothesis). (source: TODO)
   - The aquatic sloth Thalassocnus is known from the Pisco Formation. (source: TODO)
+  - There was no ice at the poles about 13 million years ago. (source: TODO: likely wrong; Antarctic ice sheet existed through the Miocene)
+  - Livyatan is nicknamed the 'megatooth whale'. (source: TODO)
+  - Bite marks on fossil whale bones have been attributed to Livyatan. (source: TODO)
+  - Livyatan disappeared around five million years ago. (source: TODO)
+  - A standard US school bus is about 12 m (40 ft) long. (source: TODO)
 
 ## Manifest
 

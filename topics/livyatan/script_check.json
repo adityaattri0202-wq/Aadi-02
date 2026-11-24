@@ -1,145 +1,113 @@
 {
-  "word_count": 885,
-  "runtime_minutes_fast": 5.9,
-  "runtime_minutes_slow": 6.81,
-  "target_minutes": 8.0,
+  "word_count": 836,
+  "runtime_minutes_fast": 5.57,
+  "runtime_minutes_slow": 6.43,
+  "target_minutes": 10.5,
   "sections": [
     {
-      "title": "Hook",
-      "line": 7,
-      "words": 97,
-      "shots": 2
-    },
-    {
-      "title": "Discovery",
-      "line": 16,
-      "words": 168,
+      "title": "Cold Open",
+      "line": 8,
+      "words": 81,
       "shots": 3
     },
     {
-      "title": "Anatomy",
-      "line": 26,
-      "words": 208,
+      "title": "Intro",
+      "line": 19,
+      "words": 103,
+      "shots": 3
+    },
+    {
+      "title": "Size",
+      "line": 30,
+      "words": 112,
+      "shots": 3
+    },
+    {
+      "title": "Teeth",
+      "line": 41,
+      "words": 103,
       "shots": 4
     },
     {
-      "title": "Hunting",
-      "line": 39,
-      "words": 143,
+      "title": "Where It Lived",
+      "line": 55,
+      "words": 76,
       "shots": 3
     },
     {
-      "title": "Rivals",
-      "line": 49,
-      "words": 86,
-      "shots": 2
+      "title": "Diet",
+      "line": 66,
+      "words": 122,
+      "shots": 3
     },
     {
-      "title": "Extinction",
-      "line": 56,
-      "words": 109,
+      "title": "Compare To Today",
+      "line": 77,
+      "words": 95,
+      "shots": 3
+    },
+    {
+      "title": "The End Of The Giant",
+      "line": 88,
+      "words": 62,
       "shots": 2
     },
     {
       "title": "Outro",
-      "line": 63,
-      "words": 74,
+      "line": 96,
+      "words": 82,
       "shots": 2
     }
   ],
-  "shot_count": 18,
+  "shot_count": 26,
   "verify_tags": [
     {
       "line": 4,
       "note": ""
     },
     {
-      "line": 9,
-      "note": "age"
+      "line": 11,
+      "note": "age; dated fossils may be ~9-10 million years old"
     },
     {
-      "line": 14,
-      "note": "superlative"
+      "line": 11,
+      "note": "Antarctica already had a large ice sheet in the Miocene"
     },
     {
-      "line": 18,
-      "note": "Thalassocnus in Pisco"
+      "line": 33,
+      "note": "check current length estimates from peer-reviewed sources, since they vary."
     },
     {
-      "line": 21,
-      "note": "year and locality"
-    },
-    {
-      "line": 21,
-      "note": "skull length"
-    },
-    {
-      "line": 24,
-      "note": "author and year"
-    },
-    {
-      "line": 24,
-      "note": "rename reason"
-    },
-    {
-      "line": 24,
-      "note": "species name origin"
-    },
-    {
-      "line": 28,
-      "note": "length estimate"
-    },
-    {
-      "line": 31,
-      "note": "modern sperm whale dentition"
-    },
-    {
-      "line": 31,
-      "note": "teeth in both jaws"
-    },
-    {
-      "line": 34,
-      "note": "maximum tooth length"
-    },
-    {
-      "line": 34,
-      "note": "largest biting teeth claim"
-    },
-    {
-      "line": 37,
-      "note": "supracranial basin and spermaceti"
-    },
-    {
-      "line": 37,
-      "note": "spermaceti function hypotheses"
-    },
-    {
-      "line": 41,
-      "note": "prey size"
+      "line": 36,
+      "note": "school bus length"
     },
     {
       "line": 44,
-      "note": "tooth wear"
+      "note": "is \"megatooth whale\" an established nickname? \"megatooth\" usually refers to megalodon's shark lineage"
     },
     {
-      "line": 44,
-      "note": "temporal fossa and bite force"
+      "line": 47,
+      "note": "confirm tooth length from the original 2010 description and later studies."
     },
     {
-      "line": 51,
-      "note": "megalodon in Pisco and same era"
+      "line": 50,
+      "note": "most whale species are toothed whales; consider \"the biggest whales today\""
     },
     {
       "line": 58,
-      "note": "age range"
+      "note": "confirm formation name and discovery date."
     },
     {
-      "line": 61,
-      "note": "climate and prey hypothesis"
+      "line": 72,
+      "note": "confirm which fossil specimens show these marks and how they were interpreted."
     },
     {
-      "line": 61,
-      "note": "other fossil localities"
+      "line": 86,
+      "note": "compare hunting depth and feeding models from current literature."
+    },
+    {
+      "line": 91,
+      "note": "check the current extinction timing and hypotheses."
     }
   ],
   "unverified_facts": [
@@ -157,13 +125,19 @@
     "Megalodon teeth occur in the same Pisco Formation deposits and era.",
     "Raptorial sperm whale teeth possibly attributable to Livyatan are known from Chile, South Africa and Australia.",
     "Late Miocene cooling and changes in baleen whale prey may have contributed to its extinction (hypothesis).",
-    "The aquatic sloth Thalassocnus is known from the Pisco Formation."
+    "The aquatic sloth Thalassocnus is known from the Pisco Formation.",
+    "There was no ice at the poles about 13 million years ago.",
+    "Livyatan is nicknamed the 'megatooth whale'.",
+    "Bite marks on fossil whale bones have been attributed to Livyatan.",
+    "Livyatan disappeared around five million years ago.",
+    "A standard US school bus is about 12 m (40 ft) long."
   ],
   "missing_sections": [],
   "errors": [],
   "warnings": [
-    "23 [VERIFY] tag(s) unresolved (allowed in draft mode)",
-    "15 unverified fact(s) in topic.yaml"
+    "runtime 5.57-6.43 min is more than 20% off the 10.5 min target (1470 words is about right)",
+    "12 [VERIFY] tag(s) unresolved (allowed in draft mode)",
+    "20 unverified fact(s) in topic.yaml"
   ],
   "passed": true,
   "publish": false

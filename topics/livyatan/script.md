@@ -1,68 +1,102 @@
-# Livyatan: The Whale That Hunted Whales
+# Livyatan: The Megatooth Whale
 
-<!-- Original draft written for this channel. Every factual claim carries a
-[VERIFY] tag until checked against topic.yaml sources. Measurements are
-metric first with imperial in brackets for a US/UK audience. -->
+<!-- Client script v2 (supplied by the channel owner). Spoken text is kept as
+written; only [VERIFY] tags and one imperial conversion were added. Timecodes
+from the original are kept in the scene comments. Text overlays are added in
+the edit, never inside images. -->
 
-## Hook
-[SHOT: A colossal toothed whale rising from dark water beneath an unsuspecting baleen whale near the surface, seen from below | motion=slow_push_in]
-Picture the open ocean, roughly ten million years ago [VERIFY: age]. A baleen whale about the length of a school bus is cruising near the surface. It has little reason to fear the sharks around it.
+## Cold Open
+<!-- 0:00-0:40 -->
+[SHOT: Dark sepia ocean with faint light filtering down from above, a tiny diver silhouette in the corner | motion=slow_push_in]
+Imagine the ocean thirteen million years ago [VERIFY: age; dated fossils may be ~9-10 million years old]. No ice at the poles [VERIFY: Antarctica already had a large ice sheet in the Miocene], warmer seas, and the water full of life.
 
-But something is rising from the dark water below. Something with teeth longer than your forearm.
+[SHOT: An enormous dark shape gliding beneath the tiny diver, seen from above, only part of the body visible | motion=parallax]
+Now imagine you're swimming there, and something enormous passes beneath you. Not a shark. Not a whale you'd recognize. Something built like a sperm whale, but bigger, and with a mouth that looks like it was designed to end arguments quickly.
 
-[SHOT: A single enormous conical tooth, ridged and worn, lying on parchment beside a simple measuring rule | overlay=Teeth over 36 cm (14 in)]
-This is Livyatan, a giant relative of the modern sperm whale, and one of the most powerful predators ever to hunt with teeth [VERIFY: superlative]. In the next few minutes we will look at how it was found, how it was built, what it ate, and why it disappeared.
+[SHOT: The massive head of Livyatan emerging from the gloom, jaws slightly open showing rows of conical teeth]
+Its name was Livyatan. And it might have been one of the most dangerous animals the ocean has ever produced.
 
-## Discovery
-[SHOT: Arid desert cliffs of layered sandstone with fossil bones eroding from the rock, a small field team in wide-brimmed hats | motion=slow_pan | overlay=Pisco Formation, Peru]
-Our story starts not in the sea, but in a desert. The Pisco Formation on the southern coast of Peru is one of the richest marine fossil sites on Earth. This dry, wind-scoured land was once seafloor, and today it gives up the bones of whales, seals, sharks, and even sloths that swam in the sea [VERIFY: Thalassocnus in Pisco].
+## Intro
+<!-- 0:40-1:20 -->
+[SHOT: Title plate: a Livyatan skull engraving centred on parchment inside an ornamental border | overlay=LIVYATAN]
+Today we're going back about thirteen million years, to the Miocene epoch, to meet an animal that paleontologists think sat at the very top of its ecosystem. We'll look at what it was, how big it got, what it hunted, and why it disappeared.
 
-[SHOT: A partial fossil skull with heavy jaws half exposed in pale sediment, brushes and trowels laid beside it]
-In 2008, a team working at a site called Cerro Colorado uncovered a skull [VERIFY: year and locality]. Not a small one. It measured about three metres (ten feet) from end to end [VERIFY: skull length], and both its upper and lower jaws still held massive teeth.
+[SHOT: A coiling sea monster in the style of an old manuscript engraving, rising through stylised waves]
+Let's start with the name, because it's a bit of a story. The scientific name is Livyatan melvillei. The first part comes from the Hebrew word "Leviathan," a sea monster from ancient texts.
 
-[SHOT: An antique open book, a quill pen and an inkwell beside a small whale skull, still-life engraving]
-The team, led by palaeontologist Olivier Lambert, described the animal in 2010 [VERIFY: author and year]. They first named it Leviathan, after the sea monster of legend. But that name had already been given to another animal, an extinct relative of elephants, so the genus became Livyatan, the Hebrew form of the word [VERIFY: rename reason]. The species name, melvillei, honours Herman Melville, the author of Moby-Dick [VERIFY: species name origin]. A fitting tribute for a whale that may have hunted other whales.
+[SHOT: A 19th-century whaling ship on a rough sea with a sperm whale breaching nearby | motion=slow_pan]
+The second part honors Herman Melville, the author of Moby-Dick. So the animal is named after a sea monster and the man who wrote about one.
 
-## Anatomy
-[SHOT: Full side-view reconstruction of Livyatan swimming, massive blunt head and powerful tail, a modern sperm whale silhouette faintly behind for scale | motion=parallax | overlay=13.5-17.5 m (44-57 ft)]
-So how big was it? Only the skull and teeth are known, so the body has to be estimated by comparison with living sperm whales. Most estimates fall between 13.5 and 17.5 metres, or roughly 44 to 57 feet [VERIFY: length estimate]. That is in the same league as a large male sperm whale today.
+## Size
+<!-- 1:20-2:50 -->
+[SHOT: Side silhouette of Livyatan on plain parchment with a long scale bar beneath | overlay=13-17 m (43-56 ft)]
+Let's talk size, because this is where it gets hard to picture. Estimates for Livyatan put its length somewhere between about 13 and 17 meters, roughly 43 to 56 feet. [VERIFY: check current length estimates from peer-reviewed sources, since they vary.]
 
-[SHOT: Comparative plate of two skulls side by side, a modern sperm whale skull with a long narrow lower jaw, and a shorter, broader Livyatan skull with heavy teeth in both jaws]
-The resemblance ends at the mouth. A modern sperm whale has a long, narrow lower jaw and feeds mainly by suction, swallowing squid in the deep. Its upper jaw has few working teeth [VERIFY: modern sperm whale dentition]. Livyatan was different. It carried big, interlocking teeth in both jaws [VERIFY: teeth in both jaws], set in a short, wide snout built for gripping and tearing.
+[SHOT: Outline of a school bus drawn beside the whale silhouette for scale | motion=slow_pan | overlay=School bus ~12 m (40 ft)]
+For comparison, a standard American school bus is around 12 meters (about 40 feet) long [VERIFY: school bus length]. So Livyatan was at least as long as a school bus, and possibly longer than a bus with another car attached to the back.
 
-[SHOT: One giant tooth held beside a human hand and forearm for scale, anatomical study | motion=slow_push_in | overlay=About 36 cm (14 in)]
-And those teeth were enormous. The largest were more than 36 centimetres, or about 14 inches, long [VERIFY: maximum tooth length]. Leaving tusks aside, they are among the largest biting teeth of any animal ever discovered [VERIFY: largest biting teeth claim].
+[SHOT: A tiny human diver floating beside the huge blunt head of Livyatan for scale]
+Now here's what matters more than the length. A sperm whale today has a huge head, and Livyatan likely had one too. That head was packed with the tools for finding and processing prey. And the most important tools were in the mouth.
 
-[SHOT: Cutaway diagram of a whale head showing a large waxy chamber resting in a deep basin on top of the skull | motion=slow_pan]
-On top of the skull sits a deep hollow called the supracranial basin. In living sperm whales, a similar basin holds the spermaceti organ, so Livyatan probably had one too [VERIFY: supracranial basin and spermaceti]. What that organ did is still debated. It may have focused sound for echolocation, helping the whale find prey in murky water. Some researchers have even suggested it worked as a cushion for ramming, although that idea is controversial [VERIFY: spermaceti function hypotheses].
+## Teeth
+<!-- 2:50-4:30 -->
+[SHOT: Fossil Livyatan skull lying in pale rock, lit from the side, teeth still in the jaws | motion=slow_push_in]
+Livyatan's teeth are the reason this animal is famous. Its nickname, "megatooth whale," comes from them. [VERIFY: is "megatooth whale" an established nickname? "megatooth" usually refers to megalodon's shark lineage]
 
-## Hunting
-[SHOT: Livyatan seizing a medium-sized baleen whale by the flank near the surface, water churning around them | motion=slow_push_in]
-With jaws like these, Livyatan was almost certainly not slurping up squid. Its most likely prey were baleen whales, which were common in these seas. Many were medium-sized, perhaps seven to ten metres, or 23 to 33 feet, long [VERIFY: prey size].
+[SHOT: Cross-hatched study of a single long conical tooth with a scale bar beside it | overlay=~30 cm (1 ft)]
+The largest teeth are estimated at around 30 centimeters, about a foot long. [VERIFY: confirm tooth length from the original 2010 description and later studies.] These weren't small, flat teeth built for grinding. They were long, conical, and sharp, the kind of teeth you'd expect on something that grabs and holds.
 
-[SHOT: Close detail of fossil teeth showing flat wear facets polished smooth by biting]
-The teeth themselves offer clues. Many are heavily worn where upper and lower teeth ground past each other, the mark of an animal that bit hard and often [VERIFY: tooth wear]. A large hollow on the side of the skull anchored the jaw-closing muscles, hinting at a very powerful bite [VERIFY: temporal fossa and bite force].
+[SHOT: Comparison plate: the baleen plates of a filter-feeding whale beside the toothed jaw of Livyatan]
+Think about what that means. Most whales today don't use teeth to catch food at all. They filter tiny animals through baleen plates. [VERIFY: most whale species are toothed whales; consider "the biggest whales today"]
 
-[SHOT: Distant view through slanting sunbeams of a large whale silhouette closing on another from below | motion=parallax]
-A likely strategy was to approach from below or behind, seize the prey with a short, crushing bite, and hold on until it weakened. Nobody has watched Livyatan hunt, so this is a reconstruction, but it fits the anatomy. In a way, it played a role similar to killer whales today, only on a far larger scale.
+[SHOT: Close-up of Livyatan's jaws closing, upper and lower teeth interlocking | motion=slow_push_in]
+Livyatan had teeth that could pierce, hold, and possibly tear. This was a hunter that bit its prey, not one that strained seawater for snacks.
 
-## Rivals
-[SHOT: A giant shark gliding through open water in the foreground, the silhouette of Livyatan distant in the background | motion=slow_pan | overlay=Megalodon: same seas, same era]
-Livyatan was not the only giant in those waters. The same rocks in Peru also contain teeth of megalodon, the enormous prehistoric shark [VERIFY: megalodon in Pisco and same era]. The two predators probably overlapped in time and place, and both seem to have targeted mid-sized whales.
+## Where It Lived
+<!-- 4:30-5:50 -->
+[SHOT: Engraved map of the Pacific coast of South America with the Peruvian coast picked out in a sepia wash | motion=slow_pan | overlay=Pisco Formation, Peru]
+The first Livyatan fossils were found in the Pisco Formation of Peru, along the Pacific coast of South America. [VERIFY: confirm formation name and discovery date.]
 
-[SHOT: Two predators circling a drifting whale carcass from opposite sides, tense but scientific engraving]
-Did they fight? There is no direct evidence of that. It is more likely that they competed for the same food. It is tempting to imagine an epic battle between them, but the fossils only tell us that they were neighbours, not who would have won.
+[SHOT: Warm ancient Pacific waters teeming with fish, seabirds diving in from above]
+That's an important detail. This wasn't a creature of one isolated sea. It lived in the warm, productive waters of the ancient Pacific, where many marine animals were thriving.
 
-## Extinction
-[SHOT: A cooling ocean scene with drifting ice on the horizon and only a few whales below, muted and quiet | motion=slow_pan]
-So why did Livyatan vanish? We do not have a clear answer. Its fossil record is thin, and the best-dated remains come from a narrow slice of time around nine to ten million years ago [VERIFY: age range].
+[SHOT: An ancient ocean community of whales, sharks and seabirds, a giant whale silhouette among them]
+Its neighbors would have included other whales, sharks, and seabirds. Some of those animals were big. Some were dangerous. And Livyatan sat near the top of the menu.
 
-[SHOT: An engraved map of southern oceans with whale silhouettes travelling across it, no lettering | motion=parallax]
-One idea is that its menu changed. As the climate cooled towards the end of the Miocene, ocean ecosystems were reshaped. Many of the mid-sized baleen whales it relied on declined, while others grew larger [VERIFY: climate and prey hypothesis]. A specialist predator can struggle when its prey changes. Isolated teeth from places such as Chile, South Africa and Australia suggest giant raptorial sperm whales were once widespread [VERIFY: other fossil localities], but in the end this lineage of whale hunters faded away.
+## Diet
+<!-- 5:50-7:40 -->
+[SHOT: An ancient whale skeleton lying on the seafloor, partly buried in sediment | motion=slow_pan]
+So what did Livyatan eat? This is where we have to be careful. Scientists don't have a video recording from 13 million years ago, so what we know comes from fossils and comparisons with living animals.
+
+[SHOT: Close study of a fossil whale bone marked with deep grooves | overlay=Hypothesis]
+One line of evidence is bite-like marks found on the bones of other ancient whales. [VERIFY: confirm which fossil specimens show these marks and how they were interpreted.] If those marks really came from Livyatan, it means the animal was hunting other large marine mammals, possibly baleen whales.
+
+[SHOT: Reconstruction of Livyatan closing in on a baleen whale in open water | motion=parallax | overlay=Hypothesis]
+Could it also have eaten large fish and squid? Possibly. But the strongest evidence, as far as we know, points toward other whales. That's the part that makes Livyatan so unusual. It may have been one of the few animals in its ocean that could take on prey its own size.
+
+## Compare To Today
+<!-- 7:40-8:50 -->
+[SHOT: Side-by-side skulls: Livyatan with large teeth in both jaws, and a modern sperm whale with teeth in the narrow lower jaw only]
+Livyatan is related to the sperm whale we have today. But the two aren't identical. Modern sperm whales have teeth mostly on the lower jaw, and they're famous for diving deep to hunt squid. Livyatan had large teeth in its upper jaw too, which is one reason it looked so different.
+
+[SHOT: A modern sperm whale diving into deep dark water with a giant squid faintly below]
+Here's the honest picture. Modern sperm whales are fearsome deep-sea hunters,
+
+[SHOT: Livyatan cruising through sunlit mid-water in a busy, warm ocean | motion=slow_pan]
+but Livyatan was a different kind of predator. It may have been more of a surface and mid-water hunter, going after big prey in an ocean that was warmer and busier than today's. [VERIFY: compare hunting depth and feeding models from current literature.]
+
+## The End Of The Giant
+<!-- 8:50-9:50 -->
+[SHOT: An ancient ocean scene slowly giving way to a modern rocky coastline | motion=slow_push_in]
+Livyatan disappeared around five million years ago. No single cause has been proven. Scientists point to changes in ocean temperature, shifts in prey populations, and changes in ocean food webs as the likely factors. [VERIFY: check the current extinction timing and hypotheses.]
+
+[SHOT: A lone Livyatan silhouette fading into the distance in empty water]
+What's striking is how much it teaches us about how fragile giant predators can be. Even the biggest animals in the ocean depend on the systems around them.
 
 ## Outro
-[SHOT: A modern sperm whale diving into deep blue-black water, a faint ghostly outline of Livyatan swimming beside it | motion=slow_push_in]
-Today, the sperm whale is the last giant of its family, a deep-diving squid hunter rather than a killer of whales. But long ago, its cousin Livyatan cruised the coast of South America as one of the most formidable predators the oceans have ever seen.
+<!-- 9:50-10:40 -->
+[SHOT: The tiny diver silhouette returns, facing a shaft of ancient light in the deep | motion=slow_push_in]
+So the next time you hear someone call the sperm whale the scariest animal in the sea, remember Livyatan. It was bigger, stranger, and maybe more dangerous, and it lived in a world we can only reconstruct from bones and teeth.
 
-[SHOT: The Livyatan skull displayed like a museum specimen under soft light, plain background]
-If you enjoyed this, subscribe for more stories of giant and strange animals from deep time. And tell us in the comments: which prehistoric predator should we explore next?
+[SHOT: A fossil tooth and a modern predator's tooth side by side on parchment]
+If you want Part 2, where we explore the teeth in more detail and compare the fossils with modern predators, let me know in the comments. And if you want to see another deep-sea mystery, watch the next one right here.

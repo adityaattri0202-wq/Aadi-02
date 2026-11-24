@@ -39,7 +39,11 @@ def build_manifest(ctx: Context, shots: list[dict]) -> dict:
     for shot in shots:
         sid = shot["id"]
         image = _link(ctx, p.images_dir, sid, exts["image"])
-        clip = _link(ctx, p.clips_dir, sid, exts["video"]) if shot.get("hero") else None
+        clip = None
+        if shot.get("hero"):
+            clip = _link(ctx, p.clips_dir, sid, exts["video"])
+        elif find_asset(p.clips_dir, sid):  # extra clip made for a still shot: use it
+            clip = {"path": ctx.paths.rel(find_asset(p.clips_dir, sid)), "status": "ready"}
         audio, duration = None, float(shot["duration_sec"])
         if shot.get("narration"):
             audio = _link(ctx, p.voiceover_dir, sid, exts["voice"])

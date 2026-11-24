@@ -1,7 +1,7 @@
 {
   "version": 1,
   "topic": "livyatan",
-  "generated_at": "2026-11-24T20:25:50+00:00",
+  "generated_at": "2026-11-24T20:40:53+00:00",
   "dry_run": false,
   "fps": 30,
   "resolution": [
@@ -18,8 +18,8 @@
   "counts": {
     "shots": 26,
     "images_ready": 26,
-    "clips_planned": 12,
-    "clips_ready": 12,
+    "clips_planned": 25,
+    "clips_ready": 25,
     "audio_segments": 26,
     "audio_ready": 26
   },
@@ -85,7 +85,10 @@
         "path": "images/s01_03.jpg",
         "status": "ready"
       },
-      "clip": null,
+      "clip": {
+        "path": "clips/s01_03.mp4",
+        "status": "ready"
+      },
       "audio": {
         "path": "voiceover/s01_03.mp3",
         "status": "ready",
@@ -129,7 +132,10 @@
         "path": "images/s02_02.jpg",
         "status": "ready"
       },
-      "clip": null,
+      "clip": {
+        "path": "clips/s02_02.mp4",
+        "status": "ready"
+      },
       "audio": {
         "path": "voiceover/s02_02.mp3",
         "status": "ready",
@@ -176,7 +182,10 @@
         "path": "images/s03_01.jpg",
         "status": "ready"
       },
-      "clip": null,
+      "clip": {
+        "path": "clips/s03_01.mp4",
+        "status": "ready"
+      },
       "audio": {
         "path": "voiceover/s03_01.mp3",
         "status": "ready",
@@ -223,7 +232,10 @@
         "path": "images/s03_03.jpg",
         "status": "ready"
       },
-      "clip": null,
+      "clip": {
+        "path": "clips/s03_03.mp4",
+        "status": "ready"
+      },
       "audio": {
         "path": "voiceover/s03_03.mp3",
         "status": "ready",
@@ -270,7 +282,10 @@
         "path": "images/s04_02.jpg",
         "status": "ready"
       },
-      "clip": null,
+      "clip": {
+        "path": "clips/s04_02.mp4",
+        "status": "ready"
+      },
       "audio": {
         "path": "voiceover/s04_02.mp3",
         "status": "ready",
@@ -292,7 +307,10 @@
         "path": "images/s04_03.jpg",
         "status": "ready"
       },
-      "clip": null,
+      "clip": {
+        "path": "clips/s04_03.mp4",
+        "status": "ready"
+      },
       "audio": {
         "path": "voiceover/s04_03.mp3",
         "status": "ready",
@@ -364,7 +382,10 @@
         "path": "images/s05_02.jpg",
         "status": "ready"
       },
-      "clip": null,
+      "clip": {
+        "path": "clips/s05_02.mp4",
+        "status": "ready"
+      },
       "audio": {
         "path": "voiceover/s05_02.mp3",
         "status": "ready",
@@ -386,7 +407,10 @@
         "path": "images/s05_03.jpg",
         "status": "ready"
       },
-      "clip": null,
+      "clip": {
+        "path": "clips/s05_03.mp4",
+        "status": "ready"
+      },
       "audio": {
         "path": "voiceover/s05_03.mp3",
         "status": "ready",
@@ -433,7 +457,10 @@
         "path": "images/s06_02.jpg",
         "status": "ready"
       },
-      "clip": null,
+      "clip": {
+        "path": "clips/s06_02.mp4",
+        "status": "ready"
+      },
       "audio": {
         "path": "voiceover/s06_02.mp3",
         "status": "ready",
@@ -480,7 +507,10 @@
         "path": "images/s07_01.jpg",
         "status": "ready"
       },
-      "clip": null,
+      "clip": {
+        "path": "clips/s07_01.mp4",
+        "status": "ready"
+      },
       "audio": {
         "path": "voiceover/s07_01.mp3",
         "status": "ready",
@@ -502,7 +532,10 @@
         "path": "images/s07_02.jpg",
         "status": "ready"
       },
-      "clip": null,
+      "clip": {
+        "path": "clips/s07_02.mp4",
+        "status": "ready"
+      },
       "audio": {
         "path": "voiceover/s07_02.mp3",
         "status": "ready",
@@ -574,7 +607,10 @@
         "path": "images/s08_02.jpg",
         "status": "ready"
       },
-      "clip": null,
+      "clip": {
+        "path": "clips/s08_02.mp4",
+        "status": "ready"
+      },
       "audio": {
         "path": "voiceover/s08_02.mp3",
         "status": "ready",
@@ -621,7 +657,10 @@
         "path": "images/s09_02.jpg",
         "status": "ready"
       },
-      "clip": null,
+      "clip": {
+        "path": "clips/s09_02.mp4",
+        "status": "ready"
+      },
       "audio": {
         "path": "voiceover/s09_02.mp3",
         "status": "ready",

@@ -244,8 +244,9 @@ def render(spec: dict, dur: float, out: Path, work: Path, topic_dir: Path) -> Pa
         end = layer.get("end")
         chains.append(
             f"[{i_s}:v]format=rgba,{scale}{flip},"
-            f"rotate=a='{tilt}*sin(2*PI*t/{bobp * 1.3:.2f})':c=none:ow='rotw(0.06)':oh='roth(0.06)',"
-            f"colorchannelmixer=aa={opacity},fade=t=in:st={start:.2f}:d=0.6:alpha=1[s{n}]")
+            + (f"rotate=a='{tilt}*sin(2*PI*t/{bobp * 1.3:.2f})':c=none:ow='rotw(0.06)':oh='roth(0.06)',"
+               if (g0, g1) == (1.0, 1.0) else "")  # rotate's frame is fixed at init: no tilt while growing
+            + f"colorchannelmixer=aa={opacity},fade=t=in:st={start:.2f}:d=0.6:alpha=1[s{n}]")
         x = f"({fx}+({tx}-{fx})*{e})*W-w/2"
         y = f"({fy}+({ty}-{fy})*{e})*H-h/2+{bob}*H*sin(2*PI*t/{bobp})"
         chains.append(f"[{cur}][s{n}]overlay=x='{x}':y='{y}':eval=frame:"

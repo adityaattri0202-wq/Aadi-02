@@ -1,0 +1,232 @@
+# Titanis: every shot is layered motion graphics (flat-vector cut-outs over
+# flat backgrounds). Coordinates are fractions of the frame; times are seconds
+# from the start of each shot. Scale is consistent: Titanis width 0.30 = 1.9 m.
+shots:
+  s01_01:   # grassland at dusk; a small animal freezes; something watches
+    background: {path: images/bg/dusk.jpg}
+    rays: false
+    subjects:
+      - {path: images/cutouts/rodent.png, width: 0.11, from: [-0.10, 0.88], to: [0.40, 0.88], start: 0.4, move: 3.2, bob: 0.006, bob_period: 0.35, tilt: 0}
+      - {path: images/cutouts/titanis_silhouette.png, width: 0.085, from: [0.84, 0.575], to: [0.84, 0.575], start: 7.0, move: 1, bob: 0, tilt: 0, flip: true}
+    labels:
+      - {text: "Texas, a few million years ago", x: 0.5, y: 0.14, start: 0.8, end: 6.0, size: 46}
+    zoom: [1.0, 1.10]
+
+  s01_02:   # it's a bird... taller than a man's shoulders
+    background: {path: images/bg/dusk.jpg}
+    rays: false
+    subjects:
+      - {path: images/cutouts/human.png, width: 0.046, from: [0.30, 0.675], to: [0.30, 0.675], start: 0.2, move: 1, bob: 0, tilt: 0}
+      - {path: images/cutouts/titanis.png, width: 0.30, from: [1.30, 0.657], to: [0.58, 0.657], start: 0.3, move: 3.5, bob: 0.004}
+    labels:
+      - {text: "Taller than a man's shoulders", x: 0.5, y: 0.13, start: 4.0, size: 46}
+      - {text: "A head like a hammer", x: 0.70, y: 0.30, start: 7.0, size: 40, accent: true}
+    zoom: [1.0, 1.08]
+
+  s01_03:   # name reveal
+    background: {path: images/bg/dusk.jpg}
+    rays: false
+    tint: danger
+    subjects:
+      - {path: images/cutouts/titanis_head.png, width: 0.62, from: [1.35, 0.56], to: [0.62, 0.54], start: 0.1, move: 2.6, bob: 0.004}
+    labels:
+      - {text: "Titanis walleri", x: 0.30, y: 0.22, start: 1.2, size: 84, accent: true}
+    zoom: [1.0, 1.12]
+
+  s02_01:   # title card
+    background: {path: images/bg/dusk.jpg}
+    rays: false
+    subjects:
+      - {path: images/cutouts/titanis_silhouette.png, width: 0.22, from: [0.80, 0.74], to: [0.80, 0.74], start: 0.0, move: 1, bob: 0.002, tilt: 0, flip: true}
+    labels:
+      - {text: "Titanis", x: 0.36, y: 0.30, start: 0.4, size: 130, accent: true, underline: false}
+      - {text: "America's terror bird", x: 0.36, y: 0.43, start: 1.0, size: 52}
+      - {text: "Pliocene, ~5 to 2 million years ago", x: 0.36, y: 0.84, start: 4.0, size: 40}
+    zoom: [1.06, 1.0]
+
+  s02_02:   # the name: Titans + Benjamin Waller, Santa Fe River
+    background: {path: images/bg/river.jpg}
+    rays: false
+    particles: false
+    labels:
+      - {text: "Titanis = the Titans of Greek myth", x: 0.5, y: 0.15, start: 1.5, end: 8.5, size: 48}
+      - {text: "walleri = Benjamin Waller", x: 0.5, y: 0.15, start: 9.0, size: 48, accent: true}
+      - {text: "Santa Fe River, Florida", x: 0.5, y: 0.86, start: 11.0, size: 40}
+    zoom: [1.0, 1.12]
+
+  s03_01:   # height counter
+    background: {path: images/bg/savanna.jpg}
+    rays: false
+    particles: false
+    subjects:
+      - {path: images/cutouts/titanis.png, width: 0.30, from: [0.55, 0.657], to: [0.55, 0.657], start: 0.0, move: 1, bob: 0.003, tilt: 0.004}
+    counters:
+      - {label: "Height", from: 0, to: 1.9, decimals: true, suffix: " m", x: 0.22, y: 0.30, start: 0.6, duration: 2.6}
+    labels:
+      - {text: "About 6 ft", x: 0.22, y: 0.45, start: 3.4, size: 44}
+    zoom: [1.0, 1.06]
+
+  s03_02:   # basketball comparison: eye to eye
+    background: {path: images/bg/savanna.jpg}
+    rays: false
+    particles: false
+    subjects:
+      - {path: images/cutouts/hoop.png, width: 0.2225, from: [0.20, 0.542], to: [0.20, 0.542], start: 0.0, move: 1, bob: 0, tilt: 0}
+      - {path: images/cutouts/human.png, width: 0.052, from: [0.42, 0.665], to: [0.42, 0.665], start: 0.6, move: 1, bob: 0, tilt: 0}
+      - {path: images/cutouts/titanis.png, width: 0.30, from: [1.30, 0.677], to: [0.64, 0.677], start: 1.4, move: 3.6, bob: 0.004}
+    labels:
+      - {text: "Eye to eye with a basketball player", x: 0.5, y: 0.10, start: 5.0, size: 44}
+      - {text: "Long, powerful running legs", x: 0.64, y: 0.95, start: 10.5, size: 38, accent: true}
+    zoom: [1.0, 1.05]
+
+  s03_03:   # could not fly
+    background: {path: images/bg/savanna.jpg}
+    rays: false
+    particles: false
+    subjects:
+      - {path: images/cutouts/titanis_run.png, width: 0.50, from: [-0.40, 0.72], to: [1.45, 0.72], start: 0.2, move: 7.0, bob: 0.012, bob_period: 0.42, tilt: 0.01}
+    labels:
+      - {text: "It could not fly", x: 0.5, y: 0.16, start: 1.0, size: 64, accent: true}
+      - {text: "Wings far too small for lift", x: 0.5, y: 0.27, start: 4.2, size: 42}
+    zoom: [1.0, 1.04]
+
+  s04_01:   # the skull
+    background: {top: "#2E2822", bottom: "#0A0908", glow: 0.7}
+    rays: true
+    subjects:
+      - {path: images/cutouts/skull.png, width: 0.62, from: [0.5, 0.52], to: [0.5, 0.52], start: 0.0, move: 11.0, grow: [0.92, 1.04], bob: 0.002, tilt: 0.002}
+    labels:
+      - {text: "Massive hooked beak", x: 0.5, y: 0.13, start: 1.6, size: 52, accent: true}
+      - {text: "Thick, strong bones: strike and hold", x: 0.5, y: 0.89, start: 6.0, size: 42}
+    zoom: [1.0, 1.08]
+
+  s04_02:   # could do vs did
+    background: {path: images/bg/dusk.jpg}
+    rays: false
+    subjects:
+      - {path: images/cutouts/titanis_head.png, width: 0.55, from: [0.70, 0.52], to: [0.66, 0.52], start: 0.0, move: 6.0, bob: 0.003}
+    labels:
+      - {text: "What it could do", x: 0.26, y: 0.40, start: 0.6, size: 48}
+      - {text: "not what it did", x: 0.26, y: 0.52, start: 2.2, size: 48, accent: true}
+    zoom: [1.0, 1.10]
+
+  s05_01:   # fossil map: Florida first, then Texas
+    background: {path: images/bg/map.jpg}
+    rays: false
+    particles: false
+    markers:
+      - {x: 0.512, y: 0.372, label: "Florida: first fossils", start: 0.5}
+      - {x: 0.437, y: 0.345, label: "Texas", start: 2.6, label_dx: -0.10}
+    zoom: [1.0, 1.18]
+
+  s05_02:   # same land today
+    background: {path: images/bg/texas_today.jpg}
+    rays: false
+    particles: false
+    subjects:
+      - {path: images/cutouts/titanis_silhouette.png, width: 0.16, from: [0.78, 0.62], to: [0.78, 0.62], start: 3.0, move: 1, bob: 0, tilt: 0, opacity: 0.55, flip: true}
+    labels:
+      - {text: "The same land, today", x: 0.5, y: 0.14, start: 1.0, size: 50}
+    zoom: [1.0, 1.08]
+
+  s06_01:   # hunter or scavenger? split screen
+    background: {path: images/bg/savanna.jpg}
+    rays: false
+    particles: false
+    divider: true
+    subjects:
+      - {path: images/cutouts/rodent.png, width: 0.08, from: [0.40, 0.86], to: [0.40, 0.86], start: 0.2, move: 1, bob: 0.004, bob_period: 0.4, tilt: 0}
+      - {path: images/cutouts/titanis_run.png, width: 0.24, from: [0.02, 0.75], to: [0.20, 0.75], start: 0.2, move: 8.0, bob: 0.008, bob_period: 0.42}
+      - {path: images/cutouts/carcass.png, width: 0.24, from: [0.72, 0.84], to: [0.72, 0.84], start: 0.4, move: 1, bob: 0, tilt: 0}
+      - {path: images/cutouts/titanis.png, width: 0.18, from: [0.90, 0.70], to: [0.90, 0.70], start: 0.6, move: 1, bob: 0.003, flip: true}
+    labels:
+      - {text: "Hunter?", x: 0.25, y: 0.14, start: 1.2, size: 64, accent: true}
+      - {text: "Scavenger?", x: 0.75, y: 0.14, start: 3.4, size: 64, accent: true}
+    zoom: [1.0, 1.03]
+
+  s06_02:   # the chase
+    background: {path: images/bg/savanna.jpg}
+    rays: false
+    particles: false
+    subjects:
+      - {path: images/cutouts/rodent.png, width: 0.10, from: [0.35, 0.87], to: [1.30, 0.87], start: 0.3, move: 6.0, bob: 0.006, bob_period: 0.32, tilt: 0}
+      - {path: images/cutouts/titanis_run.png, width: 0.48, from: [-0.45, 0.72], to: [0.95, 0.72], start: 1.0, move: 7.5, bob: 0.012, bob_period: 0.42, tilt: 0.01}
+    labels:
+      - {text: "Strong beak + powerful legs", x: 0.5, y: 0.14, start: 2.0, size: 50}
+      - {text: "...or tools for opening a carcass?", x: 0.5, y: 0.25, start: 6.0, size: 40, accent: true}
+    zoom: [1.0, 1.04]
+
+  s06_03:   # maybe both
+    background: {path: images/bg/dusk.jpg}
+    rays: false
+    subjects:
+      - {path: images/cutouts/carcass.png, width: 0.38, from: [0.38, 0.84], to: [0.38, 0.84], start: 0.0, move: 1, bob: 0, tilt: 0}
+      - {path: images/cutouts/titanis.png, width: 0.28, from: [0.74, 0.66], to: [0.70, 0.66], start: 0.0, move: 8.0, bob: 0.003, flip: true}
+    labels:
+      - {text: "We don't know for certain", x: 0.5, y: 0.14, start: 0.8, size: 48}
+      - {text: "Maybe both", x: 0.5, y: 0.25, start: 4.5, size: 60, accent: true}
+    zoom: [1.0, 1.08]
+
+  s07_01:   # compared with living birds (same scale)
+    background: {path: images/bg/savanna.jpg}
+    rays: false
+    particles: false
+    subjects:
+      - {path: images/cutouts/ostrich.png, width: 0.257, from: [0.17, 0.62], to: [0.17, 0.62], start: 0.5, move: 1, bob: 0.003, tilt: 0}
+      - {path: images/cutouts/cassowary.png, width: 0.227, from: [0.44, 0.70], to: [0.44, 0.70], start: 2.5, move: 1, bob: 0.003, tilt: 0}
+      - {path: images/cutouts/titanis.png, width: 0.30, from: [1.30, 0.677], to: [0.76, 0.677], start: 6.0, move: 3.0, bob: 0.004}
+    labels:
+      - {text: "Ostrich", x: 0.17, y: 0.95, start: 1.0, size: 38}
+      - {text: "Cassowary", x: 0.44, y: 0.95, start: 3.0, size: 38}
+      - {text: "Titanis", x: 0.76, y: 0.95, start: 8.5, size: 38, accent: true}
+      - {text: "Phorusrhacids: the terror birds", x: 0.5, y: 0.10, start: 10.5, size: 48, accent: true}
+    zoom: [1.0, 1.04]
+
+  s07_02:   # the land-bridge journey
+    background: {path: images/bg/map.jpg}
+    rays: false
+    particles: false
+    markers:
+      - {x: 0.585, y: 0.66, label: "South America", start: 0.3}
+      - {x: 0.437, y: 0.345, label: "North America", start: 5.6, label_dx: -0.20}
+    paths:
+      - {points: [[0.585, 0.66], [0.545, 0.53], [0.505, 0.49], [0.47, 0.44], [0.437, 0.36]], start: 0.8, duration: 4.6, dots: 40}
+    labels:
+      - {text: "Across the land bridge", x: 0.5, y: 0.92, start: 2.0, size: 46}
+    zoom: [1.0, 1.14]
+
+  s08_01:   # disappearance: ancient fades to modern
+    background: {path: images/bg/dusk.jpg, path2: images/bg/texas_today.jpg, fade_at: 3.0, fade_dur: 3.5}
+    rays: false
+    subjects:
+      - {path: images/cutouts/titanis_silhouette.png, width: 0.16, from: [0.55, 0.62], to: [0.55, 0.62], start: 0.0, end: 4.0, move: 1, bob: 0, tilt: 0, flip: true}
+    labels:
+      - {text: "No single cause proven", x: 0.5, y: 0.14, start: 5.0, size: 50}
+    zoom: [1.0, 1.08]
+
+  s08_02:   # the lone bird walks away
+    background: {path: images/bg/dusk.jpg}
+    rays: false
+    subjects:
+      - {path: images/cutouts/titanis_silhouette.png, width: 0.12, from: [0.62, 0.60], to: [0.30, 0.59], start: 0.0, move: 6.0, bob: 0.004, bob_period: 0.7, tilt: 0.008}
+    zoom: [1.0, 1.06]
+
+  s09_01:   # outro: the silhouette faces the setting sun
+    background: {path: images/bg/dusk.jpg}
+    rays: false
+    subjects:
+      - {path: images/cutouts/titanis_silhouette.png, width: 0.24, from: [0.36, 0.72], to: [0.36, 0.72], start: 0.0, move: 1, bob: 0.002, tilt: 0}
+    labels:
+      - {text: "Not a monster", x: 0.5, y: 0.14, start: 7.0, size: 54}
+      - {text: "Just a very strange bird", x: 0.5, y: 0.24, start: 9.0, size: 44, accent: true}
+    zoom: [1.0, 1.12]
+
+  s09_02:   # end card
+    background: {path: images/bg/dusk.jpg}
+    rays: false
+    subjects:
+      - {path: images/cutouts/titanis_silhouette.png, width: 0.14, from: [0.80, 0.63], to: [0.80, 0.63], start: 0.0, move: 1, bob: 0, tilt: 0, flip: true}
+    labels:
+      - {text: "Part 3?", x: 0.40, y: 0.30, start: 0.6, size: 110, accent: true, underline: false}
+      - {text: "Tell us in the comments", x: 0.40, y: 0.44, start: 1.6, size: 48}
+    zoom: [1.04, 1.0]

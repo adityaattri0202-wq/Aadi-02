@@ -1,0 +1,32 @@
+name: "Titanis: America's Terror Bird"
+slug: titanis
+style: config/style_flat_vector.yaml
+target_minutes: 6
+required_sections: ["Cold Open", "Intro", "Size", "The Beak", "Where We Found It", "Was It A Hunter?", "Compare To Other Birds", "The End", "Outro"]
+
+# Every fact is unverified until checked against a primary source.
+facts:
+  - claim: "Titanis walleri lived in the Pliocene to early Pleistocene, roughly 5 to 2 million years ago."
+    source: "TODO"
+    verified: false
+  - claim: "The species name honors Benjamin Waller, who found the first fossils in the Santa Fe River, Florida."
+    source: "TODO: Brodkorb (1963), original description"
+    verified: false
+  - claim: "Titanis fossils are known from Florida and Texas."
+    source: "TODO"
+    verified: false
+  - claim: "Titanis stood about 1.9 m (6 ft) tall; older estimates were up to 2.5 m (8 ft)."
+    source: "TODO"
+    verified: false
+  - claim: "Titanis could not fly."
+    source: "TODO"
+    verified: false
+  - claim: "Titanis belongs to the phorusrhacids (terror birds), most of which lived in South America."
+    source: "TODO"
+    verified: false
+  - claim: "Terror birds reached North America during the Great American Biotic Interchange."
+    source: "TODO"
+    verified: false
+  - claim: "Whether Titanis mainly hunted or scavenged is debated."
+    source: "TODO"
+    verified: false

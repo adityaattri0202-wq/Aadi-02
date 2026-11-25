@@ -140,7 +140,7 @@ def render_shot(entry: dict, index: int, topic_dir: Path, out: Path) -> None:
          "-c:a", "aac", "-b:a", "192k", "-ac", "2", "-ar", "48000", str(out)])
 
 
-MOGRAPH_VERSION = 1
+MOGRAPH_VERSION = 2
 
 
 def load_mograph_specs(topic_dir: Path) -> dict:
@@ -244,7 +244,8 @@ def run(ctx: Context) -> dict:
     m = json.loads(p.manifest_json.read_text(encoding="utf-8"))
     entries = m["shots"]
     total = float(m["total_duration_sec"])
-    missing = [e["shot_id"] for e in entries if e["image"]["status"] != "ready"]
+    mg_ids = set(load_mograph_specs(p.dir))
+    missing = [e["shot_id"] for e in entries if e["image"]["status"] != "ready" and e["shot_id"] not in mg_ids]
     cuts = sum(len(_split(float(e["duration_sec"]), 5.0 if e.get("clip") else 0.0)) for e in entries)
     log.info(f"{len(entries)} shots -> ~{cuts} cuts, {total / 60:.1f} min; images missing: {len(missing)}; "
              f"clips ready: {m['counts']['clips_ready']}")

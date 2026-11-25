@@ -16,8 +16,11 @@ class ConfigError(RuntimeError):
 def load_yaml(path: Path) -> dict:
     if not path.exists():
         raise ConfigError(f"Missing file: {path}")
-    with open(path, encoding="utf-8") as f:
-        data = yaml.safe_load(f) or {}
+    try:
+        with open(path, encoding="utf-8") as f:
+            data = yaml.safe_load(f) or {}
+    except yaml.YAMLError as exc:
+        raise ConfigError(f"{path} is not valid YAML: {exc}") from exc
     if not isinstance(data, dict):
         raise ConfigError(f"{path} must contain a YAML mapping")
     return data

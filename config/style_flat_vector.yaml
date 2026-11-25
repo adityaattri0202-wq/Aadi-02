@@ -1,0 +1,32 @@
+# Motion-graphics style: flat 2D vector art for layered animation.
+# Characters are generated as cut-outs on transparent backgrounds and
+# animated by pipeline/mograph.py; backgrounds are separate flat plates.
+name: Flat Vector Mograph
+version: 1
+
+prompt_prefix: >-
+  Flat 2D vector illustration for an animated nature documentary, clean
+  geometric shapes, smooth gradients, subtle grain texture, muted natural
+  palette with dusky blues and warm amber light, no outlines, no text, no
+  letters, no labels, no watermark.
+
+prompt_suffix: >-
+  Simple readable silhouette, cinematic lighting, minimal detail.
+
+negative_prompt: >-
+  text, letters, words, labels, watermark, logo, photorealistic, 3d render,
+  cluttered background, frame, border
+
+image:
+  width: 1920
+  height: 1080
+
+motion:
+  clip_seconds: 5
+  prompts: {}
+
+timing:
+  words_per_minute: 140
+  min_shot_sec: 3.0
+  pad_sec: 0.35
+  fps: 30

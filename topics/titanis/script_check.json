@@ -1,0 +1,115 @@
+{
+  "word_count": 659,
+  "runtime_minutes_fast": 4.39,
+  "runtime_minutes_slow": 5.07,
+  "target_minutes": 6.0,
+  "sections": [
+    {
+      "title": "Cold Open",
+      "line": 7,
+      "words": 92,
+      "shots": 3
+    },
+    {
+      "title": "Intro",
+      "line": 18,
+      "words": 87,
+      "shots": 2
+    },
+    {
+      "title": "Size",
+      "line": 26,
+      "words": 88,
+      "shots": 3
+    },
+    {
+      "title": "The Beak",
+      "line": 37,
+      "words": 53,
+      "shots": 2
+    },
+    {
+      "title": "Where We Found It",
+      "line": 45,
+      "words": 53,
+      "shots": 2
+    },
+    {
+      "title": "Was It A Hunter?",
+      "line": 53,
+      "words": 78,
+      "shots": 3
+    },
+    {
+      "title": "Compare To Other Birds",
+      "line": 64,
+      "words": 77,
+      "shots": 2
+    },
+    {
+      "title": "The End",
+      "line": 72,
+      "words": 40,
+      "shots": 2
+    },
+    {
+      "title": "Outro",
+      "line": 80,
+      "words": 91,
+      "shots": 2
+    }
+  ],
+  "shot_count": 21,
+  "verify_tags": [
+    {
+      "line": 21,
+      "note": "age range"
+    },
+    {
+      "line": 24,
+      "note": "confirm the naming history and who the species is honoring."
+    },
+    {
+      "line": 29,
+      "note": "confirm height estimates from skeletal reconstructions, as they vary between studies."
+    },
+    {
+      "line": 40,
+      "note": "check the current skull reconstructions and which bone features are used to infer the beak's function."
+    },
+    {
+      "line": 48,
+      "note": "confirm exact fossil localities and age range."
+    },
+    {
+      "line": 59,
+      "note": "check the current research on Titanis diet and the arguments for predator versus scavenger."
+    },
+    {
+      "line": 67,
+      "note": "confirm the family classification and migration route."
+    },
+    {
+      "line": 75,
+      "note": "check the current extinction timing and hypotheses."
+    }
+  ],
+  "unverified_facts": [
+    "Titanis walleri lived in the Pliocene to early Pleistocene, roughly 5 to 2 million years ago.",
+    "The species name honors Benjamin Waller, who found the first fossils in the Santa Fe River, Florida.",
+    "Titanis fossils are known from Florida and Texas.",
+    "Titanis stood about 1.9 m (6 ft) tall; older estimates were up to 2.5 m (8 ft).",
+    "Titanis could not fly.",
+    "Titanis belongs to the phorusrhacids (terror birds), most of which lived in South America.",
+    "Terror birds reached North America during the Great American Biotic Interchange.",
+    "Whether Titanis mainly hunted or scavenged is debated."
+  ],
+  "missing_sections": [],
+  "errors": [],
+  "warnings": [
+    "8 [VERIFY] tag(s) unresolved (allowed in draft mode)",
+    "8 unverified fact(s) in topic.yaml"
+  ],
+  "passed": true,
+  "publish": false
+}

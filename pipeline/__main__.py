@@ -10,7 +10,7 @@ from pathlib import Path
 
 from . import (STAGES, image_generate, manifest, motion_generate, new_topic, render,
                review_report, script_check, shot_plan, voiceover)
-from .config import ConfigError, load_settings
+from .config import ConfigError, load_settings, load_yaml
 from .context import ApprovalRequired, Context, StageFailed
 from .paths import TopicPaths, slugify
 from .providers import ProviderError
@@ -64,7 +64,11 @@ def main(argv: list[str] | None = None) -> int:
               f"python -m pipeline new_topic --topic {slug}", file=sys.stderr)
         return 1
     try:
-        settings = load_settings(root, Path(args.style) if args.style else None)
+        style = Path(args.style) if args.style else None
+        if style is None and paths.topic_yaml.exists():  # a topic may pin its own style spec
+            pinned = (load_yaml(paths.topic_yaml) or {}).get("style")
+            style = root / pinned if pinned else None
+        settings = load_settings(root, style)
     except ConfigError as exc:
         print(f"config error: {exc}", file=sys.stderr)
         return 1

@@ -209,6 +209,14 @@ def render(spec: dict, dur: float, out: Path, work: Path, topic_dir: Path) -> Pa
         chains.append(f"[{i_bg}:v]format=rgba[base]")
     cur = "base"
 
+    if bg.get("path2"):  # crossfade to a second plate (e.g. ancient -> modern)
+        i_b2 = add_image(topic_dir / bg["path2"])
+        fade_at = float(bg.get("fade_at", dur * 0.4))
+        chains.append(f"[{i_b2}:v]scale={CW}:{CH}:force_original_aspect_ratio=increase,crop={CW}:{CH},"
+                      f"format=rgba,fade=t=in:st={fade_at:.2f}:d={float(bg.get('fade_dur', 3.0)):.2f}:alpha=1[bg2]")
+        chains.append(f"[{cur}][bg2]overlay=0:0[l_bg2]")
+        cur = "l_bg2"
+
     if spec.get("rays", True):
         i_r = add_image(rays_plate(work / "rays.png"))
         chains.append(f"[{i_r}:v]format=rgba,rotate=a='0.025*sin(2*PI*t/11)':c=none[rays]")
@@ -230,13 +238,18 @@ def render(spec: dict, dur: float, out: Path, work: Path, topic_dir: Path) -> Pa
         # Built-in assets face right; auto-flip so a subject faces where it travels.
         flip_auto = tx < fx if layer.get("flip") is None else bool(layer.get("flip"))
         flip = ",hflip" if flip_auto else ""
+        g0, g1 = layer.get("grow", [1.0, 1.0])
+        scale = (f"scale=w='trunc({w}*({g0}+({g1}-{g0})*{e})/2)*2':h=-1:eval=frame" if (g0, g1) != (1.0, 1.0)
+                 else f"scale={w}:-1")
+        end = layer.get("end")
         chains.append(
-            f"[{i_s}:v]format=rgba,scale={w}:-1{flip},"
+            f"[{i_s}:v]format=rgba,{scale}{flip},"
             f"rotate=a='{tilt}*sin(2*PI*t/{bobp * 1.3:.2f})':c=none:ow='rotw(0.06)':oh='roth(0.06)',"
             f"colorchannelmixer=aa={opacity},fade=t=in:st={start:.2f}:d=0.6:alpha=1[s{n}]")
         x = f"({fx}+({tx}-{fx})*{e})*W-w/2"
         y = f"({fy}+({ty}-{fy})*{e})*H-h/2+{bob}*H*sin(2*PI*t/{bobp})"
-        chains.append(f"[{cur}][s{n}]overlay=x='{x}':y='{y}':enable='gte(t,{start:.2f})':eval=frame[l_s{n}]")
+        chains.append(f"[{cur}][s{n}]overlay=x='{x}':y='{y}':eval=frame:"
+                      f"enable='{f'between(t,{start:.2f},{float(end):.2f})' if end is not None else f'gte(t,{start:.2f})'}'[l_s{n}]")
         cur = f"l_s{n}"
 
     if spec.get("particles", True):
@@ -264,11 +277,13 @@ def render(spec: dict, dur: float, out: Path, work: Path, topic_dir: Path) -> Pa
         tw = _text_width(txt, size)
         x0 = int(cx * CW - tw / 2)
         alpha = f"{e}*(1-{_ease(end - 0.4, 0.4)})"
+        pad = int(16 * sy)
         draws.append(f"drawtext=fontfile={FONT_BOLD}:text='{_esc(txt)}':fontsize={size}:fontcolor={color}:"
+                     f"box=1:boxcolor=0x0B0F12@0.55:boxborderw={pad}:"
                      f"shadowcolor=black@0.6:shadowx=3:shadowy=3:x={x0}:"
                      f"y='{cy}*h-text_h/2+{int(28 * sy)}*(1-{e})':alpha='{alpha}'")
         if lab.get("underline", True):
-            uy = int(cy * CH + size * 0.62)
+            uy = int(cy * CH + size * 0.62 + pad)
             draws.append(f"drawbox=x={x0}:y={uy}:w={tw}:h={max(4, int(5 * sy))}:color={ACCENT}@0.95:t=fill:"
                          f"enable='between(t,{start + 0.3:.2f},{end:.2f})'")
 
@@ -284,9 +299,11 @@ def render(spec: dict, dur: float, out: Path, work: Path, topic_dir: Path) -> Pa
         cx, cy = c.get("x", 0.5), c.get("y", 0.2)
         if label:
             draws.append(f"drawtext=fontfile={FONT_BOLD}:text='{label}':fontsize={int(size * 0.45)}:"
-                         f"fontcolor={ACCENT}:x='{cx}*w-text_w/2':y='{cy}*h-{int(size * 0.95)}':"
+                         f"fontcolor={ACCENT}:box=1:boxcolor=0x0B0F12@0.55:boxborderw={int(10 * sy)}:"
+                         f"x='{cx}*w-text_w/2':y='{cy}*h-{int(size * 0.95)}':"
                          f"alpha='{_ease(start - 0.3, 0.3)}'")
         draws.append(f"drawtext=fontfile={FONT_BOLD}:text='{num}{suffix}':fontsize={size}:fontcolor={TEXT}:"
+                     f"box=1:boxcolor=0x0B0F12@0.55:boxborderw={int(14 * sy)}:"
                      f"shadowcolor=black@0.6:shadowx=3:shadowy=3:x='{cx}*w-text_w/2':y='{cy}*h-text_h/2':"
                      f"alpha='{_ease(start - 0.3, 0.3)}'")
 
@@ -297,6 +314,45 @@ def render(spec: dict, dur: float, out: Path, work: Path, topic_dir: Path) -> Pa
         draws.append(f"drawbox=x={x0}:y={y}:w={x1 - x0}:h=4:color={TEXT}@0.85:t=fill:enable='gte(t,{start})'")
         for x in (x0, x1 - 4):
             draws.append(f"drawbox=x={x}:y={y - 14}:w=4:h=32:color={TEXT}@0.85:t=fill:enable='gte(t,{start})'")
+
+    for mk in spec.get("markers", []):
+        start = float(mk.get("start", 0.5))
+        cx, cy = int(mk["x"] * CW), int(mk["y"] * CH)
+        r = int(mk.get("size", 26) * sy)
+        dot = int(r * 0.55)
+        draws.append(f"drawbox=x={cx - dot // 2}:y={cy - dot // 2}:w={dot}:h={dot}:color={ACCENT}@1:t=fill:"
+                     f"enable='gte(t,{start})'")
+        for k, (rr, a) in enumerate(((r, 0.9), (int(r * 1.8), 0.5))):
+            draws.append(f"drawbox=x={cx - rr}:y={cy - rr}:w={2 * rr}:h={2 * rr}:color={ACCENT}@{a}:t=3:"
+                         f"enable='gte(t,{start})*lt(mod(t-{start}+{k * 0.4},1.2),0.7)'")
+        if mk.get("label"):
+            size = int(mk.get("label_size", 40) * sy)
+            dx = int(mk.get("label_dx", 0.0) * CW) or int(r * 2.4)
+            draws.append(f"drawtext=fontfile={FONT_BOLD}:text='{_esc(mk['label'].upper())}':fontsize={size}:"
+                         f"fontcolor={TEXT}:box=1:boxcolor=0x0B0F12@0.6:boxborderw={int(10 * sy)}:"
+                         f"shadowcolor=black@0.7:shadowx=3:shadowy=3:x={cx + dx}:y={cy - size // 2}:"
+                         f"alpha='{_ease(start + 0.2, 0.4)}'")
+
+    for path in spec.get("paths", []):
+        pts = [(float(x) * CW, float(y) * CH) for x, y in path["points"]]
+        start, pdur = float(path.get("start", 0.5)), float(path.get("duration", 3.0))
+        seg = [math.dist(pts[i], pts[i + 1]) for i in range(len(pts) - 1)]
+        total_len = sum(seg) or 1
+        n = int(path.get("dots", 34))
+        for i in range(n + 1):
+            dist, j = total_len * i / n, 0
+            while j < len(seg) - 1 and dist > seg[j]:
+                dist -= seg[j]
+                j += 1
+            f = dist / seg[j] if seg[j] else 0
+            x = pts[j][0] + (pts[j + 1][0] - pts[j][0]) * f
+            y = pts[j][1] + (pts[j + 1][1] - pts[j][1]) * f
+            s = int(10 * sy)
+            draws.append(f"drawbox=x={int(x - s / 2)}:y={int(y - s / 2)}:w={s}:h={s}:color={ACCENT}@0.95:t=fill:"
+                         f"enable='gte(t,{start + pdur * i / n:.2f})'")
+
+    if spec.get("divider"):
+        draws.append(f"drawbox=x={CW // 2 - 3}:y=0:w=6:h={CH}:color={TEXT}@0.85:t=fill")
 
     hud = spec.get("hud")
     if hud:

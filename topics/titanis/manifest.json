@@ -1,0 +1,490 @@
+{
+  "version": 1,
+  "topic": "titanis",
+  "generated_at": "2026-11-25T20:27:13+00:00",
+  "dry_run": false,
+  "fps": 30,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "providers": {
+    "image": "openart",
+    "video": "openart",
+    "voice": "viewmax"
+  },
+  "total_duration_sec": 231.061,
+  "ready_for_edit": false,
+  "counts": {
+    "shots": 21,
+    "images_ready": 0,
+    "clips_planned": 0,
+    "clips_ready": 0,
+    "audio_segments": 21,
+    "audio_ready": 21
+  },
+  "shots": [
+    {
+      "shot_id": "s01_01",
+      "scene": 1,
+      "scene_title": "Cold Open",
+      "start_sec": 0.0,
+      "end_sec": 13.986,
+      "duration_sec": 13.986,
+      "image": {
+        "path": "images/s01_01.png",
+        "status": "planned"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s01_01.mp3",
+        "status": "ready",
+        "duration_sec": 13.636,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "Picture a grassland in what is now Texas, a few million years ago. The sun is going down. A small animal freezes in the grass, because something tall and very still is watching from the edge of the field."
+    },
+    {
+      "shot_id": "s01_02",
+      "scene": 1,
+      "scene_title": "Cold Open",
+      "start_sec": 13.986,
+      "end_sec": 24.053,
+      "duration_sec": 10.067,
+      "image": {
+        "path": "images/s01_02.png",
+        "status": "planned"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s01_02.mp3",
+        "status": "ready",
+        "duration_sec": 9.717,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "It's a bird. But not the kind you'd feed at a park. It stands taller than a grown man's shoulders, and its head is built like a heavy hammer with a hooked beak."
+    },
+    {
+      "shot_id": "s01_03",
+      "scene": 1,
+      "scene_title": "Cold Open",
+      "start_sec": 24.053,
+      "end_sec": 31.404,
+      "duration_sec": 7.351,
+      "image": {
+        "path": "images/s01_03.png",
+        "status": "planned"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s01_03.mp3",
+        "status": "ready",
+        "duration_sec": 7.001,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "Its name was Titanis walleri. And for a long time, scientists weren't sure what it was doing with that beak."
+    },
+    {
+      "shot_id": "s02_01",
+      "scene": 2,
+      "scene_title": "Intro",
+      "start_sec": 31.404,
+      "end_sec": 45.39,
+      "duration_sec": 13.986,
+      "image": {
+        "path": "images/s02_01.png",
+        "status": "planned"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s02_01.mp3",
+        "status": "ready",
+        "duration_sec": 13.636,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "TITANIS",
+      "narration": "Today we're going back to the Pliocene epoch, roughly 2 to 5 million years ago. We'll look at what this bird was, where its fossils were found, how it may have lived, and why researchers still argue about its diet."
+    },
+    {
+      "shot_id": "s02_02",
+      "scene": 2,
+      "scene_title": "Intro",
+      "start_sec": 45.39,
+      "end_sec": 61.779,
+      "duration_sec": 16.389,
+      "image": {
+        "path": "images/s02_02.png",
+        "status": "planned"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s02_02.mp3",
+        "status": "ready",
+        "duration_sec": 16.039,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "Let's start with the name. The genus name Titanis comes from the Titans of Greek myth, which is a fair hint about how big scientists thought it was. The species name honors Benjamin Waller, the fossil hunter who found its first bones in Florida's Santa Fe River."
+    },
+    {
+      "shot_id": "s03_01",
+      "scene": 3,
+      "scene_title": "Size",
+      "start_sec": 61.779,
+      "end_sec": 68.398,
+      "duration_sec": 6.619,
+      "image": {
+        "path": "images/s03_01.png",
+        "status": "planned"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s03_01.mp3",
+        "status": "ready",
+        "duration_sec": 6.269,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "Titanis stood about 1.9 meters tall, roughly 6 feet, when measured from foot to head."
+    },
+    {
+      "shot_id": "s03_02",
+      "scene": 3,
+      "scene_title": "Size",
+      "start_sec": 68.398,
+      "end_sec": 83.977,
+      "duration_sec": 15.579,
+      "image": {
+        "path": "images/s03_02.png",
+        "status": "planned"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s03_02.mp3",
+        "status": "ready",
+        "duration_sec": 15.229,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "For a US audience, think of a basketball player standing next to the bird. The two could look each other in the eye. Its body was heavy, but not built for hovering or gliding. Its legs were long and powerful, made for running across open ground."
+    },
+    {
+      "shot_id": "s03_03",
+      "scene": 3,
+      "scene_title": "Size",
+      "start_sec": 83.977,
+      "end_sec": 94.854,
+      "duration_sec": 10.877,
+      "image": {
+        "path": "images/s03_03.png",
+        "status": "planned"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s03_03.mp3",
+        "status": "ready",
+        "duration_sec": 10.527,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "Here's the detail that changes everything: Titanis could not fly. Its wings were far too small for lift. Everything about this animal was built for the ground."
+    },
+    {
+      "shot_id": "s04_01",
+      "scene": 4,
+      "scene_title": "The Beak",
+      "start_sec": 94.854,
+      "end_sec": 106.515,
+      "duration_sec": 11.661,
+      "image": {
+        "path": "images/s04_01.png",
+        "status": "planned"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s04_01.mp3",
+        "status": "ready",
+        "duration_sec": 11.311,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "The skull is what makes Titanis famous. It had a massive, hooked beak, and the bones around it were thick and strong. The shape suggests a bird that could strike hard and hold on."
+    },
+    {
+      "shot_id": "s04_02",
+      "scene": 4,
+      "scene_title": "The Beak",
+      "start_sec": 106.515,
+      "end_sec": 112.978,
+      "duration_sec": 6.463,
+      "image": {
+        "path": "images/s04_02.png",
+        "status": "planned"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s04_02.mp3",
+        "status": "ready",
+        "duration_sec": 6.113,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "But a beak tells us what an animal could do, not what it did. That's where the debate begins."
+    },
+    {
+      "shot_id": "s05_01",
+      "scene": 5,
+      "scene_title": "Where We Found It",
+      "start_sec": 112.978,
+      "end_sec": 118.735,
+      "duration_sec": 5.757,
+      "image": {
+        "path": "images/s05_01.png",
+        "status": "planned"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s05_01.mp3",
+        "status": "ready",
+        "duration_sec": 5.407,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "The first fossils of Titanis were found in Florida, and more have since turned up in Texas."
+    },
+    {
+      "shot_id": "s05_02",
+      "scene": 5,
+      "scene_title": "Where We Found It",
+      "start_sec": 118.735,
+      "end_sec": 130.971,
+      "duration_sec": 12.236,
+      "image": {
+        "path": "images/s05_02.png",
+        "status": "planned"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s05_02.mp3",
+        "status": "ready",
+        "duration_sec": 11.886,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "This is important for a US audience, because it means this bird lived in places many people walk through today. The grasslands it hunted looked different then, but the land and the rivers were still familiar."
+    },
+    {
+      "shot_id": "s06_01",
+      "scene": 6,
+      "scene_title": "Was It A Hunter?",
+      "start_sec": 130.971,
+      "end_sec": 139.68,
+      "duration_sec": 8.709,
+      "image": {
+        "path": "images/s06_01.png",
+        "status": "planned"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s06_01.mp3",
+        "status": "ready",
+        "duration_sec": 8.359,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "This is the question people ask most. Did Titanis hunt its own food, or did it scavenge the remains of animals killed by others?"
+    },
+    {
+      "shot_id": "s06_02",
+      "scene": 6,
+      "scene_title": "Was It A Hunter?",
+      "start_sec": 139.68,
+      "end_sec": 149.669,
+      "duration_sec": 9.989,
+      "image": {
+        "path": "images/s06_02.png",
+        "status": "planned"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s06_02.mp3",
+        "status": "ready",
+        "duration_sec": 9.639,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "Scientists have argued both sides. A strong beak and powerful legs suggest hunting. But the same features could also help a scavenger open a carcass."
+    },
+    {
+      "shot_id": "s06_03",
+      "scene": 6,
+      "scene_title": "Was It A Hunter?",
+      "start_sec": 149.669,
+      "end_sec": 158.77,
+      "duration_sec": 9.101,
+      "image": {
+        "path": "images/s06_03.png",
+        "status": "planned"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s06_03.mp3",
+        "status": "ready",
+        "duration_sec": 8.751,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "So the honest answer is that we don't know for certain. The bird may have done both, depending on the season, the food, and the other animals around it."
+    },
+    {
+      "shot_id": "s07_01",
+      "scene": 7,
+      "scene_title": "Compare To Other Birds",
+      "start_sec": 158.77,
+      "end_sec": 177.171,
+      "duration_sec": 18.401,
+      "image": {
+        "path": "images/s07_01.png",
+        "status": "planned"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s07_01.mp3",
+        "status": "ready",
+        "duration_sec": 18.051,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "Today we have birds that run fast and fight hard, like ostriches and cassowaries. Titanis is part of a larger group of ground birds called phorusrhacids, sometimes called \"terror birds.\" Many of them were in South America, and Titanis is one of the few that made it to North America."
+    },
+    {
+      "shot_id": "s07_02",
+      "scene": 7,
+      "scene_title": "Compare To Other Birds",
+      "start_sec": 177.171,
+      "end_sec": 186.768,
+      "duration_sec": 9.597,
+      "image": {
+        "path": "images/s07_02.png",
+        "status": "planned"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s07_02.mp3",
+        "status": "ready",
+        "duration_sec": 9.247,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "That is a remarkable story. A group of birds that spread across the land bridge into North America, and one of them became the Texas terror bird."
+    },
+    {
+      "shot_id": "s08_01",
+      "scene": 8,
+      "scene_title": "The End",
+      "start_sec": 186.768,
+      "end_sec": 196.757,
+      "duration_sec": 9.989,
+      "image": {
+        "path": "images/s08_01.png",
+        "status": "planned"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s08_01.mp3",
+        "status": "ready",
+        "duration_sec": 9.639,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "Titanis disappeared, and no single cause has been proven. Scientists point to changes in climate, vegetation, and the other animals in the ecosystem."
+    },
+    {
+      "shot_id": "s08_02",
+      "scene": 8,
+      "scene_title": "The End",
+      "start_sec": 196.757,
+      "end_sec": 202.749,
+      "duration_sec": 5.992,
+      "image": {
+        "path": "images/s08_02.png",
+        "status": "planned"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s08_02.mp3",
+        "status": "ready",
+        "duration_sec": 5.642,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "What's striking is how much the world can change, even for a bird this big and powerful."
+    },
+    {
+      "shot_id": "s09_01",
+      "scene": 9,
+      "scene_title": "Outro",
+      "start_sec": 202.749,
+      "end_sec": 219.06,
+      "duration_sec": 16.311,
+      "image": {
+        "path": "images/s09_01.png",
+        "status": "planned"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s09_01.mp3",
+        "status": "ready",
+        "duration_sec": 15.961,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "So the next time you're in a field in Texas, remember that this was once a place where a bird taller than most people walked the grass. It wasn't a monster, just a very large animal with a very strange beak, living in a world we only know from bones."
+    },
+    {
+      "shot_id": "s09_02",
+      "scene": 9,
+      "scene_title": "Outro",
+      "start_sec": 219.06,
+      "end_sec": 231.061,
+      "duration_sec": 12.001,
+      "image": {
+        "path": "images/s09_02.png",
+        "status": "planned"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s09_02.mp3",
+        "status": "ready",
+        "duration_sec": 11.651,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "If you want Part 3, where we go deeper into the Texas fossils and compare them with other terror birds, let me know in the comments. And if you want to see the next predator, watch the next one right here."
+    }
+  ]
+}

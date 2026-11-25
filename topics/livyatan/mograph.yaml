@@ -1,0 +1,46 @@
+# Motion-graphics shots for this topic (layered 2D animation, rendered locally).
+# Any shot listed here replaces its illustrated plate/clip with an animated
+# composite. Coordinates are fractions of the frame (x: 0 left -> 1 right,
+# y: 0 top -> 1 bottom); times are seconds from the start of the shot.
+# Built-in assets: livyatan, livyatan_silhouette, bus. Use `path:` for any
+# transparent PNG (e.g. an AI cut-out in images/).
+shots:
+  # Cold open: "camera footage" with something huge passing beneath.
+  s01_02:
+    hud: {clock: "21:47:", depth_from: 180, depth_to: 420}
+    subjects:
+      - {asset: livyatan_silhouette, width: 1.15, from: [-0.65, 0.78], to: [1.65, 0.70], start: 1.5, move: 12.5,
+         opacity: 1.0, bob: 0.004, tilt: 0.006}
+    labels:
+      - {text: "Not a shark", x: 0.5, y: 0.30, start: 5.0, end: 8.6}
+    zoom: [1.0, 1.06]
+
+  # "Its name was Livyatan": the reveal, with a danger grade.
+  s01_03:
+    tint: danger
+    subjects:
+      - {asset: livyatan, width: 0.70, from: [-0.40, 0.56], to: [0.47, 0.52], start: 0.2, move: 3.8}
+    labels:
+      - {text: "Livyatan", x: 0.5, y: 0.22, start: 1.4, size: 96, accent: true}
+    zoom: [1.0, 1.12]
+
+  # Size: counter + scale bar matched to the whale's length.
+  s03_01:
+    subjects:
+      - {asset: livyatan, width: 0.62, from: [1.40, 0.52], to: [0.50, 0.50], start: 0.3, move: 4.5}
+    counters:
+      - {label: "Length", from: 0, to: 17, suffix: " m", x: 0.5, y: 0.2, start: 1.2, duration: 3.5}
+    scalebars:
+      - {x0: 0.19, x1: 0.81, y: 0.74, start: 4.8}
+    labels:
+      - {text: "43-56 ft", x: 0.5, y: 0.83, start: 5.2}
+
+  # Scale comparison with a school bus.
+  s03_02:
+    subjects:
+      - {asset: bus, width: 0.40, from: [0.30, 0.76], to: [0.30, 0.76], start: 0.2, move: 1, bob: 0, tilt: 0}
+      - {asset: livyatan, width: 0.56, from: [1.40, 0.36], to: [0.42, 0.34], start: 2.2, move: 4.5}
+    labels:
+      - {text: "School bus ~12 m (40 ft)", x: 0.30, y: 0.93, start: 0.8, size: 44}
+      - {text: "Livyatan up to 17 m (56 ft)", x: 0.42, y: 0.12, start: 6.0, size: 44, accent: true}
+    zoom: [1.04, 1.0]

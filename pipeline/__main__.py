@@ -40,6 +40,7 @@ def build_parser() -> argparse.ArgumentParser:
     ap.add_argument("--force", action="store_true", help="rebuild outputs even if up to date")
     ap.add_argument("--provider", help="override every provider for this run (e.g. mock)")
     ap.add_argument("--accent", choices=["us", "uk"], help="voiceover accent (default from audience.yaml)")
+    ap.add_argument("--shots", help="render: comma-separated shot ids for a quick preview")
     ap.add_argument("--style", help="style spec file (default config/style_spec.yaml)")
     ap.add_argument("--root", default=".", help="project root (default: current directory)")
     return ap
@@ -71,7 +72,8 @@ def main(argv: list[str] | None = None) -> int:
     with RunLog(paths, args.stage, dry_run=args.dry_run) as log:
         ctx = Context(settings=settings, paths=paths, log=log, dry_run=args.dry_run, approve=args.approve,
                       publish=args.publish, force=args.force, provider_override=args.provider,
-                      accent=args.accent)
+                      accent=args.accent,
+                      only_shots=[s.strip() for s in args.shots.split(',')] if args.shots else None)
         if args.dry_run and args.approve:
             log.warning("--dry-run wins over --approve: nothing will be generated")
         try:

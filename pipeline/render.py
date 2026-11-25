@@ -140,6 +140,32 @@ def render_shot(entry: dict, index: int, topic_dir: Path, out: Path) -> None:
          "-c:a", "aac", "-b:a", "192k", "-ac", "2", "-ar", "48000", str(out)])
 
 
+MOGRAPH_VERSION = 1
+
+
+def load_mograph_specs(topic_dir: Path) -> dict:
+    """shot_id -> motion-graphics spec from topics/<slug>/mograph.yaml (optional)."""
+    path = topic_dir / "mograph.yaml"
+    if not path.exists():
+        return {}
+    import yaml
+    data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    return data.get("shots", {}) or {}
+
+
+def render_mograph_shot(entry: dict, spec: dict, topic_dir: Path, work: Path, out: Path) -> None:
+    from . import mograph
+    dur = float(entry["duration_sec"])
+    silent = work / f"{out.stem}_v.mp4"
+    mograph.render(spec, dur, silent, work / "mograph", topic_dir)
+    audio = topic_dir / entry["audio"]["path"] if entry.get("audio") and entry["audio"]["status"] == "ready" else None
+    a_in = ["-i", str(audio)] if audio else ["-f", "lavfi", "-t", f"{dur:.3f}", "-i", "anullsrc=r=48000:cl=stereo"]
+    _ff(["-i", str(silent), *a_in, "-filter_complex",
+         f"[1:a]aresample=48000,apad,atrim=duration={dur:.3f}[a]", "-map", "0:v", "-map", "[a]",
+         "-t", f"{dur:.3f}", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-ac", "2", "-ar", "48000", str(out)])
+    silent.unlink(missing_ok=True)
+
+
 def make_sound_bed(work: Path, total: float, music: list[Path] | None = None) -> tuple[Path, Path]:
     """Music bed (tracks from music/, crossfaded, over a low ocean rumble) or,
     without tracks, a synthesised royalty-free drone; plus a whoosh SFX."""
@@ -230,16 +256,34 @@ def run(ctx: Context) -> dict:
 
     work = p.dir / "render"
     work.mkdir(exist_ok=True)
+    mg_specs = load_mograph_specs(p.dir)
+    if mg_specs:
+        log.info(f"Motion-graphics shots: {', '.join(sorted(mg_specs))}")
+    only = set(getattr(ctx, "only_shots", None) or [])
     parts = []
     for i, e in enumerate(entries):
+        if only and e["shot_id"] not in only:
+            continue
+        spec = mg_specs.get(e["shot_id"])
         fp = fingerprint({k: e.get(k) for k in ("duration_sec", "image", "clip", "audio", "overlay_text", "motion")}
-                         | {"v": RENDER_VERSION, "i": i})
+                         | {"v": RENDER_VERSION, "i": i, "mg": spec, "mgv": MOGRAPH_VERSION if spec else 0})
         out = work / f"{e['shot_id']}_{fp}.mp4"
         if not out.exists() or ctx.force:
-            render_shot(e, i, p.dir, out)
+            if spec:
+                render_mograph_shot(e, spec, p.dir, work, out)
+            else:
+                render_shot(e, i, p.dir, out)
             log.count("rendered")
-            log.info(f"{e['shot_id']}: rendered {e['duration_sec']:.1f}s")
+            log.info(f"{e['shot_id']}: rendered {e['duration_sec']:.1f}s" + (" (motion graphics)" if spec else ""))
         parts.append(out)
+    if only:  # preview of selected shots: shift timings so chapters/SFX line up
+        keep = [e for e in entries if e["shot_id"] in only]
+        t0 = 0.0
+        for e in keep:
+            d = float(e["duration_sec"])
+            e.update(start_sec=t0, end_sec=t0 + d)
+            t0 += d
+        entries, total = keep, t0
 
     concat = work / "concat.txt"
     concat.write_text("".join(f"file '{x.resolve()}'\n" for x in parts), encoding="utf-8")
@@ -281,7 +325,7 @@ def run(ctx: Context) -> dict:
         f"afade=t=in:st=0:d=0.5,afade=t=out:st={fade_out:.2f}:d=1.5,"
         "loudnorm=I=-14:TP=-1.5:LRA=11,aresample=48000[a]"
     )
-    final = p.dir / f"{p.slug}_final.mp4"
+    final = p.dir / (f"{p.slug}_preview.mp4" if only else f"{p.slug}_final.mp4")
     particles = make_particles(work)
     _ff(["-f", "concat", "-safe", "0", "-i", str(concat), "-i", str(bed), "-i", str(whoosh),
          "-loop", "1", "-framerate", str(FPS), "-t", f"{total:.3f}", "-i", str(particles),
@@ -289,6 +333,7 @@ def run(ctx: Context) -> dict:
          "-c:v", "libx264", "-preset", "medium", "-crf", "21", "-maxrate", "8M", "-bufsize", "16M",
          "-c:a", "aac", "-b:a", "256k",
          "-movflags", "+faststart", str(final)])
-    write_chapters(entries, p.dir / "chapters.txt")
+    if not only:
+        write_chapters(entries, p.dir / "chapters.txt")
     log.info(f"Wrote {p.rel(final)} ({total / 60:.1f} min, ~{cuts} cuts) and chapters.txt")
     return {"rendered": len(parts), "video": str(final), "cuts": cuts}

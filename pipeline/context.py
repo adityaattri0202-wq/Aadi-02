@@ -27,3 +27,4 @@ class Context:
     force: bool = False
     provider_override: str | None = None
     accent: str | None = None
+    only_shots: list | None = None   # render: preview just these shot ids

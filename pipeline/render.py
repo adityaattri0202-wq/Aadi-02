@@ -143,6 +143,8 @@ def render_shot(entry: dict, index: int, topic_dir: Path, out: Path) -> None:
 
 
 MOGRAPH_VERSION = 3
+# Music sits well under the narration (about -10 dB before ducking).
+MUSIC_LEVEL = 0.32
 
 
 def load_mograph_specs(topic_dir: Path) -> dict:
@@ -337,8 +339,8 @@ def run(ctx: Context) -> dict:
     final = p.dir / (f"{p.slug}_preview.mp4" if only else f"{p.slug}_final.mp4")
     a_graph = (
         "[0:a]asplit=2[voice][key];"
-        f"[1:a]atrim=duration={total:.3f}[bed];"
-        "[bed][key]sidechaincompress=threshold=0.03:ratio=6:attack=30:release=600[ducked];"
+        f"[1:a]atrim=duration={total:.3f},volume={MUSIC_LEVEL}[bed];"
+        "[bed][key]sidechaincompress=threshold=0.02:ratio=10:attack=20:release=800[ducked];"
         + (f"[2:a]asplit={k}{wh};{delays};" if k else "")
         + f"[voice][ducked]{sfx}amix=inputs={2 + k}:normalize=0:duration=first,"
         f"afade=t=in:st=0:d=0.5,afade=t=out:st={fade_out:.2f}:d=1.5,"

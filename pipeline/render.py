@@ -332,20 +332,10 @@ def run(ctx: Context) -> dict:
                       for i, t in enumerate(chapter_starts))
     sfx = "".join(f"[d{i}]" for i in range(k))
     fade_out = max(total - 1.5, 0)
-    # Two particle layers drifting at different speeds = constant depth motion.
-    graph = (
-        f"[3:v]format=gray,split[pa][pb];"
-        f"[pa]crop={W}:{H}:0:'{H}-mod(t*22\\,{H})'[m1];"
-        f"[pb]scale={int(W * 1.6)}:{int(H * 3.2)},gblur=sigma=3,"
-        f"crop={W}:{H}:'mod(t*6\\,300)':'{int(H * 1.6)}-mod(t*40\\,{int(H * 1.6)})'[m2];"
-        f"color=c=0xF5EBD8:s={W}x{H}:r={FPS}:d={total:.3f},format=rgba,split[c1][c2];"
-        "[c1][m1]alphamerge,colorchannelmixer=aa=0.38[o1];"
-        "[c2][m2]alphamerge,colorchannelmixer=aa=0.28[o2];"
-        "[0:v]eq=contrast=1.06:saturation=0.92:gamma=0.98:brightness='0.012*sin(2*PI*t/4)':eval=frame[base];"
-        "[base][o1]overlay=shortest=1[b1];"
-        "[b1][o2]overlay=shortest=1,"
-        "vignette=angle=PI/5,noise=alls=4:allf=t+u,"
-        f"fade=t=in:st=0:d=1.0,fade=t=out:st={fade_out:.2f}:d=1.5,format=yuv420p[v];"
+    # Audio and video are mixed in separate passes: one huge combined graph runs
+    # out of memory on long videos.
+    final = p.dir / (f"{p.slug}_preview.mp4" if only else f"{p.slug}_final.mp4")
+    a_graph = (
         "[0:a]asplit=2[voice][key];"
         f"[1:a]atrim=duration={total:.3f}[bed];"
         "[bed][key]sidechaincompress=threshold=0.03:ratio=6:attack=30:release=600[ducked];"
@@ -354,13 +344,34 @@ def run(ctx: Context) -> dict:
         f"afade=t=in:st=0:d=0.5,afade=t=out:st={fade_out:.2f}:d=1.5,"
         "loudnorm=I=-14:TP=-1.5:LRA=11,aresample=48000[a]"
     )
-    final = p.dir / (f"{p.slug}_preview.mp4" if only else f"{p.slug}_final.mp4")
-    particles = make_particles(work)
+    mix = work / "mix.m4a"
     _ff(["-f", "concat", "-safe", "0", "-i", str(concat), "-i", str(bed), "-i", str(whoosh),
-         "-loop", "1", "-framerate", str(FPS), "-t", f"{total:.3f}", "-i", str(particles),
-         "-filter_complex", graph, "-map", "[v]", "-map", "[a]",
-         "-c:v", "libx264", "-preset", "medium", "-crf", "21", "-maxrate", "8M", "-bufsize", "16M",
-         "-c:a", "aac", "-b:a", "256k",
+         "-filter_complex", a_graph, "-map", "[a]", "-vn", "-c:a", "aac", "-b:a", "256k", str(mix)])
+
+    grade = ("eq=contrast=1.06:saturation=0.92:gamma=0.98:brightness='0.012*sin(2*PI*t/4)':eval=frame")
+    finish = (f"vignette=angle=PI/5,noise=alls=4:allf=t+u,"
+              f"fade=t=in:st=0:d=1.0,fade=t=out:st={fade_out:.2f}:d=1.5,format=yuv420p[v]")
+    all_mograph = bool(mg_specs) and all(e["shot_id"] in mg_specs for e in entries)
+    v_inputs = ["-f", "concat", "-safe", "0", "-i", str(concat)]
+    if all_mograph:  # mograph shots already carry their own particle layers
+        v_graph = f"[0:v]{grade},{finish}"
+    else:  # two particle layers drifting at different speeds = constant depth motion
+        particles = make_particles(work)
+        v_inputs += ["-loop", "1", "-framerate", str(FPS), "-t", f"{total:.3f}", "-i", str(particles)]
+        v_graph = (
+            f"[1:v]format=gray,split[pa][pb];"
+            f"[pa]crop={W}:{H}:0:'{H}-mod(t*22\\,{H})'[m1];"
+            f"[pb]scale={int(W * 1.6)}:{int(H * 3.2)},gblur=sigma=3,"
+            f"crop={W}:{H}:'mod(t*6\\,300)':'{int(H * 1.6)}-mod(t*40\\,{int(H * 1.6)})'[m2];"
+            f"color=c=0xF5EBD8:s={W}x{H}:r={FPS}:d={total:.3f},format=rgba,split[c1][c2];"
+            "[c1][m1]alphamerge,colorchannelmixer=aa=0.38[o1];"
+            "[c2][m2]alphamerge,colorchannelmixer=aa=0.28[o2];"
+            f"[0:v]{grade}[base];[base][o1]overlay=shortest=1[b1];[b1][o2]overlay=shortest=1,{finish}"
+        )
+    video = work / "video_only.mp4"
+    _ff([*v_inputs, "-filter_complex", v_graph, "-map", "[v]", "-an",
+         "-c:v", "libx264", "-preset", "medium", "-crf", "21", "-maxrate", "8M", "-bufsize", "16M", str(video)])
+    _ff(["-i", str(video), "-i", str(mix), "-map", "0:v", "-map", "1:a", "-c", "copy", "-shortest",
          "-movflags", "+faststart", str(final)])
     if not only:
         write_chapters(entries, p.dir / "chapters.txt")

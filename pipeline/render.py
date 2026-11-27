@@ -51,7 +51,7 @@ def _ff(args: list[str]) -> None:
     r = subprocess.run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", *args],
                        capture_output=True, text=True)
     if r.returncode != 0:
-        raise StageFailed("ffmpeg failed:\n" + r.stderr[-1500:])
+        raise StageFailed(f"ffmpeg failed (exit {r.returncode}):\n" + r.stderr[-1500:])
 
 
 def _is_video(path: Path) -> bool:

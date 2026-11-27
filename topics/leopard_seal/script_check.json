@@ -1,0 +1,118 @@
+{
+  "word_count": 396,
+  "runtime_minutes_fast": 2.64,
+  "runtime_minutes_slow": 3.05,
+  "target_minutes": 3.0,
+  "sections": [
+    {
+      "title": "Cold Open",
+      "line": 7,
+      "words": 66,
+      "shots": 3
+    },
+    {
+      "title": "Built Like A Hunter",
+      "line": 17,
+      "words": 56,
+      "shots": 2
+    },
+    {
+      "title": "Two Mouths In One",
+      "line": 24,
+      "words": 68,
+      "shots": 2
+    },
+    {
+      "title": "Ambush At The Ice Edge",
+      "line": 31,
+      "words": 61,
+      "shots": 3
+    },
+    {
+      "title": "Meeting Humans",
+      "line": 41,
+      "words": 82,
+      "shots": 3
+    },
+    {
+      "title": "A Changing Ice",
+      "line": 51,
+      "words": 28,
+      "shots": 1
+    },
+    {
+      "title": "Outro",
+      "line": 55,
+      "words": 35,
+      "shots": 2
+    }
+  ],
+  "shot_count": 16,
+  "verify_tags": [
+    {
+      "line": 4,
+      "note": ""
+    },
+    {
+      "line": 19,
+      "note": "maximum length and weight"
+    },
+    {
+      "line": 19,
+      "note": "females larger than males"
+    },
+    {
+      "line": 26,
+      "note": "three-pointed cheek teeth"
+    },
+    {
+      "line": 29,
+      "note": "krill in the diet"
+    },
+    {
+      "line": 33,
+      "note": "ice-edge ambush"
+    },
+    {
+      "line": 36,
+      "note": "group entry"
+    },
+    {
+      "line": 39,
+      "note": "diet"
+    },
+    {
+      "line": 43,
+      "note": "most encounters are curiosity"
+    },
+    {
+      "line": 46,
+      "note": "Paul Nicklen encounter"
+    },
+    {
+      "line": 49,
+      "note": "2003 incident and its effect on safety rules"
+    },
+    {
+      "line": 53,
+      "note": "reliance on sea ice"
+    }
+  ],
+  "unverified_facts": [
+    "Leopard seals (Hydrurga leptonyx) reach about 3.5 m (11 ft) and close to 500 kg; females are larger than males.",
+    "Their cheek teeth are three-pointed and interlock to sieve krill from the water.",
+    "Leopard seals ambush penguins near the ice edge where they enter and leave the water.",
+    "They also eat fish, squid and young seals of other species.",
+    "Photographer Paul Nicklen reported a female leopard seal repeatedly bringing him penguins.",
+    "In 2003 a leopard seal killed marine biologist Kirsty Brown at Rothera; it is the only recorded human fatality.",
+    "Leopard seals use sea ice for resting, breeding and molting."
+  ],
+  "missing_sections": [],
+  "errors": [],
+  "warnings": [
+    "12 [VERIFY] tag(s) unresolved (allowed in draft mode)",
+    "7 unverified fact(s) in topic.yaml"
+  ],
+  "passed": true,
+  "publish": false
+}

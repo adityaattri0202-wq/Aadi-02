@@ -1,0 +1,29 @@
+name: "Leopard Seal: The Hunter at the Edge of the Ice"
+slug: leopard_seal
+style: config/style_flat_vector.yaml
+target_minutes: 3
+required_sections: ["Cold Open", "Built Like A Hunter", "Two Mouths In One", "Ambush At The Ice Edge", "Meeting Humans", "A Changing Ice", "Outro"]
+
+# Original script. Every fact is unverified until checked against a source.
+facts:
+  - claim: "Leopard seals (Hydrurga leptonyx) reach about 3.5 m (11 ft) and close to 500 kg; females are larger than males."
+    source: "TODO"
+    verified: false
+  - claim: "Their cheek teeth are three-pointed and interlock to sieve krill from the water."
+    source: "TODO"
+    verified: false
+  - claim: "Leopard seals ambush penguins near the ice edge where they enter and leave the water."
+    source: "TODO"
+    verified: false
+  - claim: "They also eat fish, squid and young seals of other species."
+    source: "TODO"
+    verified: false
+  - claim: "Photographer Paul Nicklen reported a female leopard seal repeatedly bringing him penguins."
+    source: "TODO"
+    verified: false
+  - claim: "In 2003 a leopard seal killed marine biologist Kirsty Brown at Rothera; it is the only recorded human fatality."
+    source: "TODO"
+    verified: false
+  - claim: "Leopard seals use sea ice for resting, breeding and molting."
+    source: "TODO"
+    verified: false

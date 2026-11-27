@@ -142,7 +142,7 @@ def render_shot(entry: dict, index: int, topic_dir: Path, out: Path) -> None:
          "-c:a", "aac", "-b:a", "192k", "-ac", "2", "-ar", "48000", str(out)])
 
 
-MOGRAPH_VERSION = 2
+MOGRAPH_VERSION = 3
 
 
 def load_mograph_specs(topic_dir: Path) -> dict:
@@ -348,10 +348,12 @@ def run(ctx: Context) -> dict:
     _ff(["-f", "concat", "-safe", "0", "-i", str(concat), "-i", str(bed), "-i", str(whoosh),
          "-filter_complex", a_graph, "-map", "[a]", "-vn", "-c:a", "aac", "-b:a", "256k", str(mix)])
 
-    grade = ("eq=contrast=1.06:saturation=0.92:gamma=0.98:brightness='0.012*sin(2*PI*t/4)':eval=frame")
-    finish = (f"vignette=angle=PI/5,noise=alls=4:allf=t+u,"
-              f"fade=t=in:st=0:d=1.0,fade=t=out:st={fade_out:.2f}:d=1.5,format=yuv420p[v]")
+    grade = ("eq=contrast=1.04:saturation=1.0:gamma=1.08:brightness='0.03+0.01*sin(2*PI*t/4)':eval=frame")
     all_mograph = bool(mg_specs) and all(e["shot_id"] in mg_specs for e in entries)
+    # mograph shots carry their own light vignette; don't stack a second one (crushed the edges)
+    vig = "" if all_mograph else "vignette=angle=PI/9,"
+    finish = (f"{vig}noise=alls=4:allf=t+u,"
+              f"fade=t=in:st=0:d=1.0,fade=t=out:st={fade_out:.2f}:d=1.5,format=yuv420p[v]")
     v_inputs = ["-f", "concat", "-safe", "0", "-i", str(concat)]
     if all_mograph:  # mograph shots already carry their own particle layers
         v_graph = f"[0:v]{grade},{finish}"

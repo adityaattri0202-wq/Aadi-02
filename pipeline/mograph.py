@@ -385,7 +385,7 @@ def render(spec: dict, dur: float, out: Path, work: Path, topic_dir: Path) -> Pa
     frames = max(int(round(dur * FPS)), 1)
     cam = (f"zoompan=z='{z0}+({z1}-{z0})*on/{frames}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
            f"d=1:s={OUT_W}x{OUT_H}:fps={FPS}")
-    tail = (",".join(draws) + "," if draws else "") + f"format=yuv420p{grade},{cam},vignette=angle=PI/4.5," \
+    tail = (",".join(draws) + "," if draws else "") + f"format=yuv420p{grade},{cam},vignette=angle=PI/9," \
         f"trim=duration={dur:.3f},setsar=1[v]"
     chains.append(f"[{cur}]{tail}")
 

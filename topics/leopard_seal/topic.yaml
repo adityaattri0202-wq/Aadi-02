@@ -1,8 +1,8 @@
 name: "Leopard Seal: The Hunter at the Edge of the Ice"
 slug: leopard_seal
-style: config/style_flat_vector.yaml
-target_minutes: 3
-required_sections: ["Cold Open", "Built Like A Hunter", "Two Mouths In One", "Ambush At The Ice Edge", "Meeting Humans", "A Changing Ice", "Outro"]
+style: config/style_flat_vector_slow.yaml
+target_minutes: 12
+required_sections: ["Cold Open", "What Is A Leopard Seal", "A Giant With A Twist", "Built For Speed", "Two Mouths In One", "The Menu", "Ambush At The Ice Edge", "Songs Under The Ice", "Life On The Ice", "Meeting Humans", "Wanderers", "How Scientists Study Them", "Myths And Facts", "A Changing Ice", "Outro"]
 
 # Original script. Every fact is unverified until checked against a source.
 facts:

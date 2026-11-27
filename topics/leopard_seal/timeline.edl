@@ -1,0 +1,387 @@
+TITLE: leopard_seal
+FCM: NON-DROP FRAME
+
+001  AX       V     C        00:00:00:00 00:00:08:17 00:00:00:00 00:00:08:17
+* FROM CLIP NAME: s01_01.png
+* COMMENT: s01_01 images/s01_01.png
+
+002  AX       A     C        00:00:00:00 00:00:07:17 00:00:00:00 00:00:07:17
+* FROM CLIP NAME: s01_01.mp3
+
+003  AX       V     C        00:00:00:00 00:00:10:22 00:00:08:17 00:00:19:10
+* FROM CLIP NAME: s01_02.png
+* COMMENT: s01_02 images/s01_02.png
+
+004  AX       A     C        00:00:00:00 00:00:09:22 00:00:08:17 00:00:18:10
+* FROM CLIP NAME: s01_02.mp3
+
+005  AX       V     C        00:00:00:00 00:00:10:26 00:00:19:10 00:00:30:06
+* FROM CLIP NAME: s01_03.png
+* COMMENT: s01_03 images/s01_03.png
+
+006  AX       A     C        00:00:00:00 00:00:09:26 00:00:19:10 00:00:29:06
+* FROM CLIP NAME: s01_03.mp3
+
+007  AX       V     C        00:00:00:00 00:00:09:29 00:00:30:06 00:00:40:05
+* FROM CLIP NAME: s01_04.png
+* COMMENT: s01_04 images/s01_04.png
+
+008  AX       A     C        00:00:00:00 00:00:08:29 00:00:30:06 00:00:39:05
+* FROM CLIP NAME: s01_04.mp3
+
+009  AX       V     C        00:00:00:00 00:00:15:08 00:00:40:05 00:00:55:13
+* FROM CLIP NAME: s02_01.png
+* COMMENT: s02_01 images/s02_01.png
+
+010  AX       A     C        00:00:00:00 00:00:14:08 00:00:40:05 00:00:54:13
+* FROM CLIP NAME: s02_01.mp3
+
+011  AX       V     C        00:00:00:00 00:00:10:14 00:00:55:13 00:01:05:27
+* FROM CLIP NAME: s02_02.png
+* COMMENT: s02_02 images/s02_02.png
+
+012  AX       A     C        00:00:00:00 00:00:09:14 00:00:55:13 00:01:04:27
+* FROM CLIP NAME: s02_02.mp3
+
+013  AX       V     C        00:00:00:00 00:00:11:06 00:01:05:27 00:01:17:03
+* FROM CLIP NAME: s02_03.png
+* COMMENT: s02_03 images/s02_03.png
+
+014  AX       A     C        00:00:00:00 00:00:10:06 00:01:05:27 00:01:16:03
+* FROM CLIP NAME: s02_03.mp3
+
+015  AX       V     C        00:00:00:00 00:00:12:01 00:01:17:03 00:01:29:03
+* FROM CLIP NAME: s03_01.png
+* COMMENT: s03_01 images/s03_01.png
+
+016  AX       A     C        00:00:00:00 00:00:11:01 00:01:17:03 00:01:28:03
+* FROM CLIP NAME: s03_01.mp3
+
+017  AX       V     C        00:00:00:00 00:00:11:02 00:01:29:03 00:01:40:06
+* FROM CLIP NAME: s03_02.png
+* COMMENT: s03_02 images/s03_02.png
+
+018  AX       A     C        00:00:00:00 00:00:10:02 00:01:29:03 00:01:39:06
+* FROM CLIP NAME: s03_02.mp3
+
+019  AX       V     C        00:00:00:00 00:00:11:22 00:01:40:06 00:01:51:28
+* FROM CLIP NAME: s03_03.png
+* COMMENT: s03_03 images/s03_03.png
+
+020  AX       A     C        00:00:00:00 00:00:10:22 00:01:40:06 00:01:50:28
+* FROM CLIP NAME: s03_03.mp3
+
+021  AX       V     C        00:00:00:00 00:00:11:13 00:01:51:28 00:02:03:11
+* FROM CLIP NAME: s04_01.png
+* COMMENT: s04_01 images/s04_01.png
+
+022  AX       A     C        00:00:00:00 00:00:10:13 00:01:51:28 00:02:02:11
+* FROM CLIP NAME: s04_01.mp3
+
+023  AX       V     C        00:00:00:00 00:00:13:21 00:02:03:11 00:02:17:01
+* FROM CLIP NAME: s04_02.png
+* COMMENT: s04_02 images/s04_02.png
+
+024  AX       A     C        00:00:00:00 00:00:12:21 00:02:03:11 00:02:16:01
+* FROM CLIP NAME: s04_02.mp3
+
+025  AX       V     C        00:00:00:00 00:00:06:26 00:02:17:01 00:02:23:27
+* FROM CLIP NAME: s04_03.png
+* COMMENT: s04_03 images/s04_03.png
+
+026  AX       A     C        00:00:00:00 00:00:05:26 00:02:17:01 00:02:22:27
+* FROM CLIP NAME: s04_03.mp3
+
+027  AX       V     C        00:00:00:00 00:00:11:03 00:02:23:27 00:02:35:00
+* FROM CLIP NAME: s05_01.png
+* COMMENT: s05_01 images/s05_01.png
+
+028  AX       A     C        00:00:00:00 00:00:10:03 00:02:23:27 00:02:34:00
+* FROM CLIP NAME: s05_01.mp3
+
+029  AX       V     C        00:00:00:00 00:00:12:27 00:02:35:00 00:02:47:27
+* FROM CLIP NAME: s05_02.png
+* COMMENT: s05_02 images/s05_02.png
+
+030  AX       A     C        00:00:00:00 00:00:11:27 00:02:35:00 00:02:46:27
+* FROM CLIP NAME: s05_02.mp3
+
+031  AX       V     C        00:00:00:00 00:00:12:22 00:02:47:27 00:03:00:19
+* FROM CLIP NAME: s05_03.png
+* COMMENT: s05_03 images/s05_03.png
+
+032  AX       A     C        00:00:00:00 00:00:11:22 00:02:47:27 00:02:59:19
+* FROM CLIP NAME: s05_03.mp3
+
+033  AX       V     C        00:00:00:00 00:00:09:27 00:03:00:19 00:03:10:16
+* FROM CLIP NAME: s05_04.png
+* COMMENT: s05_04 images/s05_04.png
+
+034  AX       A     C        00:00:00:00 00:00:08:27 00:03:00:19 00:03:09:16
+* FROM CLIP NAME: s05_04.mp3
+
+035  AX       V     C        00:00:00:00 00:00:12:12 00:03:10:16 00:03:22:28
+* FROM CLIP NAME: s06_01.png
+* COMMENT: s06_01 images/s06_01.png
+
+036  AX       A     C        00:00:00:00 00:00:11:12 00:03:10:16 00:03:21:28
+* FROM CLIP NAME: s06_01.mp3
+
+037  AX       V     C        00:00:00:00 00:00:07:15 00:03:22:28 00:03:30:14
+* FROM CLIP NAME: s06_02.png
+* COMMENT: s06_02 images/s06_02.png
+
+038  AX       A     C        00:00:00:00 00:00:06:15 00:03:22:28 00:03:29:14
+* FROM CLIP NAME: s06_02.mp3
+
+039  AX       V     C        00:00:00:00 00:00:12:24 00:03:30:14 00:03:43:08
+* FROM CLIP NAME: s06_03.png
+* COMMENT: s06_03 images/s06_03.png
+
+040  AX       A     C        00:00:00:00 00:00:11:24 00:03:30:14 00:03:42:08
+* FROM CLIP NAME: s06_03.mp3
+
+041  AX       V     C        00:00:00:00 00:00:10:29 00:03:43:08 00:03:54:06
+* FROM CLIP NAME: s06_04.png
+* COMMENT: s06_04 images/s06_04.png
+
+042  AX       A     C        00:00:00:00 00:00:09:29 00:03:43:08 00:03:53:06
+* FROM CLIP NAME: s06_04.mp3
+
+043  AX       V     C        00:00:00:00 00:00:09:00 00:03:54:06 00:04:03:06
+* FROM CLIP NAME: s07_01.png
+* COMMENT: s07_01 images/s07_01.png
+
+044  AX       A     C        00:00:00:00 00:00:08:00 00:03:54:06 00:04:02:06
+* FROM CLIP NAME: s07_01.mp3
+
+045  AX       V     C        00:00:00:00 00:00:09:08 00:04:03:06 00:04:12:14
+* FROM CLIP NAME: s07_02.png
+* COMMENT: s07_02 images/s07_02.png
+
+046  AX       A     C        00:00:00:00 00:00:08:08 00:04:03:06 00:04:11:14
+* FROM CLIP NAME: s07_02.mp3
+
+047  AX       V     C        00:00:00:00 00:00:11:28 00:04:12:14 00:04:24:11
+* FROM CLIP NAME: s07_03.png
+* COMMENT: s07_03 images/s07_03.png
+
+048  AX       A     C        00:00:00:00 00:00:10:28 00:04:12:14 00:04:23:11
+* FROM CLIP NAME: s07_03.mp3
+
+049  AX       V     C        00:00:00:00 00:00:09:27 00:04:24:11 00:04:34:09
+* FROM CLIP NAME: s07_04.png
+* COMMENT: s07_04 images/s07_04.png
+
+050  AX       A     C        00:00:00:00 00:00:08:27 00:04:24:11 00:04:33:09
+* FROM CLIP NAME: s07_04.mp3
+
+051  AX       V     C        00:00:00:00 00:00:05:01 00:04:34:09 00:04:39:09
+* FROM CLIP NAME: s08_01.png
+* COMMENT: s08_01 images/s08_01.png
+
+052  AX       A     C        00:00:00:00 00:00:04:01 00:04:34:09 00:04:38:09
+* FROM CLIP NAME: s08_01.mp3
+
+053  AX       V     C        00:00:00:00 00:00:13:04 00:04:39:09 00:04:52:13
+* FROM CLIP NAME: s08_02.png
+* COMMENT: s08_02 images/s08_02.png
+
+054  AX       A     C        00:00:00:00 00:00:12:04 00:04:39:09 00:04:51:13
+* FROM CLIP NAME: s08_02.mp3
+
+055  AX       V     C        00:00:00:00 00:00:11:01 00:04:52:13 00:05:03:14
+* FROM CLIP NAME: s08_03.png
+* COMMENT: s08_03 images/s08_03.png
+
+056  AX       A     C        00:00:00:00 00:00:10:01 00:04:52:13 00:05:02:14
+* FROM CLIP NAME: s08_03.mp3
+
+057  AX       V     C        00:00:00:00 00:00:07:03 00:05:03:14 00:05:10:17
+* FROM CLIP NAME: s09_01.png
+* COMMENT: s09_01 images/s09_01.png
+
+058  AX       A     C        00:00:00:00 00:00:06:03 00:05:03:14 00:05:09:17
+* FROM CLIP NAME: s09_01.mp3
+
+059  AX       V     C        00:00:00:00 00:00:08:29 00:05:10:17 00:05:19:16
+* FROM CLIP NAME: s09_02.png
+* COMMENT: s09_02 images/s09_02.png
+
+060  AX       A     C        00:00:00:00 00:00:07:29 00:05:10:17 00:05:18:16
+* FROM CLIP NAME: s09_02.mp3
+
+061  AX       V     C        00:00:00:00 00:00:07:02 00:05:19:16 00:05:26:18
+* FROM CLIP NAME: s09_03.png
+* COMMENT: s09_03 images/s09_03.png
+
+062  AX       A     C        00:00:00:00 00:00:06:02 00:05:19:16 00:05:25:18
+* FROM CLIP NAME: s09_03.mp3
+
+063  AX       V     C        00:00:00:00 00:00:05:05 00:05:26:18 00:05:31:23
+* FROM CLIP NAME: s09_04.png
+* COMMENT: s09_04 images/s09_04.png
+
+064  AX       A     C        00:00:00:00 00:00:04:05 00:05:26:18 00:05:30:23
+* FROM CLIP NAME: s09_04.mp3
+
+065  AX       V     C        00:00:00:00 00:00:12:09 00:05:31:23 00:05:44:02
+* FROM CLIP NAME: s10_01.png
+* COMMENT: s10_01 images/s10_01.png
+
+066  AX       A     C        00:00:00:00 00:00:11:09 00:05:31:23 00:05:43:02
+* FROM CLIP NAME: s10_01.mp3
+
+067  AX       V     C        00:00:00:00 00:00:10:14 00:05:44:02 00:05:54:16
+* FROM CLIP NAME: s10_02.png
+* COMMENT: s10_02 images/s10_02.png
+
+068  AX       A     C        00:00:00:00 00:00:09:14 00:05:44:02 00:05:53:16
+* FROM CLIP NAME: s10_02.mp3
+
+069  AX       V     C        00:00:00:00 00:00:14:03 00:05:54:16 00:06:08:20
+* FROM CLIP NAME: s10_03.png
+* COMMENT: s10_03 images/s10_03.png
+
+070  AX       A     C        00:00:00:00 00:00:13:03 00:05:54:16 00:06:07:20
+* FROM CLIP NAME: s10_03.mp3
+
+071  AX       V     C        00:00:00:00 00:00:10:15 00:06:08:20 00:06:19:05
+* FROM CLIP NAME: s10_04.png
+* COMMENT: s10_04 images/s10_04.png
+
+072  AX       A     C        00:00:00:00 00:00:09:15 00:06:08:20 00:06:18:05
+* FROM CLIP NAME: s10_04.mp3
+
+073  AX       V     C        00:00:00:00 00:00:13:29 00:06:19:05 00:06:33:05
+* FROM CLIP NAME: s10_05.png
+* COMMENT: s10_05 images/s10_05.png
+
+074  AX       A     C        00:00:00:00 00:00:12:29 00:06:19:05 00:06:32:05
+* FROM CLIP NAME: s10_05.mp3
+
+075  AX       V     C        00:00:00:00 00:00:12:09 00:06:33:05 00:06:45:13
+* FROM CLIP NAME: s10_06.png
+* COMMENT: s10_06 images/s10_06.png
+
+076  AX       A     C        00:00:00:00 00:00:11:09 00:06:33:05 00:06:44:13
+* FROM CLIP NAME: s10_06.mp3
+
+077  AX       V     C        00:00:00:00 00:00:08:24 00:06:45:13 00:06:54:07
+* FROM CLIP NAME: s11_01.png
+* COMMENT: s11_01 images/s11_01.png
+
+078  AX       A     C        00:00:00:00 00:00:07:24 00:06:45:13 00:06:53:07
+* FROM CLIP NAME: s11_01.mp3
+
+079  AX       V     C        00:00:00:00 00:00:13:12 00:06:54:07 00:07:07:20
+* FROM CLIP NAME: s11_02.png
+* COMMENT: s11_02 images/s11_02.png
+
+080  AX       A     C        00:00:00:00 00:00:12:12 00:06:54:07 00:07:06:20
+* FROM CLIP NAME: s11_02.mp3
+
+081  AX       V     C        00:00:00:00 00:00:08:20 00:07:07:20 00:07:16:10
+* FROM CLIP NAME: s11_03.png
+* COMMENT: s11_03 images/s11_03.png
+
+082  AX       A     C        00:00:00:00 00:00:07:20 00:07:07:20 00:07:15:10
+* FROM CLIP NAME: s11_03.mp3
+
+083  AX       V     C        00:00:00:00 00:00:13:19 00:07:16:10 00:07:29:29
+* FROM CLIP NAME: s12_01.png
+* COMMENT: s12_01 images/s12_01.png
+
+084  AX       A     C        00:00:00:00 00:00:12:19 00:07:16:10 00:07:28:29
+* FROM CLIP NAME: s12_01.mp3
+
+085  AX       V     C        00:00:00:00 00:00:10:26 00:07:29:29 00:07:40:25
+* FROM CLIP NAME: s12_02.png
+* COMMENT: s12_02 images/s12_02.png
+
+086  AX       A     C        00:00:00:00 00:00:09:26 00:07:29:29 00:07:39:25
+* FROM CLIP NAME: s12_02.mp3
+
+087  AX       V     C        00:00:00:00 00:00:08:27 00:07:40:25 00:07:49:22
+* FROM CLIP NAME: s12_03.png
+* COMMENT: s12_03 images/s12_03.png
+
+088  AX       A     C        00:00:00:00 00:00:07:27 00:07:40:25 00:07:48:22
+* FROM CLIP NAME: s12_03.mp3
+
+089  AX       V     C        00:00:00:00 00:00:12:12 00:07:49:22 00:08:02:03
+* FROM CLIP NAME: s12_04.png
+* COMMENT: s12_04 images/s12_04.png
+
+090  AX       A     C        00:00:00:00 00:00:11:12 00:07:49:22 00:08:01:03
+* FROM CLIP NAME: s12_04.mp3
+
+091  AX       V     C        00:00:00:00 00:00:05:09 00:08:02:03 00:08:07:12
+* FROM CLIP NAME: s13_01.png
+* COMMENT: s13_01 images/s13_01.png
+
+092  AX       A     C        00:00:00:00 00:00:04:09 00:08:02:03 00:08:06:12
+* FROM CLIP NAME: s13_01.mp3
+
+093  AX       V     C        00:00:00:00 00:00:12:19 00:08:07:12 00:08:20:01
+* FROM CLIP NAME: s13_02.png
+* COMMENT: s13_02 images/s13_02.png
+
+094  AX       A     C        00:00:00:00 00:00:11:19 00:08:07:12 00:08:19:01
+* FROM CLIP NAME: s13_02.mp3
+
+095  AX       V     C        00:00:00:00 00:00:13:00 00:08:20:01 00:08:33:01
+* FROM CLIP NAME: s13_03.png
+* COMMENT: s13_03 images/s13_03.png
+
+096  AX       A     C        00:00:00:00 00:00:12:00 00:08:20:01 00:08:32:01
+* FROM CLIP NAME: s13_03.mp3
+
+097  AX       V     C        00:00:00:00 00:00:13:00 00:08:33:01 00:08:46:01
+* FROM CLIP NAME: s13_04.png
+* COMMENT: s13_04 images/s13_04.png
+
+098  AX       A     C        00:00:00:00 00:00:12:00 00:08:33:01 00:08:45:01
+* FROM CLIP NAME: s13_04.mp3
+
+099  AX       V     C        00:00:00:00 00:00:13:20 00:08:46:01 00:08:59:21
+* FROM CLIP NAME: s14_01.png
+* COMMENT: s14_01 images/s14_01.png
+
+100  AX       A     C        00:00:00:00 00:00:12:20 00:08:46:01 00:08:58:21
+* FROM CLIP NAME: s14_01.mp3
+
+101  AX       V     C        00:00:00:00 00:00:10:19 00:08:59:21 00:09:10:11
+* FROM CLIP NAME: s14_02.png
+* COMMENT: s14_02 images/s14_02.png
+
+102  AX       A     C        00:00:00:00 00:00:09:19 00:08:59:21 00:09:09:11
+* FROM CLIP NAME: s14_02.mp3
+
+103  AX       V     C        00:00:00:00 00:00:12:01 00:09:10:11 00:09:22:11
+* FROM CLIP NAME: s14_03.png
+* COMMENT: s14_03 images/s14_03.png
+
+104  AX       A     C        00:00:00:00 00:00:11:01 00:09:10:11 00:09:21:11
+* FROM CLIP NAME: s14_03.mp3
+
+105  AX       V     C        00:00:00:00 00:00:09:03 00:09:22:11 00:09:31:14
+* FROM CLIP NAME: s15_01.png
+* COMMENT: s15_01 images/s15_01.png
+
+106  AX       A     C        00:00:00:00 00:00:08:03 00:09:22:11 00:09:30:14
+* FROM CLIP NAME: s15_01.mp3
+
+107  AX       V     C        00:00:00:00 00:00:08:09 00:09:31:14 00:09:39:24
+* FROM CLIP NAME: s15_02.png
+* COMMENT: s15_02 images/s15_02.png
+
+108  AX       A     C        00:00:00:00 00:00:07:09 00:09:31:14 00:09:38:24
+* FROM CLIP NAME: s15_02.mp3
+
+109  AX       V     C        00:00:00:00 00:00:06:26 00:09:39:24 00:09:46:19
+* FROM CLIP NAME: s15_03.png
+* COMMENT: s15_03 images/s15_03.png
+
+110  AX       A     C        00:00:00:00 00:00:05:26 00:09:39:24 00:09:45:19
+* FROM CLIP NAME: s15_03.mp3

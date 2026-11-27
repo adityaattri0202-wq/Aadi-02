@@ -1,101 +1,297 @@
 {
-  "word_count": 396,
-  "runtime_minutes_fast": 2.64,
-  "runtime_minutes_slow": 3.05,
-  "target_minutes": 3.0,
+  "word_count": 1485,
+  "runtime_minutes_fast": 9.9,
+  "runtime_minutes_slow": 11.42,
+  "target_minutes": 12.0,
   "sections": [
     {
       "title": "Cold Open",
       "line": 7,
-      "words": 66,
+      "words": 109,
+      "shots": 4
+    },
+    {
+      "title": "What Is A Leopard Seal",
+      "line": 20,
+      "words": 93,
       "shots": 3
     },
     {
-      "title": "Built Like A Hunter",
-      "line": 17,
-      "words": 56,
-      "shots": 2
+      "title": "A Giant With A Twist",
+      "line": 30,
+      "words": 87,
+      "shots": 3
+    },
+    {
+      "title": "Built For Speed",
+      "line": 40,
+      "words": 81,
+      "shots": 3
     },
     {
       "title": "Two Mouths In One",
-      "line": 24,
-      "words": 68,
-      "shots": 2
+      "line": 50,
+      "words": 123,
+      "shots": 4
+    },
+    {
+      "title": "The Menu",
+      "line": 63,
+      "words": 119,
+      "shots": 4
     },
     {
       "title": "Ambush At The Ice Edge",
-      "line": 31,
-      "words": 61,
+      "line": 76,
+      "words": 106,
+      "shots": 4
+    },
+    {
+      "title": "Songs Under The Ice",
+      "line": 89,
+      "words": 67,
       "shots": 3
+    },
+    {
+      "title": "Life On The Ice",
+      "line": 99,
+      "words": 71,
+      "shots": 4
     },
     {
       "title": "Meeting Humans",
-      "line": 41,
-      "words": 82,
+      "line": 112,
+      "words": 174,
+      "shots": 6
+    },
+    {
+      "title": "Wanderers",
+      "line": 131,
+      "words": 76,
       "shots": 3
     },
     {
+      "title": "How Scientists Study Them",
+      "line": 141,
+      "words": 111,
+      "shots": 4
+    },
+    {
+      "title": "Myths And Facts",
+      "line": 154,
+      "words": 107,
+      "shots": 4
+    },
+    {
       "title": "A Changing Ice",
-      "line": 51,
-      "words": 28,
-      "shots": 1
+      "line": 167,
+      "words": 98,
+      "shots": 3
     },
     {
       "title": "Outro",
-      "line": 55,
-      "words": 35,
-      "shots": 2
+      "line": 177,
+      "words": 63,
+      "shots": 3
     }
   ],
-  "shot_count": 16,
+  "shot_count": 55,
   "verify_tags": [
     {
       "line": 4,
       "note": ""
     },
     {
-      "line": 19,
+      "line": 22,
+      "note": "family and ear openings"
+    },
+    {
+      "line": 25,
+      "note": "range"
+    },
+    {
+      "line": 28,
+      "note": "coloring"
+    },
+    {
+      "line": 32,
       "note": "maximum length and weight"
     },
     {
-      "line": 19,
+      "line": 35,
       "note": "females larger than males"
     },
     {
-      "line": 26,
+      "line": 38,
+      "note": "head and gape"
+    },
+    {
+      "line": 42,
+      "note": "front-flipper propulsion"
+    },
+    {
+      "line": 45,
+      "note": "agility"
+    },
+    {
+      "line": 48,
+      "note": "dive depth and duration"
+    },
+    {
+      "line": 52,
+      "note": "canines"
+    },
+    {
+      "line": 55,
       "note": "three-pointed cheek teeth"
     },
     {
-      "line": 29,
-      "note": "krill in the diet"
+      "line": 58,
+      "note": "krill filtering"
     },
     {
-      "line": 33,
+      "line": 61,
+      "note": "krill as a significant food at times"
+    },
+    {
+      "line": 65,
+      "note": "diet composition"
+    },
+    {
+      "line": 68,
+      "note": "penguins as prey"
+    },
+    {
+      "line": 71,
+      "note": "crabeater scars"
+    },
+    {
+      "line": 74,
+      "note": "shaking behavior"
+    },
+    {
+      "line": 78,
       "note": "ice-edge ambush"
     },
     {
-      "line": 36,
+      "line": 81,
+      "note": ""
+    },
+    {
+      "line": 84,
       "note": "group entry"
     },
     {
-      "line": 39,
-      "note": "diet"
+      "line": 87,
+      "note": ""
     },
     {
-      "line": 43,
+      "line": 91,
+      "note": "vocalizations"
+    },
+    {
+      "line": 94,
+      "note": "male breeding calls"
+    },
+    {
+      "line": 97,
+      "note": "acoustic monitoring"
+    },
+    {
+      "line": 101,
+      "note": "solitary"
+    },
+    {
+      "line": 104,
+      "note": "pupping season and nursing"
+    },
+    {
+      "line": 107,
+      "note": "predators"
+    },
+    {
+      "line": 110,
+      "note": "lifespan"
+    },
+    {
+      "line": 114,
+      "note": "Endurance expedition"
+    },
+    {
+      "line": 117,
+      "note": "Orde-Lees encounter"
+    },
+    {
+      "line": 120,
       "note": "most encounters are curiosity"
     },
     {
-      "line": 46,
+      "line": 123,
       "note": "Paul Nicklen encounter"
     },
     {
-      "line": 49,
-      "note": "2003 incident and its effect on safety rules"
+      "line": 126,
+      "note": "2003 incident"
     },
     {
-      "line": 53,
-      "note": "reliance on sea ice"
+      "line": 129,
+      "note": "rule changes"
+    },
+    {
+      "line": 133,
+      "note": "vagrants"
+    },
+    {
+      "line": 136,
+      "note": "New Zealand status"
+    },
+    {
+      "line": 139,
+      "note": "public advice"
+    },
+    {
+      "line": 143,
+      "note": "survey methods"
+    },
+    {
+      "line": 146,
+      "note": "tags and molt"
+    },
+    {
+      "line": 149,
+      "note": "animal-borne cameras"
+    },
+    {
+      "line": 152,
+      "note": "scat analysis"
+    },
+    {
+      "line": 156,
+      "note": ""
+    },
+    {
+      "line": 159,
+      "note": "diet varies"
+    },
+    {
+      "line": 162,
+      "note": ""
+    },
+    {
+      "line": 165,
+      "note": "no overlap"
+    },
+    {
+      "line": 169,
+      "note": "reliance on sea ice and krill"
+    },
+    {
+      "line": 172,
+      "note": "recent sea ice lows"
+    },
+    {
+      "line": 175,
+      "note": "population uncertainty"
     }
   ],
   "unverified_facts": [
@@ -110,7 +306,7 @@
   "missing_sections": [],
   "errors": [],
   "warnings": [
-    "12 [VERIFY] tag(s) unresolved (allowed in draft mode)",
+    "49 [VERIFY] tag(s) unresolved (allowed in draft mode)",
     "7 unverified fact(s) in topic.yaml"
   ],
   "passed": true,

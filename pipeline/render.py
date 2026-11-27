@@ -19,8 +19,10 @@ from __future__ import annotations
 
 import json
 import math
+import os
 import shutil
 import subprocess
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 from .assets import fingerprint
@@ -261,7 +263,7 @@ def run(ctx: Context) -> dict:
     if mg_specs:
         log.info(f"Motion-graphics shots: {', '.join(sorted(mg_specs))}")
     only = set(getattr(ctx, "only_shots", None) or [])
-    parts = []
+    parts, jobs = [], []
     for i, e in enumerate(entries):
         if only and e["shot_id"] not in only:
             continue
@@ -270,13 +272,29 @@ def run(ctx: Context) -> dict:
                          | {"v": RENDER_VERSION, "i": i, "mg": spec, "mgv": MOGRAPH_VERSION if spec else 0})
         out = work / f"{e['shot_id']}_{fp}.mp4"
         if not out.exists() or ctx.force:
-            if spec:
-                render_mograph_shot(e, spec, p.dir, work, out)
-            else:
-                render_shot(e, i, p.dir, out)
+            jobs.append((i, e, spec, out))
+        parts.append(out)
+
+    def _render(job):
+        i, e, spec, out = job
+        if spec:
+            render_mograph_shot(e, spec, p.dir, work, out)
+        else:
+            render_shot(e, i, p.dir, out)
+        return e, spec
+
+    # Shots are independent; ffmpeg filters like zoompan are mostly single-threaded,
+    # so a few in parallel use the machine far better.
+    if any(spec for _, _, spec, _ in jobs):  # shared plates: build once before going parallel
+        from . import mograph
+        (work / "mograph").mkdir(parents=True, exist_ok=True)
+        mograph.rays_plate(work / "mograph" / "rays.png")
+        mograph.particles_plate(work / "mograph" / "particles_mg.png")
+    workers = max(1, min(len(jobs), (os.cpu_count() or 2) - 1))
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        for e, spec in pool.map(_render, jobs):
             log.count("rendered")
             log.info(f"{e['shot_id']}: rendered {e['duration_sec']:.1f}s" + (" (motion graphics)" if spec else ""))
-        parts.append(out)
     if only:  # preview of selected shots: shift timings so chapters/SFX line up
         keep = [e for e in entries if e["shot_id"] in only]
         t0 = 0.0
@@ -289,6 +307,16 @@ def run(ctx: Context) -> dict:
     concat = work / "concat.txt"
     concat.write_text("".join(f"file '{x.resolve()}'\n" for x in parts), encoding="utf-8")
     music = sorted((p.dir / "music").glob("*.mp3")) if (p.dir / "music").exists() else []
+    if music:  # repeat the playlist until it covers the whole video
+        lengths = [float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of",
+                                         "csv=p=0", str(m)], capture_output=True, text=True).stdout or 0)
+                   for m in music]
+        playlist, covered, k = [], 0.0, 0
+        while covered < total + 5 and k < 50:
+            playlist.append(music[k % len(music)])
+            covered += max(lengths[k % len(music)] - 5, 1)
+            k += 1
+        music = playlist
     bed, whoosh = make_sound_bed(work, total, music)
     log.info(f"Sound bed: {len(music)} music track(s)" if music else "Sound bed: synthesised drone")
     chapter_starts = []

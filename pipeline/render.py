@@ -133,7 +133,67 @@ def _split(dur: float, first: float = 0.0) -> list[float]:
     return parts
 
 
+# Optional per-sentence visuals ("beats") from topics/<slug>/beats.json:
+# {shot_id: [{"path": rel path of image or clip, "weight": chars}, ...]}.
+BEATS: dict = {}
+CLIP_SEC = 6.0
+
+
+def render_beats(entry: dict, index: int, beats: list, topic_dir: Path, out: Path) -> None:
+    """One visual per narration sentence: time split by sentence length, each
+    still gets its own camera move (long ones get two), clips play in real time
+    (stretched up to 1.6x in slow motion, then held)."""
+    dur = float(entry["duration_sec"])
+    total_w = sum(b["weight"] for b in beats) or 1
+    segs, acc = [], 0.0
+    for i, b in enumerate(beats):
+        d = dur - acc if i == len(beats) - 1 else round(dur * b["weight"] / total_w, 3)
+        acc += d
+        segs.append((topic_dir / b["path"], d))
+    inputs, chains, labels, idx = [], [], [], {}
+    for path, _ in segs:
+        if str(path) not in idx:
+            idx[str(path)] = len(idx)
+            inputs += ["-i", str(path)]
+    n = 0
+    for j, (path, d) in enumerate(segs):
+        src = idx[str(path)]
+        if _is_video(path):
+            speed = min(max(d / CLIP_SEC, 1.0), 1.6)
+            chains.append(f"[{src}:v]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},"
+                          f"setpts={speed:.3f}*(PTS-STARTPTS),fps={FPS},tpad=stop_mode=clone:stop_duration={d:.2f},"
+                          f"trim=duration={d:.3f},setpts=PTS-STARTPTS,setsar=1[q{n}]")
+            labels.append(f"[q{n}]"); n += 1
+            continue
+        parts = [d] if d < 6.5 else [d / 2, d / 2]
+        for k, seg in enumerate(parts):
+            frames = max(int(round(seg * FPS)), 1)
+            framing = FRAMINGS[(index * 3 + j * 2 + k) % len(FRAMINGS)]
+            chains.append(f"[{src}:v]scale={SRC_W}:{SRC_H}:force_original_aspect_ratio=increase:flags=lanczos,"
+                          f"crop={SRC_W}:{SRC_H},{_zoompan(framing, frames)},trim=end_frame={frames},"
+                          f"setpts=PTS-STARTPTS,setsar=1[q{n}]")
+            labels.append(f"[q{n}]"); n += 1
+    chains.append("".join(labels) + f"concat=n={len(labels)}:v=1:a=0,trim=duration={dur:.3f}"
+                  f"{_overlay(entry.get('overlay_text', ''), dur)},format=yuv420p[v]")
+    audio = topic_dir / entry["audio"]["path"] if entry.get("audio") and entry["audio"]["status"] == "ready" else None
+    a_idx = len(inputs) // 2
+    if audio:
+        inputs += ["-i", str(audio)]
+        chains.append(f"[{a_idx}:a]aresample=48000,apad,atrim=duration={dur:.3f}[a]")
+    else:
+        inputs += ["-f", "lavfi", "-t", f"{dur:.3f}", "-i", "anullsrc=r=48000:cl=stereo"]
+        chains.append(f"[{a_idx}:a]anull[a]")
+    script = out.with_suffix(".fg")
+    script.write_text(";\n".join(chains), encoding="utf-8")
+    _ff([*inputs, "-filter_complex_script", str(script), "-map", "[v]", "-map", "[a]",
+         "-t", f"{dur:.3f}", "-r", str(FPS), "-c:v", "libx264", "-preset", "veryfast", "-crf", "18",
+         "-c:a", "aac", "-b:a", "192k", "-ac", "2", "-ar", "48000", str(out)])
+    script.unlink(missing_ok=True)
+
+
 def render_shot(entry: dict, index: int, topic_dir: Path, out: Path) -> None:
+    if BEATS.get(entry["shot_id"]):
+        return render_beats(entry, index, BEATS[entry["shot_id"]], topic_dir, out)
     dur = float(entry["duration_sec"])
     image = topic_dir / entry["image"]["path"]
     clip = topic_dir / entry["clip"]["path"] if entry.get("clip") and entry["clip"]["status"] == "ready" else None
@@ -290,6 +350,9 @@ def run(ctx: Context) -> dict:
         OVERLAY_STYLE["name"] = (yaml.safe_load(ctx.settings.style_path.read_text()) or {}).get("overlay", "plate")
     except (OSError, AttributeError):
         OVERLAY_STYLE["name"] = "plate"
+    BEATS.clear()
+    if (p.dir / "beats.json").exists():
+        BEATS.update(json.loads((p.dir / "beats.json").read_text(encoding="utf-8")))
     total = float(m["total_duration_sec"])
     mg_ids = set(load_mograph_specs(p.dir))
     missing = [e["shot_id"] for e in entries if e["image"]["status"] != "ready" and e["shot_id"] not in mg_ids]
@@ -314,7 +377,7 @@ def run(ctx: Context) -> dict:
             continue
         spec = mg_specs.get(e["shot_id"])
         fp = fingerprint({k: e.get(k) for k in ("duration_sec", "image", "clip", "audio", "overlay_text", "motion")}
-                         | {"v": RENDER_VERSION, "i": i, "ov": OVERLAY_STYLE["name"], "mg": spec, "mgv": MOGRAPH_VERSION if spec else 0})
+                         | {"v": RENDER_VERSION, "i": i, "ov": OVERLAY_STYLE["name"], "beats": BEATS.get(e["shot_id"]), "mg": spec, "mgv": MOGRAPH_VERSION if spec else 0})
         out = work / f"{e['shot_id']}_{fp}.mp4"
         if not out.exists() or ctx.force:
             jobs.append((i, e, spec, out))

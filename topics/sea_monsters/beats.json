@@ -1,0 +1,662 @@
+{
+ "s01_01": [
+  {
+   "path": "clips/s01_01.mp4",
+   "weight": 65
+  },
+  {
+   "path": "images/s01_01.png",
+   "weight": 65
+  }
+ ],
+ "s01_02": [
+  {
+   "path": "images/s01_02.png",
+   "weight": 127
+  }
+ ],
+ "s01_03": [
+  {
+   "path": "images/s01_03.png",
+   "weight": 101
+  },
+  {
+   "path": "images/beats/s01_03_1.png",
+   "weight": 88
+  }
+ ],
+ "s02_01": [
+  {
+   "path": "images/s02_01.png",
+   "weight": 18
+  },
+  {
+   "path": "images/beats/s02_01_1.png",
+   "weight": 125
+  }
+ ],
+ "s02_02": [
+  {
+   "path": "images/s02_02.png",
+   "weight": 80
+  },
+  {
+   "path": "clips/beats/s02_02_1.mp4",
+   "weight": 47
+  }
+ ],
+ "s02_03": [
+  {
+   "path": "clips/s02_03.mp4",
+   "weight": 77
+  }
+ ],
+ "s02_04": [
+  {
+   "path": "images/beats/s02_04_0.png",
+   "weight": 128
+  },
+  {
+   "path": "images/beats/s02_04_1.png",
+   "weight": 127
+  }
+ ],
+ "s02_05": [
+  {
+   "path": "images/s02_05.png",
+   "weight": 63
+  },
+  {
+   "path": "images/beats/s02_05_1.png",
+   "weight": 144
+  }
+ ],
+ "s02_06": [
+  {
+   "path": "images/s02_06.png",
+   "weight": 50
+  },
+  {
+   "path": "images/beats/s02_06_1.png",
+   "weight": 88
+  }
+ ],
+ "s02_07": [
+  {
+   "path": "images/s02_07.png",
+   "weight": 60
+  },
+  {
+   "path": "images/beats/s02_07_1.png",
+   "weight": 87
+  }
+ ],
+ "s02_08": [
+  {
+   "path": "images/s02_08.png",
+   "weight": 224
+  }
+ ],
+ "s02_09": [
+  {
+   "path": "clips/s02_09.mp4",
+   "weight": 35
+  },
+  {
+   "path": "images/s02_09.png",
+   "weight": 78
+  },
+  {
+   "path": "images/beats/s02_09_2.png",
+   "weight": 131
+  }
+ ],
+ "s02_10": [
+  {
+   "path": "clips/beats/s02_10_0.mp4",
+   "weight": 63
+  },
+  {
+   "path": "images/beats/s02_10_1.png",
+   "weight": 105
+  }
+ ],
+ "s02_11": [
+  {
+   "path": "images/s02_11.png",
+   "weight": 212
+  }
+ ],
+ "s02_12": [
+  {
+   "path": "images/s02_12.png",
+   "weight": 36
+  },
+  {
+   "path": "images/beats/s02_12_1.png",
+   "weight": 98
+  },
+  {
+   "path": "images/beats/s02_12_2.png",
+   "weight": 119
+  }
+ ],
+ "s02_13": [
+  {
+   "path": "images/beats/s02_13_0.png",
+   "weight": 106
+  },
+  {
+   "path": "images/beats/s02_13_1.png",
+   "weight": 87
+  }
+ ],
+ "s02_14": [
+  {
+   "path": "images/s02_14.png",
+   "weight": 57
+  },
+  {
+   "path": "images/beats/s02_14_1.png",
+   "weight": 132
+  },
+  {
+   "path": "images/beats/s02_14_2.png",
+   "weight": 82
+  }
+ ],
+ "s03_01": [
+  {
+   "path": "images/s03_01.png",
+   "weight": 28
+  },
+  {
+   "path": "images/beats/s03_01_1.png",
+   "weight": 104
+  }
+ ],
+ "s03_02": [
+  {
+   "path": "clips/s03_02.mp4",
+   "weight": 113
+  },
+  {
+   "path": "images/s03_02.png",
+   "weight": 99
+  }
+ ],
+ "s03_03": [
+  {
+   "path": "clips/beats/s03_03_0.mp4",
+   "weight": 187
+  }
+ ],
+ "s03_04": [
+  {
+   "path": "images/s03_04.png",
+   "weight": 149
+  }
+ ],
+ "s03_05": [
+  {
+   "path": "images/beats/s03_05_0.png",
+   "weight": 101
+  }
+ ],
+ "s03_06": [
+  {
+   "path": "images/s03_06.png",
+   "weight": 199
+  }
+ ],
+ "s03_07": [
+  {
+   "path": "images/s03_07.png",
+   "weight": 239
+  }
+ ],
+ "s03_08": [
+  {
+   "path": "images/s03_08.png",
+   "weight": 153
+  }
+ ],
+ "s03_09": [
+  {
+   "path": "images/beats/s03_09_0.png",
+   "weight": 142
+  },
+  {
+   "path": "images/beats/s03_09_1.png",
+   "weight": 99
+  }
+ ],
+ "s03_10": [
+  {
+   "path": "images/beats/s03_10_0.png",
+   "weight": 106
+  },
+  {
+   "path": "images/beats/s03_10_1.png",
+   "weight": 94
+  }
+ ],
+ "s03_11": [
+  {
+   "path": "images/s03_11.png",
+   "weight": 34
+  },
+  {
+   "path": "images/beats/s03_11_1.png",
+   "weight": 137
+  },
+  {
+   "path": "clips/beats/s03_11_2.mp4",
+   "weight": 125
+  }
+ ],
+ "s03_12": [
+  {
+   "path": "images/s03_12.png",
+   "weight": 121
+  },
+  {
+   "path": "images/beats/s03_12_2.png",
+   "weight": 154
+  }
+ ],
+ "s04_01": [
+  {
+   "path": "images/s04_01.png",
+   "weight": 24
+  },
+  {
+   "path": "images/beats/s04_01_1.png",
+   "weight": 156
+  }
+ ],
+ "s04_02": [
+  {
+   "path": "clips/s04_02.mp4",
+   "weight": 23
+  },
+  {
+   "path": "images/beats/s04_02_1.png",
+   "weight": 85
+  }
+ ],
+ "s04_03": [
+  {
+   "path": "clips/beats/s04_03_0.mp4",
+   "weight": 118
+  },
+  {
+   "path": "images/beats/s04_03_1.png",
+   "weight": 84
+  }
+ ],
+ "s04_04": [
+  {
+   "path": "images/s04_04.png",
+   "weight": 98
+  },
+  {
+   "path": "images/beats/s04_04_1.png",
+   "weight": 72
+  },
+  {
+   "path": "images/beats/s04_04_2.png",
+   "weight": 85
+  }
+ ],
+ "s04_05": [
+  {
+   "path": "images/s04_05.png",
+   "weight": 164
+  },
+  {
+   "path": "images/beats/s04_05_2.png",
+   "weight": 121
+  }
+ ],
+ "s04_06": [
+  {
+   "path": "images/s04_06.png",
+   "weight": 63
+  },
+  {
+   "path": "images/beats/s04_06_1.png",
+   "weight": 109
+  }
+ ],
+ "s04_07": [
+  {
+   "path": "images/s04_07.png",
+   "weight": 63
+  },
+  {
+   "path": "images/beats/s04_07_1.png",
+   "weight": 80
+  }
+ ],
+ "s04_08": [
+  {
+   "path": "images/s04_08.png",
+   "weight": 60
+  },
+  {
+   "path": "images/beats/s04_08_1.png",
+   "weight": 153
+  }
+ ],
+ "s04_09": [
+  {
+   "path": "images/beats/s04_09_0.png",
+   "weight": 116
+  },
+  {
+   "path": "images/beats/s04_09_1.png",
+   "weight": 72
+  }
+ ],
+ "s04_10": [
+  {
+   "path": "images/s04_10.png",
+   "weight": 106
+  },
+  {
+   "path": "images/beats/s04_10_1.png",
+   "weight": 93
+  }
+ ],
+ "s04_11": [
+  {
+   "path": "images/s04_11.png",
+   "weight": 58
+  },
+  {
+   "path": "images/beats/s04_11_1.png",
+   "weight": 204
+  }
+ ],
+ "s04_12": [
+  {
+   "path": "images/beats/s04_12_0.png",
+   "weight": 74
+  },
+  {
+   "path": "images/beats/s04_12_1.png",
+   "weight": 139
+  },
+  {
+   "path": "images/beats/s04_12_2.png",
+   "weight": 83
+  }
+ ],
+ "s04_13": [
+  {
+   "path": "images/s04_13.png",
+   "weight": 56
+  },
+  {
+   "path": "images/beats/s04_13_1.png",
+   "weight": 75
+  },
+  {
+   "path": "images/beats/s04_13_2.png",
+   "weight": 82
+  }
+ ],
+ "s05_01": [
+  {
+   "path": "images/s05_01.png",
+   "weight": 24
+  },
+  {
+   "path": "images/beats/s05_01_1.png",
+   "weight": 115
+  }
+ ],
+ "s05_02": [
+  {
+   "path": "clips/s05_02.mp4",
+   "weight": 111
+  },
+  {
+   "path": "images/s05_02.png",
+   "weight": 126
+  }
+ ],
+ "s05_03": [
+  {
+   "path": "images/beats/s05_03_0.png",
+   "weight": 74
+  },
+  {
+   "path": "images/beats/s05_03_1.png",
+   "weight": 150
+  }
+ ],
+ "s05_04": [
+  {
+   "path": "images/s05_04.png",
+   "weight": 168
+  }
+ ],
+ "s05_05": [
+  {
+   "path": "images/beats/s05_05_0.png",
+   "weight": 100
+  },
+  {
+   "path": "images/beats/s05_05_1.png",
+   "weight": 147
+  }
+ ],
+ "s05_06": [
+  {
+   "path": "images/s05_06.png",
+   "weight": 83
+  },
+  {
+   "path": "images/beats/s05_06_1.png",
+   "weight": 85
+  },
+  {
+   "path": "images/beats/s05_06_2.png",
+   "weight": 102
+  }
+ ],
+ "s05_07": [
+  {
+   "path": "images/s05_07.png",
+   "weight": 69
+  },
+  {
+   "path": "images/beats/s05_07_1.png",
+   "weight": 94
+  },
+  {
+   "path": "images/beats/s05_07_2.png",
+   "weight": 84
+  },
+  {
+   "path": "clips/beats/s05_07_3.mp4",
+   "weight": 123
+  }
+ ],
+ "s05_08": [
+  {
+   "path": "images/s05_08.png",
+   "weight": 89
+  },
+  {
+   "path": "images/beats/s05_08_2.png",
+   "weight": 83
+  },
+  {
+   "path": "images/beats/s05_08_3.png",
+   "weight": 107
+  }
+ ],
+ "s05_09": [
+  {
+   "path": "images/s05_09.png",
+   "weight": 164
+  },
+  {
+   "path": "images/beats/s05_09_2.png",
+   "weight": 85
+  }
+ ],
+ "s05_10": [
+  {
+   "path": "images/beats/s05_10_0.png",
+   "weight": 99
+  },
+  {
+   "path": "images/beats/s05_10_1.png",
+   "weight": 148
+  }
+ ],
+ "s06_01": [
+  {
+   "path": "clips/s06_01.mp4",
+   "weight": 27
+  },
+  {
+   "path": "images/s06_01.png",
+   "weight": 38
+  },
+  {
+   "path": "images/beats/s06_01_2.png",
+   "weight": 100
+  }
+ ],
+ "s06_02": [
+  {
+   "path": "images/s06_02.png",
+   "weight": 30
+  },
+  {
+   "path": "clips/beats/s06_02_1.mp4",
+   "weight": 107
+  }
+ ],
+ "s06_03": [
+  {
+   "path": "images/s06_03.png",
+   "weight": 132
+  },
+  {
+   "path": "images/beats/s06_03_1.png",
+   "weight": 137
+  }
+ ],
+ "s06_04": [
+  {
+   "path": "images/s06_04.png",
+   "weight": 62
+  },
+  {
+   "path": "images/beats/s06_04_1.png",
+   "weight": 134
+  }
+ ],
+ "s06_05": [
+  {
+   "path": "images/s06_05.png",
+   "weight": 172
+  },
+  {
+   "path": "images/beats/s06_05_3.png",
+   "weight": 115
+  }
+ ],
+ "s06_06": [
+  {
+   "path": "images/beats/s06_06_0.png",
+   "weight": 117
+  }
+ ],
+ "s06_07": [
+  {
+   "path": "clips/s06_07.mp4",
+   "weight": 118
+  },
+  {
+   "path": "images/s06_07.png",
+   "weight": 132
+  }
+ ],
+ "s06_08": [
+  {
+   "path": "images/beats/s06_08_0.png",
+   "weight": 180
+  }
+ ],
+ "s06_09": [
+  {
+   "path": "images/s06_09.png",
+   "weight": 109
+  },
+  {
+   "path": "images/beats/s06_09_2.png",
+   "weight": 118
+  },
+  {
+   "path": "images/beats/s06_09_3.png",
+   "weight": 112
+  }
+ ],
+ "s06_10": [
+  {
+   "path": "images/s06_10.png",
+   "weight": 74
+  },
+  {
+   "path": "clips/beats/s06_10_2.mp4",
+   "weight": 61
+  }
+ ],
+ "s06_11": [
+  {
+   "path": "images/beats/s06_11_0.png",
+   "weight": 101
+  },
+  {
+   "path": "images/beats/s06_11_1.png",
+   "weight": 72
+  },
+  {
+   "path": "images/beats/s06_11_2.png",
+   "weight": 205
+  }
+ ],
+ "s06_12": [
+  {
+   "path": "images/s06_12.png",
+   "weight": 117
+  },
+  {
+   "path": "images/beats/s06_12_1.png",
+   "weight": 98
+  }
+ ],
+ "s07_01": [
+  {
+   "path": "images/s07_01.png",
+   "weight": 212
+  }
+ ],
+ "s07_02": [
+  {
+   "path": "images/s07_02.png",
+   "weight": 89
+  },
+  {
+   "path": "images/beats/s07_02_2.png",
+   "weight": 99
+  }
+ ]
+}

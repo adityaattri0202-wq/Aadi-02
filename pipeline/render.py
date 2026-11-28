@@ -32,6 +32,11 @@ W, H, FPS = 1920, 1080, 30
 SRC_W, SRC_H = 3200, 1800          # stills are upscaled first so tight crops stay sharp
 SUB_SHOT_SEC = 4.2                 # target length of one cut
 FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf"
+FONT_CINE = "/usr/share/fonts/opentype/inter/InterDisplay-Bold.otf"
+# Overlay look, set per style (``overlay: cinematic`` in the style yaml):
+# "plate" = dark serif title in the top banner (Naturalist Plate art);
+# "cinematic" = white sans with an amber rule and shadow, for dark photoreal shots.
+OVERLAY_STYLE = {"name": "plate"}
 RENDER_VERSION = 4
 
 # Framings for sub-shots: (zoom_from, zoom_to, cx_from, cx_to, cy_from, cy_to)
@@ -70,11 +75,43 @@ def _overlay(text: str, dur: float) -> str:
     t_in, t_out = 0.5, max(dur - 0.5, 1.2)
     alpha = (f"if(lt(t,{t_in}),0,if(lt(t,{t_in}+0.4),(t-{t_in})/0.4,"
              f"if(lt(t,{t_out}-0.4),1,if(lt(t,{t_out}),({t_out}-t)/0.4,0))))")
+    if OVERLAY_STYLE["name"] == "cinematic":
+        return _overlay_cinematic(text, dur)
     if text.isupper() and len(text) <= 20:  # title card: large, centred in the top banner
         return (f",drawtext=fontfile={FONT}:text='{_escape(text)}':fontsize=110:fontcolor=0x3A2A18:"
                 f"x=(w-text_w)/2:y=h*0.085-text_h/2+8:alpha='{alpha}'")
     return (f",drawtext=fontfile={FONT}:text='{_escape(text)}':fontsize=54:fontcolor=0xF3EAD6:"
             f"box=1:boxcolor=0x1E1A14@0.62:boxborderw=22:x=110:y=h-210:alpha='{alpha}'")
+
+
+def _fade(t_in: float, t_out: float) -> str:
+    return (f"if(lt(t,{t_in}),0,if(lt(t,{t_in}+0.4),(t-{t_in})/0.4,"
+            f"if(lt(t,{t_out}-0.4),1,if(lt(t,{t_out}),({t_out}-t)/0.4,0))))")
+
+
+def _overlay_cinematic(text: str, dur: float) -> str:
+    """Numbered titles ("3. TITANOBOA") as a big centred card for a few seconds;
+    other caps text (dates, sizes) as a lower-third stat with an amber rule;
+    mixed case as a boxed label."""
+    t = _escape(text)
+    shadow = "shadowcolor=black@0.75:shadowx=0:shadowy=4"
+    if text[:1].isdigit() and ". " in text[:4]:
+        num, name = text.split(". ", 1)
+        t_in, t_out = 0.3, min(max(dur - 0.3, 1.5), 4.0)
+        a = _fade(t_in, t_out)
+        return (f",drawbox=x=0:y=ih*0.38:w=iw:h=ih*0.26:color=black@0.4:t=fill:enable='between(t,{t_in},{t_out})',"
+                f"drawtext=fontfile={FONT_CINE}:text='{_escape(num)}':fontsize=70:fontcolor=0xF2A93B:"
+                f"x=(w-text_w)/2:y=h*0.405:alpha='{a}':{shadow},"
+                f"drawtext=fontfile={FONT_CINE}:text='{_escape(name)}':fontsize=130:fontcolor=white:"
+                f"x=(w-text_w)/2:y=h*0.405+88:alpha='{a}':{shadow}")
+    t_in, t_out = 0.5, max(dur - 0.5, 1.2)
+    a = _fade(t_in, t_out)
+    if text.upper() == text:
+        return (f",drawtext=fontfile={FONT_CINE}:text='{t}':fontsize=78:fontcolor=white:"
+                f"x=110:y=h-250:alpha='{a}':{shadow},"
+                f"drawbox=x=112:y=ih-156:w=160:h=7:color=0xF2A93B:t=fill:enable='between(t,{t_in},{t_out})'")
+    return (f",drawtext=fontfile={FONT_CINE}:text='{t}':fontsize=52:fontcolor=white:"
+            f"box=1:boxcolor=black@0.5:boxborderw=20:x=110:y=h-210:alpha='{a}'")
 
 
 def _zoompan(framing, frames: int) -> str:
@@ -90,7 +127,7 @@ def _split(dur: float, first: float = 0.0) -> list[float]:
     """Sub-shot lengths: an optional fixed first part, the rest in ~4 s cuts."""
     rest = dur - first
     n = max(1, round(rest / SUB_SHOT_SEC)) if rest > 0.5 else 0
-    parts = ([first] if first else []) + [rest / n] * n
+    parts = ([first] if first else []) + ([rest / n] * n if n else [])
     if not parts:
         parts = [dur]
     return parts
@@ -103,7 +140,7 @@ def render_shot(entry: dict, index: int, topic_dir: Path, out: Path) -> None:
     audio = topic_dir / entry["audio"]["path"] if entry.get("audio") and entry["audio"]["status"] == "ready" else None
     if clip and not _is_video(clip):
         clip = None
-    if entry.get("overlay_text", "").isupper():
+    if entry.get("overlay_text", "").isupper() and not (clip and OVERLAY_STYLE["name"] == "cinematic"):
         clip_len, parts = 0.0, [dur]                   # title card: one calm move
     else:
         clip_len = min(5.0, dur) if clip else 0.0
@@ -247,6 +284,11 @@ def run(ctx: Context) -> dict:
         raise StageFailed("manifest.json not found; run manifest first")
     m = json.loads(p.manifest_json.read_text(encoding="utf-8"))
     entries = m["shots"]
+    try:
+        import yaml
+        OVERLAY_STYLE["name"] = (yaml.safe_load(ctx.settings.style_path.read_text()) or {}).get("overlay", "plate")
+    except (OSError, AttributeError):
+        OVERLAY_STYLE["name"] = "plate"
     total = float(m["total_duration_sec"])
     mg_ids = set(load_mograph_specs(p.dir))
     missing = [e["shot_id"] for e in entries if e["image"]["status"] != "ready" and e["shot_id"] not in mg_ids]
@@ -271,7 +313,7 @@ def run(ctx: Context) -> dict:
             continue
         spec = mg_specs.get(e["shot_id"])
         fp = fingerprint({k: e.get(k) for k in ("duration_sec", "image", "clip", "audio", "overlay_text", "motion")}
-                         | {"v": RENDER_VERSION, "i": i, "mg": spec, "mgv": MOGRAPH_VERSION if spec else 0})
+                         | {"v": RENDER_VERSION, "i": i, "ov": OVERLAY_STYLE["name"], "mg": spec, "mgv": MOGRAPH_VERSION if spec else 0})
         out = work / f"{e['shot_id']}_{fp}.mp4"
         if not out.exists() or ctx.force:
             jobs.append((i, e, spec, out))

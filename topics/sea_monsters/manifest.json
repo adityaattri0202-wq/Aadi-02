@@ -1,0 +1,1504 @@
+{
+  "version": 1,
+  "topic": "sea_monsters",
+  "generated_at": "2026-11-28T05:44:47+00:00",
+  "dry_run": false,
+  "fps": 30,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "providers": {
+    "image": "openart",
+    "video": "openart",
+    "voice": "viewmax"
+  },
+  "total_duration_sec": 833.156,
+  "ready_for_edit": true,
+  "counts": {
+    "shots": 66,
+    "images_ready": 66,
+    "clips_planned": 8,
+    "clips_ready": 8,
+    "audio_segments": 66,
+    "audio_ready": 66
+  },
+  "shots": [
+    {
+      "shot_id": "s01_01",
+      "scene": 1,
+      "scene_title": "Cold Open",
+      "start_sec": 0.0,
+      "end_sec": 6.691,
+      "duration_sec": 6.691,
+      "image": {
+        "path": "images/s01_01.png",
+        "status": "ready"
+      },
+      "clip": {
+        "path": "clips/s01_01.mp4",
+        "status": "ready"
+      },
+      "audio": {
+        "path": "voiceover/s01_01.mp3",
+        "status": "ready",
+        "duration_sec": 6.191,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "Throughout history, oceans and lakes have given rise to stories about mysterious creatures that seem almost impossible to believe."
+    },
+    {
+      "shot_id": "s01_02",
+      "scene": 1,
+      "scene_title": "Cold Open",
+      "start_sec": 6.691,
+      "end_sec": 14.61,
+      "duration_sec": 7.919,
+      "image": {
+        "path": "images/s01_02.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s01_02.mp3",
+        "status": "ready",
+        "duration_sec": 7.419,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "Some are based on eyewitness sightings, others come from strange underwater recordings, ancient legends, and even real fossils."
+    },
+    {
+      "shot_id": "s01_03",
+      "scene": 1,
+      "scene_title": "Cold Open",
+      "start_sec": 14.61,
+      "end_sec": 25.742,
+      "duration_sec": 11.132,
+      "image": {
+        "path": "images/s01_03.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s01_03.mp3",
+        "status": "ready",
+        "duration_sec": 10.632,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "Today, we're exploring five of the most terrifying creatures ever associated with the world's waters. And trust me, the final one has a history that goes back thousands of years. Let's begin."
+    },
+    {
+      "shot_id": "s02_01",
+      "scene": 2,
+      "scene_title": "Champ",
+      "start_sec": 25.742,
+      "end_sec": 36.56,
+      "duration_sec": 10.818,
+      "image": {
+        "path": "images/s02_01.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s02_01.mp3",
+        "status": "ready",
+        "duration_sec": 10.318,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "1. CHAMP",
+      "narration": "Number one: Champ. On July 5, 1977, Sandra Mansi was spending time with her family near Lake Champlain when something unusual happened offshore."
+    },
+    {
+      "shot_id": "s02_02",
+      "scene": 2,
+      "scene_title": "Champ",
+      "start_sec": 36.56,
+      "end_sec": 45.001,
+      "duration_sec": 8.441,
+      "image": {
+        "path": "images/s02_02.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s02_02.mp3",
+        "status": "ready",
+        "duration_sec": 7.941,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "Around 150 feet away, the normally calm water suddenly started moving violently. First, a large hump appeared above the surface."
+    },
+    {
+      "shot_id": "s02_03",
+      "scene": 2,
+      "scene_title": "Champ",
+      "start_sec": 45.001,
+      "end_sec": 49.707,
+      "duration_sec": 4.706,
+      "image": {
+        "path": "images/s02_03.png",
+        "status": "ready"
+      },
+      "clip": {
+        "path": "clips/s02_03.mp4",
+        "status": "ready"
+      },
+      "audio": {
+        "path": "voiceover/s02_03.mp3",
+        "status": "ready",
+        "duration_sec": 4.206,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "Then something resembling a long neck slowly emerged, ending in a small head."
+    },
+    {
+      "shot_id": "s02_04",
+      "scene": 2,
+      "scene_title": "Champ",
+      "start_sec": 49.707,
+      "end_sec": 63.529,
+      "duration_sec": 13.822,
+      "image": {
+        "path": "images/s02_04.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s02_04.mp3",
+        "status": "ready",
+        "duration_sec": 13.322,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "Mansi quickly pulled out her Kodak Instamatic camera and managed to capture a single photograph before her family left the area. That photograph would eventually become the most famous piece of evidence associated with a mysterious creature known as Champ."
+    },
+    {
+      "shot_id": "s02_05",
+      "scene": 2,
+      "scene_title": "Champ",
+      "start_sec": 63.529,
+      "end_sec": 76.333,
+      "duration_sec": 12.804,
+      "image": {
+        "path": "images/s02_05.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s02_05.mp3",
+        "status": "ready",
+        "duration_sec": 12.304,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "1883",
+      "narration": "But reports of this animal existed long before that photograph. Back in 1883, Clinton County Sheriff Nathan Mooney claimed to have witnessed a massive water serpent measuring somewhere between 25 and 35 feet."
+    },
+    {
+      "shot_id": "s02_06",
+      "scene": 2,
+      "scene_title": "Champ",
+      "start_sec": 76.333,
+      "end_sec": 85.897,
+      "duration_sec": 9.564,
+      "image": {
+        "path": "images/s02_06.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s02_06.mp3",
+        "status": "ready",
+        "duration_sec": 9.064,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "$50,000 REWARD",
+      "narration": "A decade earlier, in 1873, the famous showman P.T. Barnum had even announced a reward of $50,000 for anyone who could capture the creature."
+    },
+    {
+      "shot_id": "s02_07",
+      "scene": 2,
+      "scene_title": "Champ",
+      "start_sec": 85.897,
+      "end_sec": 94.678,
+      "duration_sec": 8.781,
+      "image": {
+        "path": "images/s02_07.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s02_07.mp3",
+        "status": "ready",
+        "duration_sec": 8.281,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "120 MILES LONG",
+      "narration": "And the lake itself makes the mystery even more interesting. Lake Champlain stretches approximately 120 miles and reaches depths of nearly 400 feet."
+    },
+    {
+      "shot_id": "s02_08",
+      "scene": 2,
+      "scene_title": "Champ",
+      "start_sec": 94.678,
+      "end_sec": 108.709,
+      "duration_sec": 14.031,
+      "image": {
+        "path": "images/s02_08.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s02_08.mp3",
+        "status": "ready",
+        "duration_sec": 13.531,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "JULY 11, 2005",
+      "narration": "Then, on July 11, 2005, two fishermen named Dick Affolter and Pete Bodette were out searching for salmon when they noticed something unusual floating near the surface. Initially, they assumed it was just a piece of driftwood."
+    },
+    {
+      "shot_id": "s02_09",
+      "scene": 2,
+      "scene_title": "Champ",
+      "start_sec": 108.709,
+      "end_sec": 123.655,
+      "duration_sec": 14.946,
+      "image": {
+        "path": "images/s02_09.png",
+        "status": "ready"
+      },
+      "clip": {
+        "path": "clips/s02_09.mp4",
+        "status": "ready"
+      },
+      "audio": {
+        "path": "voiceover/s02_09.mp3",
+        "status": "ready",
+        "duration_sec": 14.446,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "But then the object started moving. Its body appeared to travel through the water in a winding, snake-like motion. Affolter later described seeing a visible section of its back measuring roughly 10 to 13 feet, along with an unusually shaped head."
+    },
+    {
+      "shot_id": "s02_10",
+      "scene": 2,
+      "scene_title": "Champ",
+      "start_sec": 123.655,
+      "end_sec": 133.246,
+      "duration_sec": 9.591,
+      "image": {
+        "path": "images/s02_10.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s02_10.mp3",
+        "status": "ready",
+        "duration_sec": 9.091,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "The mysterious object suddenly disappeared beneath the surface. About an hour later, it appeared again, and this time Bodette managed to capture footage from their boat."
+    },
+    {
+      "shot_id": "s02_11",
+      "scene": 2,
+      "scene_title": "Champ",
+      "start_sec": 133.246,
+      "end_sec": 145.736,
+      "duration_sec": 12.49,
+      "image": {
+        "path": "images/s02_11.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s02_11.mp3",
+        "status": "ready",
+        "duration_sec": 11.99,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "The video was eventually examined by two retired FBI forensic image analysts. They found no obvious evidence of fabrication or digital manipulation. However, they couldn't determine exactly what the footage showed."
+    },
+    {
+      "shot_id": "s02_12",
+      "scene": 2,
+      "scene_title": "Champ",
+      "start_sec": 145.736,
+      "end_sec": 160.995,
+      "duration_sec": 15.259,
+      "image": {
+        "path": "images/s02_12.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s02_12.mp3",
+        "status": "ready",
+        "duration_sec": 14.759,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "There was another strange discovery. In 2003, researchers had recorded unusual sequences of underwater clicking sounds inside the lake. These sounds were interpreted as possible biological sonar, resembling the echolocation used by certain marine animals."
+    },
+    {
+      "shot_id": "s02_13",
+      "scene": 2,
+      "scene_title": "Champ",
+      "start_sec": 160.995,
+      "end_sec": 173.485,
+      "duration_sec": 12.49,
+      "image": {
+        "path": "images/s02_13.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s02_13.mp3",
+        "status": "ready",
+        "duration_sec": 11.99,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "At the time, no known native animal in Lake Champlain had been documented using this kind of echolocation. The lake contains approximately 6.8 trillion gallons of water and more than 70 islands."
+    },
+    {
+      "shot_id": "s02_14",
+      "scene": 2,
+      "scene_title": "Champ",
+      "start_sec": 173.485,
+      "end_sec": 189.685,
+      "duration_sec": 16.2,
+      "image": {
+        "path": "images/s02_14.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s02_14.mp3",
+        "status": "ready",
+        "duration_sec": 15.7,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "Champ has never been officially identified by scientists. But between the photographs, recordings, underwater sounds, and generations of eyewitness reports, the mystery refuses to disappear. And somewhere beneath those 400 feet of dark water, the legend of Champ continues."
+    },
+    {
+      "shot_id": "s03_01",
+      "scene": 3,
+      "scene_title": "The Julia Beast",
+      "start_sec": 189.685,
+      "end_sec": 197.682,
+      "duration_sec": 7.997,
+      "image": {
+        "path": "images/s03_01.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s03_01.mp3",
+        "status": "ready",
+        "duration_sec": 7.497,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "2. THE JULIA BEAST",
+      "narration": "Number two: the Julia Beast. Imagine looking down into the Antarctic Ocean and seeing something enormous moving beneath the darkness."
+    },
+    {
+      "shot_id": "s03_02",
+      "scene": 3,
+      "scene_title": "The Julia Beast",
+      "start_sec": 197.682,
+      "end_sec": 209.31,
+      "duration_sec": 11.628,
+      "image": {
+        "path": "images/s03_02.png",
+        "status": "ready"
+      },
+      "clip": {
+        "path": "clips/s03_02.mp4",
+        "status": "ready"
+      },
+      "audio": {
+        "path": "voiceover/s03_02.mp3",
+        "status": "ready",
+        "duration_sec": 11.128,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "A gigantic head emerges first, followed by three pairs of eyes that appear to be looking in different directions. Its body is covered in strange dark markings, almost as if they're glowing against the black water."
+    },
+    {
+      "shot_id": "s03_03",
+      "scene": 3,
+      "scene_title": "The Julia Beast",
+      "start_sec": 209.31,
+      "end_sec": 219.554,
+      "duration_sec": 10.244,
+      "image": {
+        "path": "images/s03_03.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s03_03.mp3",
+        "status": "ready",
+        "duration_sec": 9.744,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "The creature continues passing by, but its tail is nowhere in sight. This sounds like something from a science fiction movie. But the recording connected to this mystery is completely real."
+    },
+    {
+      "shot_id": "s03_04",
+      "scene": 3,
+      "scene_title": "The Julia Beast",
+      "start_sec": 219.554,
+      "end_sec": 229.85,
+      "duration_sec": 10.296,
+      "image": {
+        "path": "images/s03_04.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s03_04.mp3",
+        "status": "ready",
+        "duration_sec": 9.796,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "MARCH 1, 1999",
+      "narration": "On March 1, 1999, underwater listening equipment in the Southern Ocean detected a powerful low-frequency sound. The signal was eventually named Julia."
+    },
+    {
+      "shot_id": "s03_05",
+      "scene": 3,
+      "scene_title": "The Julia Beast",
+      "start_sec": 229.85,
+      "end_sec": 236.306,
+      "duration_sec": 6.456,
+      "image": {
+        "path": "images/s03_05.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s03_05.mp3",
+        "status": "ready",
+        "duration_sec": 5.956,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "Its source was traced to an area of the Antarctic Ocean between the Bransfield Strait and Cape Adare."
+    },
+    {
+      "shot_id": "s03_06",
+      "scene": 3,
+      "scene_title": "The Julia Beast",
+      "start_sec": 236.306,
+      "end_sec": 247.96,
+      "duration_sec": 11.654,
+      "image": {
+        "path": "images/s03_06.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s03_06.mp3",
+        "status": "ready",
+        "duration_sec": 11.154,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "16X SPEED",
+      "narration": "The sound was so unusually low that the National Oceanic and Atmospheric Administration released an accelerated version, playing it at 16 times its original speed. And that's where the mystery begins."
+    },
+    {
+      "shot_id": "s03_07",
+      "scene": 3,
+      "scene_title": "The Julia Beast",
+      "start_sec": 247.96,
+      "end_sec": 263.48,
+      "duration_sec": 15.52,
+      "image": {
+        "path": "images/s03_07.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s03_07.mp3",
+        "status": "ready",
+        "duration_sec": 15.02,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "2,624 FT",
+      "narration": "Over time, the Julia recording inspired stories about an unbelievably enormous sea creature, with some fictional descriptions claiming it could reach 2,624 feet in length. That's nearly 27 times the length of a blue whale measuring 98 feet."
+    },
+    {
+      "shot_id": "s03_08",
+      "scene": 3,
+      "scene_title": "The Julia Beast",
+      "start_sec": 263.48,
+      "end_sec": 271.373,
+      "duration_sec": 7.893,
+      "image": {
+        "path": "images/s03_08.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s03_08.mp3",
+        "status": "ready",
+        "duration_sec": 7.393,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "If such a creature stood vertically, it would extend more than one and a half times the total height of the Empire State Building, including its antenna."
+    },
+    {
+      "shot_id": "s03_09",
+      "scene": 3,
+      "scene_title": "The Julia Beast",
+      "start_sec": 271.373,
+      "end_sec": 286.632,
+      "duration_sec": 15.259,
+      "image": {
+        "path": "images/s03_09.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s03_09.mp3",
+        "status": "ready",
+        "duration_sec": 14.759,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "According to these stories, Julia has massive fins capable of rotating 180 degrees, allowing its enormous body to change direction underwater. Some fictional versions even describe Julia as a rival of another famous sea monster known as Blue."
+    },
+    {
+      "shot_id": "s03_10",
+      "scene": 3,
+      "scene_title": "The Julia Beast",
+      "start_sec": 286.632,
+      "end_sec": 299.096,
+      "duration_sec": 12.464,
+      "image": {
+        "path": "images/s03_10.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s03_10.mp3",
+        "status": "ready",
+        "duration_sec": 11.964,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "Because of its supposed size, Julia is often portrayed as one of the most powerful creatures in the ocean. Its enormous body is even imagined to contain enough meat to feed an entire country for years."
+    },
+    {
+      "shot_id": "s03_11",
+      "scene": 3,
+      "scene_title": "The Julia Beast",
+      "start_sec": 299.096,
+      "end_sec": 316.001,
+      "duration_sec": 16.905,
+      "image": {
+        "path": "images/s03_11.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s03_11.mp3",
+        "status": "ready",
+        "duration_sec": 16.405,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "But here's the actual explanation. Scientists later connected the original Julia sound to a massive piece of Antarctic ice, most likely an iceberg that had become grounded. As the ice moved and interacted with the surrounding environment, it produced unusual sounds that traveled through the ocean."
+    },
+    {
+      "shot_id": "s03_12",
+      "scene": 3,
+      "scene_title": "The Julia Beast",
+      "start_sec": 316.001,
+      "end_sec": 332.749,
+      "duration_sec": 16.748,
+      "image": {
+        "path": "images/s03_12.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s03_12.mp3",
+        "status": "ready",
+        "duration_sec": 16.248,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "So, there is no scientific evidence that a giant animal was responsible for the recording. Still, the name Julia survived. And what started as a strange underwater sound eventually inspired the legend of a creature supposedly larger than anything else living beneath the ocean."
+    },
+    {
+      "shot_id": "s04_01",
+      "scene": 4,
+      "scene_title": "Titanoboa",
+      "start_sec": 332.749,
+      "end_sec": 343.907,
+      "duration_sec": 11.158,
+      "image": {
+        "path": "images/s04_01.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s04_01.mp3",
+        "status": "ready",
+        "duration_sec": 10.658,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "3. TITANOBOA",
+      "narration": "Number three: Titanoboa. Around 60 million years ago, the rivers of what is now Colombia were home to a snake so enormous that even today's largest snakes would look tiny beside it."
+    },
+    {
+      "shot_id": "s04_02",
+      "scene": 4,
+      "scene_title": "Titanoboa",
+      "start_sec": 343.907,
+      "end_sec": 351.147,
+      "duration_sec": 7.24,
+      "image": {
+        "path": "images/s04_02.png",
+        "status": "ready"
+      },
+      "clip": {
+        "path": "clips/s04_02.mp4",
+        "status": "ready"
+      },
+      "audio": {
+        "path": "voiceover/s04_02.mp3",
+        "status": "ready",
+        "duration_sec": 6.74,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "Its name was Titanoboa. And unlike the other mysterious creatures on this list, this one was absolutely real."
+    },
+    {
+      "shot_id": "s04_03",
+      "scene": 4,
+      "scene_title": "Titanoboa",
+      "start_sec": 351.147,
+      "end_sec": 364.473,
+      "duration_sec": 13.326,
+      "image": {
+        "path": "images/s04_03.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s04_03.mp3",
+        "status": "ready",
+        "duration_sec": 12.826,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "48 FT",
+      "narration": "Titanoboa could reach lengths of more than 46 feet, with some estimates suggesting it may have grown close to 48 feet. Its body was almost three feet thick and its estimated weight exceeded 2,200 pounds."
+    },
+    {
+      "shot_id": "s04_04",
+      "scene": 4,
+      "scene_title": "Titanoboa",
+      "start_sec": 364.473,
+      "end_sec": 380.908,
+      "duration_sec": 16.435,
+      "image": {
+        "path": "images/s04_04.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s04_04.mp3",
+        "status": "ready",
+        "duration_sec": 15.935,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "It lived in a warm, humid environment filled with enormous fish, turtles, and crocodile relatives. Some of those crocodile-like predators reached around 20 feet in length. But Titanoboa was even more impressive and occupied the top of its ancient ecosystem."
+    },
+    {
+      "shot_id": "s04_05",
+      "scene": 4,
+      "scene_title": "Titanoboa",
+      "start_sec": 380.908,
+      "end_sec": 397.708,
+      "duration_sec": 16.8,
+      "image": {
+        "path": "images/s04_05.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s04_05.mp3",
+        "status": "ready",
+        "duration_sec": 16.3,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "ANACONDA 23 FT",
+      "narration": "For comparison, today's largest living snakes, green anacondas, generally reach lengths of around 20 to 23 feet. Titanoboa could grow to more than twice that length. Some reconstructions make it look almost as tall as a five-story building if its body were somehow positioned vertically."
+    },
+    {
+      "shot_id": "s04_06",
+      "scene": 4,
+      "scene_title": "Titanoboa",
+      "start_sec": 397.708,
+      "end_sec": 409.415,
+      "duration_sec": 11.707,
+      "image": {
+        "path": "images/s04_06.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s04_06.mp3",
+        "status": "ready",
+        "duration_sec": 11.207,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "CERREJÓN MINE, 2007",
+      "narration": "The discovery of this giant snake began with an unusual fossil. In 2007, researcher Alex Hastings was examining fossil material recovered from Colombia's Cerrejón coal mine."
+    },
+    {
+      "shot_id": "s04_07",
+      "scene": 4,
+      "scene_title": "Titanoboa",
+      "start_sec": 409.415,
+      "end_sec": 418.039,
+      "duration_sec": 8.624,
+      "image": {
+        "path": "images/s04_07.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s04_07.mp3",
+        "status": "ready",
+        "duration_sec": 8.124,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "One collection box was labeled as containing crocodile remains. But inside was an enormous vertebra that didn't seem to belong to any crocodile."
+    },
+    {
+      "shot_id": "s04_08",
+      "scene": 4,
+      "scene_title": "Titanoboa",
+      "start_sec": 418.039,
+      "end_sec": 430.999,
+      "duration_sec": 12.96,
+      "image": {
+        "path": "images/s04_08.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s04_08.mp3",
+        "status": "ready",
+        "duration_sec": 12.46,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "Hastings showed the bone to reptile specialist Jason Bourke. Bourke brought out a vertebra from a modern anaconda and compared the two. The similarities were remarkable. The giant fossil actually belonged to a snake."
+    },
+    {
+      "shot_id": "s04_09",
+      "scene": 4,
+      "scene_title": "Titanoboa",
+      "start_sec": 430.999,
+      "end_sec": 441.608,
+      "duration_sec": 10.609,
+      "image": {
+        "path": "images/s04_09.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s04_09.mp3",
+        "status": "ready",
+        "duration_sec": 10.109,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "Even more surprising was that some of these enormous bones had already been sitting in museum collections for years. Researchers had simply assumed they were too large to belong to a snake."
+    },
+    {
+      "shot_id": "s04_10",
+      "scene": 4,
+      "scene_title": "Titanoboa",
+      "start_sec": 441.608,
+      "end_sec": 454.255,
+      "duration_sec": 12.647,
+      "image": {
+        "path": "images/s04_10.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s04_10.mp3",
+        "status": "ready",
+        "duration_sec": 12.147,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "28 INDIVIDUALS",
+      "narration": "Once scientists realized what they were looking at, they examined the fossil material much more carefully. Eventually, they recovered approximately 100 vertebrae belonging to 28 different individuals."
+    },
+    {
+      "shot_id": "s04_11",
+      "scene": 4,
+      "scene_title": "Titanoboa",
+      "start_sec": 454.255,
+      "end_sec": 469.775,
+      "duration_sec": 15.52,
+      "image": {
+        "path": "images/s04_11.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s04_11.mp3",
+        "status": "ready",
+        "duration_sec": 15.02,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "Later discoveries included sections of the skull and jaws. The animal's head measured more than two feet in length, and its teeth were arranged more closely together than those of modern boas. This arrangement may have helped it grip slippery prey, including fish."
+    },
+    {
+      "shot_id": "s04_12",
+      "scene": 4,
+      "scene_title": "Titanoboa",
+      "start_sec": 469.775,
+      "end_sec": 489.423,
+      "duration_sec": 19.648,
+      "image": {
+        "path": "images/s04_12.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s04_12.mp3",
+        "status": "ready",
+        "duration_sec": 19.148,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "The surrounding fossil beds revealed an entire ecosystem of giant animals. Scientists discovered fish measuring around two and a half feet, enormous turtles, and a crocodile relative called Anthracosuchus balrogus. This predator had a short snout and powerful jaws capable of crushing thick shells."
+    },
+    {
+      "shot_id": "s04_13",
+      "scene": 4,
+      "scene_title": "Titanoboa",
+      "start_sec": 489.423,
+      "end_sec": 502.697,
+      "duration_sec": 13.274,
+      "image": {
+        "path": "images/s04_13.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s04_13.mp3",
+        "status": "ready",
+        "duration_sec": 12.774,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "Today, Titanoboa exists only through its fossil remains. But those enormous vertebrae were enough to reveal something extraordinary. Millions of years ago, the planet was home to a snake unlike anything alive today."
+    },
+    {
+      "shot_id": "s05_01",
+      "scene": 5,
+      "scene_title": "Ningen",
+      "start_sec": 502.697,
+      "end_sec": 510.773,
+      "duration_sec": 8.076,
+      "image": {
+        "path": "images/s05_01.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s05_01.mp3",
+        "status": "ready",
+        "duration_sec": 7.576,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "4. NINGEN",
+      "narration": "Number four: the Ningen. Far below the freezing waters surrounding Antarctica, there is a legend about something that looks strangely human."
+    },
+    {
+      "shot_id": "s05_02",
+      "scene": 5,
+      "scene_title": "Ningen",
+      "start_sec": 510.773,
+      "end_sec": 524.099,
+      "duration_sec": 13.326,
+      "image": {
+        "path": "images/s05_02.png",
+        "status": "ready"
+      },
+      "clip": {
+        "path": "clips/s05_02.mp4",
+        "status": "ready"
+      },
+      "audio": {
+        "path": "voiceover/s05_02.mp3",
+        "status": "ready",
+        "duration_sec": 12.826,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "According to the stories, Japanese research crews once spotted a massive white figure moving near their vessel. At first, they thought they were looking at an iceberg or perhaps a whale. But then the figure began moving alongside the ship."
+    },
+    {
+      "shot_id": "s05_03",
+      "scene": 5,
+      "scene_title": "Ningen",
+      "start_sec": 524.099,
+      "end_sec": 537.817,
+      "duration_sec": 13.718,
+      "image": {
+        "path": "images/s05_03.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s05_03.mp3",
+        "status": "ready",
+        "duration_sec": 13.218,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "As it shifted beneath the surface, its shape became easier to distinguish. It appeared to have a huge torso, two long arms, and legs resembling those of a human. Its entire body was reportedly covered in completely white skin."
+    },
+    {
+      "shot_id": "s05_04",
+      "scene": 5,
+      "scene_title": "Ningen",
+      "start_sec": 537.817,
+      "end_sec": 547.982,
+      "duration_sec": 10.165,
+      "image": {
+        "path": "images/s05_04.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s05_04.mp3",
+        "status": "ready",
+        "duration_sec": 9.665,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "The face was described as having only two visible eyes and a wide mouth, while its hands ended in five long fingers. This mysterious creature became known as the Ningen."
+    },
+    {
+      "shot_id": "s05_05",
+      "scene": 5,
+      "scene_title": "Ningen",
+      "start_sec": 547.982,
+      "end_sec": 562.458,
+      "duration_sec": 14.476,
+      "image": {
+        "path": "images/s05_05.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s05_05.mp3",
+        "status": "ready",
+        "duration_sec": 13.976,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "65–100 FT",
+      "narration": "According to different versions of the legend, it can measure anywhere between 65 and 100 feet long. At the upper end of that estimate, it would be nearly as long as some of the largest Antarctic blue whales, which can reach approximately 110 feet."
+    },
+    {
+      "shot_id": "s05_06",
+      "scene": 5,
+      "scene_title": "Ningen",
+      "start_sec": 562.458,
+      "end_sec": 578.736,
+      "duration_sec": 16.278,
+      "image": {
+        "path": "images/s05_06.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s05_06.mp3",
+        "status": "ready",
+        "duration_sec": 15.778,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "But unlike a whale, the Ningen supposedly has a body shaped like an enormous human. Some accounts describe it with two legs, while others give it a massive tail instead. In those versions, the creature looks like a strange combination of a giant human and a marine animal."
+    },
+    {
+      "shot_id": "s05_07",
+      "scene": 5,
+      "scene_title": "Ningen",
+      "start_sec": 578.736,
+      "end_sec": 599.768,
+      "duration_sec": 21.032,
+      "image": {
+        "path": "images/s05_07.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s05_07.mp3",
+        "status": "ready",
+        "duration_sec": 20.532,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "Its supposed home is the extremely cold ocean surrounding Antarctica. Witnesses claim that it usually appears at night and spends very little time near the surface. Its pale body supposedly blends almost perfectly with the surrounding ice and water. Sometimes, only its head is visible above the ocean, while the rest of its enormous figure can be seen beneath the surface."
+    },
+    {
+      "shot_id": "s05_08",
+      "scene": 5,
+      "scene_title": "Ningen",
+      "start_sec": 599.768,
+      "end_sec": 617.3,
+      "duration_sec": 17.532,
+      "image": {
+        "path": "images/s05_08.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s05_08.mp3",
+        "status": "ready",
+        "duration_sec": 17.032,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "NINGEN = HUMAN",
+      "narration": "Even the name has an interesting meaning. In Japanese, the word Ningen simply means human. The legend gained popularity across Japanese internet communities during the 2000s. Stories circulated about mysterious sightings involving crews aboard Japanese research and whaling vessels."
+    },
+    {
+      "shot_id": "s05_09",
+      "scene": 5,
+      "scene_title": "Ningen",
+      "start_sec": 617.3,
+      "end_sec": 632.768,
+      "duration_sec": 15.468,
+      "image": {
+        "path": "images/s05_09.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s05_09.mp3",
+        "status": "ready",
+        "duration_sec": 14.968,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "Eventually, artists began creating illustrations showing the creature beside ships, icebergs, and frozen Antarctic landscapes. However, there is an important detail. No verified scientific evidence has ever established that the Ningen actually exists."
+    },
+    {
+      "shot_id": "s05_10",
+      "scene": 5,
+      "scene_title": "Ningen",
+      "start_sec": 632.768,
+      "end_sec": 646.355,
+      "duration_sec": 13.587,
+      "image": {
+        "path": "images/s05_10.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s05_10.mp3",
+        "status": "ready",
+        "duration_sec": 13.087,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "Its sightings remain part of modern internet folklore rather than confirmed zoological discoveries. And according to the stories, once the enormous white silhouette disappears beneath the freezing water, there's almost no chance of seeing it again."
+    },
+    {
+      "shot_id": "s06_01",
+      "scene": 6,
+      "scene_title": "Leviathan",
+      "start_sec": 646.355,
+      "end_sec": 656.39,
+      "duration_sec": 10.035,
+      "image": {
+        "path": "images/s06_01.png",
+        "status": "ready"
+      },
+      "clip": {
+        "path": "clips/s06_01.mp4",
+        "status": "ready"
+      },
+      "audio": {
+        "path": "voiceover/s06_01.mp3",
+        "status": "ready",
+        "duration_sec": 9.535,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "5. LEVIATHAN",
+      "narration": "And number five: Leviathan. A gigantic shape rises from the ocean. Its back is covered with rows of tightly packed scales, resembling thousands of overlapping shields."
+    },
+    {
+      "shot_id": "s06_02",
+      "scene": 6,
+      "scene_title": "Leviathan",
+      "start_sec": 656.39,
+      "end_sec": 665.275,
+      "duration_sec": 8.885,
+      "image": {
+        "path": "images/s06_02.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s06_02.mp3",
+        "status": "ready",
+        "duration_sec": 8.385,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "Smoke pours from its nostrils. Flames and sparks emerge from its mouth, while the water around its enormous body turns into violent waves."
+    },
+    {
+      "shot_id": "s06_03",
+      "scene": 6,
+      "scene_title": "Leviathan",
+      "start_sec": 665.275,
+      "end_sec": 680.012,
+      "duration_sec": 14.737,
+      "image": {
+        "path": "images/s06_03.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s06_03.mp3",
+        "status": "ready",
+        "duration_sec": 14.237,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "BOOK OF JOB",
+      "narration": "This is one of the most terrifying descriptions of Leviathan, a legendary sea monster mentioned in the ancient biblical Book of Job. According to the text, its body is protected by incredibly strong scales that fit together so tightly that nothing can pass between them."
+    },
+    {
+      "shot_id": "s06_04",
+      "scene": 6,
+      "scene_title": "Leviathan",
+      "start_sec": 680.012,
+      "end_sec": 692.084,
+      "duration_sec": 12.072,
+      "image": {
+        "path": "images/s06_04.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s06_04.mp3",
+        "status": "ready",
+        "duration_sec": 11.572,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "Swords, spears, and arrows are practically useless against it. Iron is compared to straw, while its powerful underside is described as resembling sharp pieces of pottery scraping across the seabed."
+    },
+    {
+      "shot_id": "s06_05",
+      "scene": 6,
+      "scene_title": "Leviathan",
+      "start_sec": 692.084,
+      "end_sec": 709.668,
+      "duration_sec": 17.584,
+      "image": {
+        "path": "images/s06_05.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s06_05.mp3",
+        "status": "ready",
+        "duration_sec": 17.084,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "PSALM 74",
+      "narration": "But Leviathan doesn't have just one consistent appearance. Different ancient texts describe it in different ways. In Psalm 74, the creature is associated with multiple heads. Meanwhile, the Book of Isaiah describes it as a twisting, fleeing serpent and a powerful monster living in the sea."
+    },
+    {
+      "shot_id": "s06_06",
+      "scene": 6,
+      "scene_title": "Leviathan",
+      "start_sec": 709.668,
+      "end_sec": 717.77,
+      "duration_sec": 8.102,
+      "image": {
+        "path": "images/s06_06.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s06_06.mp3",
+        "status": "ready",
+        "duration_sec": 7.602,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "LOTAN",
+      "narration": "Interestingly, a remarkably similar creature appears in even older ancient Near Eastern mythology. Its name was Lotan."
+    },
+    {
+      "shot_id": "s06_07",
+      "scene": 6,
+      "scene_title": "Leviathan",
+      "start_sec": 717.77,
+      "end_sec": 733.212,
+      "duration_sec": 15.442,
+      "image": {
+        "path": "images/s06_07.png",
+        "status": "ready"
+      },
+      "clip": {
+        "path": "clips/s06_07.mp4",
+        "status": "ready"
+      },
+      "audio": {
+        "path": "voiceover/s06_07.mp3",
+        "status": "ready",
+        "duration_sec": 14.942,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "Ancient Ugaritic texts describe Lotan as a twisting, seven-headed sea serpent that was defeated by the storm god Baal. The similarities between Lotan and Leviathan are so strong that historians and scholars frequently examine the two figures together."
+    },
+    {
+      "shot_id": "s06_08",
+      "scene": 6,
+      "scene_title": "Leviathan",
+      "start_sec": 733.212,
+      "end_sec": 744.004,
+      "duration_sec": 10.792,
+      "image": {
+        "path": "images/s06_08.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s06_08.mp3",
+        "status": "ready",
+        "duration_sec": 10.292,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "These connections suggest that the tradition of enormous supernatural sea serpents existed in the ancient Near East long before Leviathan became famous through biblical literature."
+    },
+    {
+      "shot_id": "s06_09",
+      "scene": 6,
+      "scene_title": "Leviathan",
+      "start_sec": 744.004,
+      "end_sec": 765.036,
+      "duration_sec": 21.032,
+      "image": {
+        "path": "images/s06_09.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s06_09.mp3",
+        "status": "ready",
+        "duration_sec": 20.532,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "PSALM 104",
+      "narration": "But there's another interesting detail. Not every biblical reference portrays Leviathan as a terrifying enemy. In Psalm 104, the creature is described as an animal created by God, playing freely in the enormous ocean among ships. This is very different from its portrayal in the Book of Job, where humans are practically powerless against it."
+    },
+    {
+      "shot_id": "s06_10",
+      "scene": 6,
+      "scene_title": "Leviathan",
+      "start_sec": 765.036,
+      "end_sec": 774.261,
+      "duration_sec": 9.225,
+      "image": {
+        "path": "images/s06_10.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s06_10.mp3",
+        "status": "ready",
+        "duration_sec": 8.725,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "Its chest is described as hard as stone. Weapons cannot penetrate its body. And whenever it moves, the surrounding waters appear to boil."
+    },
+    {
+      "shot_id": "s06_11",
+      "scene": 6,
+      "scene_title": "Leviathan",
+      "start_sec": 774.261,
+      "end_sec": 796.26,
+      "duration_sec": 21.999,
+      "image": {
+        "path": "images/s06_11.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s06_11.mp3",
+        "status": "ready",
+        "duration_sec": 21.499,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "Interestingly, ancient descriptions never provide one universally accepted measurement for Leviathan. There is no confirmed length, weight, or even an agreed number of heads. But when all these descriptions are combined, they create the image of an enormous armored serpent emerging from the depths, with multiple terrifying heads and a body powerful enough to dominate the ocean."
+    },
+    {
+      "shot_id": "s06_12",
+      "scene": 6,
+      "scene_title": "Leviathan",
+      "start_sec": 796.26,
+      "end_sec": 809.717,
+      "duration_sec": 13.457,
+      "image": {
+        "path": "images/s06_12.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s06_12.mp3",
+        "status": "ready",
+        "duration_sec": 12.957,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "3,000+ YEARS",
+      "narration": "For more than 3,000 years, the legend of Leviathan has survived through religious texts, mythology, and storytelling. And even today, its name remains one of the most recognizable symbols of a terrifying sea monster."
+    },
+    {
+      "shot_id": "s07_01",
+      "scene": 7,
+      "scene_title": "Outro",
+      "start_sec": 809.717,
+      "end_sec": 823.461,
+      "duration_sec": 13.744,
+      "image": {
+        "path": "images/s07_01.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s07_01.mp3",
+        "status": "ready",
+        "duration_sec": 13.244,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "Every creature we've explored has a different story. Some come from eyewitness accounts and unexplained recordings. Others are rooted in ancient mythology. And one, Titanoboa, actually existed millions of years ago."
+    },
+    {
+      "shot_id": "s07_02",
+      "scene": 7,
+      "scene_title": "Outro",
+      "start_sec": 823.461,
+      "end_sec": 833.156,
+      "duration_sec": 9.695,
+      "image": {
+        "path": "images/s07_02.png",
+        "status": "ready"
+      },
+      "clip": null,
+      "audio": {
+        "path": "voiceover/s07_02.mp3",
+        "status": "ready",
+        "duration_sec": 9.195,
+        "words": []
+      },
+      "motion": "none",
+      "overlay_text": "",
+      "narration": "But which of these creatures do you find the most terrifying? Let us know in the comments. And subscribe to the channel if you want to discover more mysterious creatures in the next episode."
+    }
+  ]
+}

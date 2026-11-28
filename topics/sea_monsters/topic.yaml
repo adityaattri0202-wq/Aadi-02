@@ -1,0 +1,23 @@
+name: "5 Most Terrifying Water Monsters Ever Reported"
+slug: sea_monsters
+style: config/style_cinematic_real.yaml
+target_minutes: 13
+required_sections: ["Cold Open", "Champ", "The Julia Beast", "Titanoboa", "Ningen", "Leviathan", "Outro"]
+
+# Script written by the channel owner. Facts stay unverified until checked.
+facts:
+  - claim: "Sandra Mansi photographed an object in Lake Champlain on July 5, 1977."
+    source: "TODO"
+    verified: false
+  - claim: "Sheriff Nathan Mooney reported a large water serpent in Lake Champlain in 1883."
+    source: "TODO"
+    verified: false
+  - claim: "NOAA recorded the 'Julia' sound on March 1, 1999 and attributed it to a grounded iceberg."
+    source: "TODO"
+    verified: false
+  - claim: "Titanoboa cerrejonensis lived about 60 million years ago and reached roughly 13 m (42-48 ft)."
+    source: "TODO"
+    verified: false
+  - claim: "Leviathan appears in Job 41, Psalm 74, Psalm 104 and Isaiah 27; Lotan appears in Ugaritic texts."
+    source: "TODO"
+    verified: false

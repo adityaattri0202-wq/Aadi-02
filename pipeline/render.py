@@ -389,6 +389,17 @@ def run(ctx: Context) -> dict:
         f"afade=t=in:st=0:d=0.5,afade=t=out:st={fade_out:.2f}:d=1.5,"
         "loudnorm=I=-14:TP=-1.5:LRA=11,aresample=48000[a]"
     )
+    cine = OVERLAY_STYLE["name"] == "cinematic"
+    if cine:  # trailer-style hit: the whoosh rises into a deep sub boom on the cut
+        boom = work / "whoosh_boom.wav"
+        if not boom.exists():
+            _ff(["-i", str(whoosh), "-f", "lavfi", "-i",
+                 "aevalsrc='0.9*sin(2*PI*(58-30*t)*t)*exp(-2.6*t)':s=48000:d=2.2",
+                 "-filter_complex",
+                 "[1:a]lowpass=f=160,adelay=800|800,aformat=sample_rates=48000:channel_layouts=stereo,"
+                 "volume=1.6[b];[0:a][b]amix=inputs=2:normalize=0:duration=longest",
+                 str(boom)])
+        whoosh = boom
     mix = work / "mix.m4a"
     _ff(["-f", "concat", "-safe", "0", "-i", str(concat), "-i", str(bed), "-i", str(whoosh),
          "-filter_complex", a_graph, "-map", "[a]", "-vn", "-c:a", "aac", "-b:a", "256k", str(mix)])
@@ -399,6 +410,21 @@ def run(ctx: Context) -> dict:
     vig = "" if all_mograph else "vignette=angle=PI/9,"
     finish = (f"{vig}noise=alls=4:allf=t+u,"
               f"fade=t=in:st=0:d=1.0,fade=t=out:st={fade_out:.2f}:d=1.5,format=yuv420p[v]")
+    if cine:
+        hits = chapter_starts + [e["start_sec"] for e in entries
+                                 if (e.get("clip") or {}).get("status") == "ready" and e["start_sec"] > 0]
+        hits = sorted(set(round(t, 2) for t in hits))
+        flash = "+".join(f"0.55*exp(-pow((t-{t})*9\\,2))" for t in chapter_starts) or "0"
+        env = "+".join(f"between(t\\,{t}\\,{t + 1.4})*(1-(t-{t})/1.4)" for t in hits) or "0"
+        bar = int(H * 0.122)  # ~2.35:1 frame inside 16:9
+        grade = ("colorbalance=rs=-0.05:gs=-0.01:bs=0.07:rh=0.07:gh=0.02:bh=-0.05,"
+                 f"eq=contrast=1.10:saturation=1.08:gamma=1.04:brightness='0.02+{flash}':eval=frame,"
+                 f"crop=w=iw-40:h=ih-40:x='20+14*sin(t*41)*({env})':y='20+11*cos(t*37)*({env})',"
+                 f"scale={W}:{H}")
+        finish = (f"vignette=angle=PI/7,noise=alls=7:allf=t+u,"
+                  f"drawbox=x=0:y=0:w=iw:h={bar}:color=black:t=fill,"
+                  f"drawbox=x=0:y=ih-{bar}:w=iw:h={bar}:color=black:t=fill,"
+                  f"fade=t=in:st=0:d=1.0,fade=t=out:st={fade_out:.2f}:d=1.5,format=yuv420p[v]")
     v_inputs = ["-f", "concat", "-safe", "0", "-i", str(concat)]
     if all_mograph:  # mograph shots already carry their own particle layers
         v_graph = f"[0:v]{grade},{finish}"

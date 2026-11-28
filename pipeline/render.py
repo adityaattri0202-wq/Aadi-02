@@ -150,8 +150,9 @@ def render_shot(entry: dict, index: int, topic_dir: Path, out: Path) -> None:
     chains, labels = [], []
     still_parts = parts[1:] if clip_len else parts
     k = len(still_parts)
-    chains.append(f"[0:v]scale={SRC_W}:{SRC_H}:force_original_aspect_ratio=increase:flags=lanczos,"
-                  f"crop={SRC_W}:{SRC_H},split={k}" + "".join(f"[s{i}]" for i in range(k)))
+    if k:  # a short shot can be covered by its clip alone
+        chains.append(f"[0:v]scale={SRC_W}:{SRC_H}:force_original_aspect_ratio=increase:flags=lanczos,"
+                      f"crop={SRC_W}:{SRC_H},split={k}" + "".join(f"[s{i}]" for i in range(k)))
     if clip_len:
         inputs += ["-i", str(clip)]
         chains.append(f"[1:v]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS},"
